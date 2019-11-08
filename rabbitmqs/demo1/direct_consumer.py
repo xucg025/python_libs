@@ -15,8 +15,7 @@ config = pika.ConnectionParameters(host='127.0.0.1', port=5672, credentials=pika
 connection = pika.BlockingConnection(config)
 
 channel = connection.channel()
-# 创建临时队列，consumer关闭后，队列自动删除
-result = channel.queue_declare(queue=QUEUE_NAME, exclusive=True)
+result = channel.queue_declare(queue=QUEUE_NAME)
 # 声明exchange，由exchange指定消息在哪个队列传递，如不存在，则创建。durable = True 代表exchange持久化存储，False 非持久化存储
 channel.exchange_declare(exchange=EXCHANGE_NAME, durable=True, exchange_type='direct')
 
