@@ -7,8 +7,7 @@ import pika
 
 
 class Parent(object):
-    def __init__(self, host, port, username, password,
-                 exchange_name='', exchange_type='', queue_name='', routing_key=''):
+    def __init__(self, host, port, username, password, exchange_name='', exchange_type='', queue_name=''):
         config = pika.ConnectionParameters(host=host, port=port, credentials=pika.PlainCredentials(username, password))
         # 虚拟队列需要指定参数 virtual_host，如果是默认的可以不填。
         self.connection = pika.BlockingConnection(config)
@@ -16,20 +15,21 @@ class Parent(object):
         self.exchange_name = exchange_name
         self.exchange_type = exchange_type
         self.queue_name = queue_name
-        self.routing_key = routing_key
 
     def exchange_declare(self):
         # 声明exchange，由exchange指定消息在哪个队列传递，如不存在，则创建。durable = True 代表exchange持久化存储，False 非持久化存储
         self.channel.exchange_declare(exchange=self.exchange_name, durable=True, exchange_type=self.exchange_type)
 
-    def queue_bind(self):
-        result = self.channel.queue_declare(queue=self.queue_name)
-        # 绑定exchange和队列  exchange 使我们能够确切地指定消息应该到哪个队列去
-        self.channel.queue_bind(exchange=self.exchange_name, queue=result.method.queue)
+    def queue_declare(self):
+        self.channel.queue_declare(queue=self.queue_name)
 
-    def produce(self, message, delivery_mode=2):
+    def queue_bind(self, routing_key=''):
+        # 绑定exchange和队列  exchange 使我们能够确切地指定消息应该到哪个队列去
+        self.channel.queue_bind(exchange=self.exchange_name, queue=self.queue_name, routing_key=routing_key)
+
+    def produce(self, message, delivery_mode=2, routing_key=''):
         # 向队列插入数值 routing_key是队列名。delivery_mode = 2 声明消息在队列中持久化，delivery_mod = 1 消息非持久化。routing_key 不需要配置
-        self.channel.basic_publish(exchange=self.exchange_name, routing_key=self.routing_key, body=message,
+        self.channel.basic_publish(exchange=self.exchange_name, routing_key=routing_key, body=message,
                                    properties=pika.BasicProperties(delivery_mode=delivery_mode))
 
     def consume(self):
