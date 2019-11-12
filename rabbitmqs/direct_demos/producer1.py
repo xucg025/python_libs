@@ -4,8 +4,9 @@
 # @ide: PyCharm
 # @time: 2019-11-08 16:58:59
 
-import json
-from rabbitmqs.producer import Producer
+import json, pika
+from rabbitmqs.rabbit_config import conn_config, mq_config
+from rabbitmqs.conn_factory import ConnFactory
 
 #  这种工作模式的原理是消息发送至exchange，exchange根据路由键（routing_key）转发到相对应的queue上。
 #  可以使用默认exchange =' ' ，也可以自定义exchange
@@ -14,12 +15,26 @@ from rabbitmqs.producer import Producer
 #  需要先启动订阅者，此模式下的队列是consumer随机生成的，发布者仅仅发布消息到exchange，由exchange转发消息至 queue。
 
 
+class Producer(object):
+    def __init__(self):
+        self.conn = ConnFactory(**conn_config)
+        self.channel = self.conn.get_channel()
+        self.exchange_name = mq_config['direct']['exchange_name']
+        self.channel.exchange_declare(self.exchange_name, durable=True, exchange_type=mq_config['direct']['type'])
+
+    def close(self):
+        self.conn.close()
+
+    def produce(self, msg, routing_key):
+        # delivery_mode = 2 声明消息在队列中持久化，delivery_mod = 1 消息非持久化。
+        self.channel.basic_publish(exchange=self.exchange_name, body=msg, routing_key=routing_key,
+                                   properties=pika.BasicProperties(delivery_mode=2))
+
+
 if __name__ == '__main__':
-    producer = Producer('127.0.0.1', 5672, 'guest', 'guest', exchange_name='direct_exchange_test',
-                        exchange_type='direct')
-    routing_keys = ['direct_routing_key_1', 'direct_routing_key_2']
-    for i in range(10):
+    producer = Producer()
+    for i in range(20):
+        routing_key = 'direct_key_{}'.format(i % 5)
         message = json.dumps({'OrderId': "1000%s" % i})
-        routing_key = routing_keys[i % 2]
-        producer.produce(message, 2, routing_key)
+        producer.produce(message, routing_key)
     producer.close()
