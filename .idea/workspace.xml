@@ -2,21 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40aacc82-43a8-4fae-9bb6-eb261bea9b0d" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/rabbitmqs/conn_factory.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbitmqs/rabbit_config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbitmqs/topic_demos/consumer1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbitmqs/topic_demos/consumer2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbitmqs/topic_demos/producer1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/celeries/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/celeries/demo1/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/celeries/demo1/celery_config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/celeries/demo1/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/celeries/demo1/tasks.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/python_libs.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python_libs.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabbitmqs/consumer.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabbitmqs/direct_demos/consumer1.py" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmqs/direct_demos/consumer1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabbitmqs/direct_demos/consumer2.py" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmqs/direct_demos/consumer2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabbitmqs/direct_demos/producer1.py" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmqs/direct_demos/producer1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabbitmqs/fanout_demos/consumer1.py" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmqs/fanout_demos/consumer1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabbitmqs/fanout_demos/consumer2.py" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmqs/fanout_demos/consumer2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabbitmqs/fanout_demos/producer1.py" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmqs/fanout_demos/producer1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabbitmqs/parent.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabbitmqs/producer.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,51 +19,30 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="consumer1.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rabbitmqs/direct_demos/consumer1.py">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="celery_config.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/celeries/demo1/celery_config.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="20" column="111" lean-forward="true" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="111" />
-              <folding>
-                <element signature="e#109#155#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="100">
+              <caret line="7" column="32" lean-forward="true" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="producer1.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rabbitmqs/direct_demos/producer1.py">
+      <file leaf-file-name="main.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/celeries/demo1/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="862">
-              <caret line="37" column="43" lean-forward="true" selection-start-line="37" selection-start-column="43" selection-end-line="37" selection-end-column="43" />
-              <folding>
-                <element signature="e#109#126#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="100">
+              <caret line="4" column="28" lean-forward="true" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="consumer2.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rabbitmqs/direct_demos/consumer2.py">
+      <file leaf-file-name="tasks.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/celeries/demo1/tasks.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="35" column="22" lean-forward="true" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
-              <folding>
-                <element signature="e#109#155#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="consumer1.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/rabbitmqs/fanout_demos/consumer1.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="20" column="53" lean-forward="true" selection-start-line="20" selection-start-column="53" selection-end-line="20" selection-end-column="53" />
-              <folding>
-                <element signature="e#109#155#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="400">
+              <caret line="16" column="19" lean-forward="true" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -129,6 +101,9 @@
         <option value="$PROJECT_DIR$/rabbitmqs/direct_demos/producer1.py" />
         <option value="$PROJECT_DIR$/rabbitmqs/direct_demos/consumer1.py" />
         <option value="$PROJECT_DIR$/rabbitmqs/direct_demos/consumer2.py" />
+        <option value="$PROJECT_DIR$/celeries/demo1/tasks.py" />
+        <option value="$PROJECT_DIR$/celeries/celery_config.py" />
+        <option value="$PROJECT_DIR$/celeries/demo1/main.py" />
       </list>
     </option>
   </component>
@@ -146,7 +121,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -154,50 +128,29 @@
               <item name="python_libs" type="b2602c69:ProjectViewProjectNode" />
               <item name="python_libs" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="python_libs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python_libs" type="462c0819:PsiDirectoryNode" />
-              <item name="rabbitmqs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="python_libs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python_libs" type="462c0819:PsiDirectoryNode" />
-              <item name="rabbitmqs" type="462c0819:PsiDirectoryNode" />
-              <item name="direct_demos" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="python_libs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python_libs" type="462c0819:PsiDirectoryNode" />
-              <item name="rabbitmqs" type="462c0819:PsiDirectoryNode" />
-              <item name="fanout_demos" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="python_libs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python_libs" type="462c0819:PsiDirectoryNode" />
-              <item name="rabbitmqs" type="462c0819:PsiDirectoryNode" />
-              <item name="topic_demos" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="F:/ml_xcg" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\python_libs\rabbitmqs\topic_demos" />
-      <recent name="F:\python_libs\rabbitmqs" />
-      <recent name="F:\python_libs\rabbitmqs\direct_demos" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\python_libs\celeries\demo1" />
       <recent name="F:\python_libs\rabbitmqs" />
       <recent name="F:\python_libs\rabbitmqs\topic_demos" />
       <recent name="F:\python_libs\rabbitmqs\direct_demos" />
       <recent name="F:\python_libs\rabbitmqs\fanout_demos" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\python_libs\rabbitmqs\topic_demos" />
+      <recent name="F:\python_libs\rabbitmqs" />
+      <recent name="F:\python_libs\rabbitmqs\direct_demos" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -212,7 +165,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.producer1">
+  <component name="RunManager" selected="Python.main">
     <configuration name="consumer1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python_libs" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -231,24 +184,6 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="consumer2 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python_libs" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/rabbitmqs/fanout_demos" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/rabbitmqs/fanout_demos/consumer2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
     <configuration name="consumer2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python_libs" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -262,6 +197,24 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/rabbitmqs/direct_demos/consumer2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python_libs" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/celeries/demo1" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/celeries/demo1/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -307,16 +260,16 @@
       <item itemvalue="Python.producer1" />
       <item itemvalue="Python.consumer1" />
       <item itemvalue="Python.producer1 (1)" />
-      <item itemvalue="Python.consumer2 (1)" />
       <item itemvalue="Python.consumer2" />
+      <item itemvalue="Python.main" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main" />
         <item itemvalue="Python.producer1" />
         <item itemvalue="Python.consumer1" />
         <item itemvalue="Python.consumer2" />
         <item itemvalue="Python.producer1 (1)" />
-        <item itemvalue="Python.consumer2 (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -335,25 +288,24 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17228661" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32997763" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Python Console" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.18120806" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Python Console" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.2852349" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.34675616" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32997763" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -368,17 +320,65 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="39" />
+      <option name="time" value="40" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/rabbitmqs/main.py">
+    <entry file="file://$PROJECT_DIR$/rabbitmqs/direct_demos/consumer1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="475">
+          <caret line="20" column="111" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="111" />
+          <folding>
+            <element signature="e#109#155#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmqs/direct_demos/producer1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="875">
+          <caret line="37" column="43" selection-start-line="37" selection-start-column="43" selection-end-line="37" selection-end-column="43" />
+          <folding>
+            <element signature="e#109#126#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmqs/direct_demos/consumer2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="850">
+          <caret line="35" column="22" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
+          <folding>
+            <element signature="e#109#155#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmqs/fanout_demos/consumer1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="e#109#155#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/celeries/demo1/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/celeries/demo1/tasks.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="19" column="35" lean-forward="true" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmqs/main.py" />
     <entry file="file://D:/Program Files/Python3.7/Lib/site-packages/pika/channel.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="205">
@@ -386,23 +386,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rabbitmqs/demo1/consumer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
-          <caret line="21" column="36" lean-forward="true" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rabbitmqs/demo1/producer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="15" column="51" lean-forward="true" selection-start-line="15" selection-start-column="51" selection-end-line="15" selection-end-column="51" />
-          <folding>
-            <element signature="e#108#119#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmqs/demo1/consumer.py" />
+    <entry file="file://$PROJECT_DIR$/rabbitmqs/demo1/producer.py" />
     <entry file="file://D:/Program Files/Python3.7/Lib/site-packages/pika/connection.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -410,61 +395,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rabbitmqs/direct_demos/direct_consumer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="22" column="18" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rabbitmqs/direct_demos/direct_producer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" selection-start-line="6" selection-end-line="10" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rabbitmqs/direct_demos/consumer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="14" selection-start-line="14" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rabbitmqs/fanout_demos/consumer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rabbitmqs/topic_demos/topic_producer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="20" selection-start-line="20" selection-end-line="23" selection-end-column="84" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rabbitmqs/topic_demos/producer1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="13" column="42" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="42" />
-          <folding>
-            <element signature="e#110#121#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rabbitmqs/topic_demos/topic_consumer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="42" column="25" lean-forward="true" selection-start-line="42" selection-start-column="25" selection-end-line="42" selection-end-column="25" />
-          <folding>
-            <element signature="e#115#126#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmqs/direct_demos/direct_consumer.py" />
+    <entry file="file://$PROJECT_DIR$/rabbitmqs/direct_demos/direct_producer.py" />
+    <entry file="file://$PROJECT_DIR$/rabbitmqs/direct_demos/consumer.py" />
+    <entry file="file://$PROJECT_DIR$/rabbitmqs/fanout_demos/consumer.py" />
     <entry file="file://D:/Program Files/Python3.7/Lib/site-packages/pika/adapters/blocking_connection.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -479,41 +413,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rabbitmqs/topic_demos/cousumer_x.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rabbitmqs/topic_demos/consumer2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="26" lean-forward="true" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rabbitmqs/direct_demos/cousumer_x.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rabbitmqs/topic_demos/consumer1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="33" lean-forward="true" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rabbitmqs/consumer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="29" column="4" selection-start-line="29" selection-start-column="4" selection-end-line="31" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmqs/topic_demos/cousumer_x.py" />
+    <entry file="file://$PROJECT_DIR$/rabbitmqs/direct_demos/cousumer_x.py" />
+    <entry file="file://$PROJECT_DIR$/rabbitmqs/consumer.py" />
     <entry file="file://$PROJECT_DIR$/rabbitmqs/conn_factory.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
@@ -532,9 +434,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="21" column="54" lean-forward="true" selection-start-line="21" selection-start-column="54" selection-end-line="21" selection-end-column="54" />
-          <folding>
-            <element signature="e#109#155#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -542,23 +441,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="6" selection-start-line="6" selection-end-line="8" selection-end-column="46" />
-          <folding>
-            <element signature="e#109#126#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rabbitmqs/rabbit_config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="81" selection-start-line="9" selection-start-column="81" selection-end-line="9" selection-end-column="81" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/rabbitmqs/direct_demos/producer1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="862">
-          <caret line="37" column="43" lean-forward="true" selection-start-line="37" selection-start-column="43" selection-end-line="37" selection-end-column="43" />
+        <state relative-caret-position="875">
+          <caret line="37" column="43" selection-start-line="37" selection-start-column="43" selection-end-line="37" selection-end-column="43" />
           <folding>
             <element signature="e#109#126#0" expanded="true" />
           </folding>
@@ -567,45 +456,69 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/rabbitmqs/direct_demos/consumer1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="20" column="111" lean-forward="true" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="111" />
+        <state relative-caret-position="475">
+          <caret line="20" column="111" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="111" />
           <folding>
             <element signature="e#109#155#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rabbitmqs/producer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="19" lean-forward="true" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rabbitmqs/parent.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="36" column="103" lean-forward="true" selection-start-line="35" selection-start-column="8" selection-end-line="36" selection-end-column="103" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmqs/producer.py" />
+    <entry file="file://$PROJECT_DIR$/rabbitmqs/parent.py" />
     <entry file="file://$PROJECT_DIR$/rabbitmqs/direct_demos/consumer2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="35" column="22" lean-forward="true" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
+        <state relative-caret-position="850">
+          <caret line="35" column="22" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
           <folding>
             <element signature="e#109#155#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmqs/topic_demos/topic_consumer.py" />
+    <entry file="file://$PROJECT_DIR$/rabbitmqs/topic_demos/topic_producer.py" />
+    <entry file="file://$PROJECT_DIR$/rabbitmqs/topic_demos/producer1.py" />
+    <entry file="file://$PROJECT_DIR$/rabbitmqs/topic_demos/consumer2.py" />
+    <entry file="file://$PROJECT_DIR$/rabbitmqs/topic_demos/consumer1.py" />
     <entry file="file://$PROJECT_DIR$/rabbitmqs/fanout_demos/consumer1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="20" column="53" lean-forward="true" selection-start-line="20" selection-start-column="53" selection-end-line="20" selection-end-column="53" />
+        <state relative-caret-position="450">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
           <folding>
             <element signature="e#109#155#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmqs/rabbit_config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="48" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmqs/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/celeries/demo1/tasks.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="16" column="19" lean-forward="true" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/celeries/demo1/celery_config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="7" column="32" lean-forward="true" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/celeries/demo1/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="28" lean-forward="true" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
         </state>
       </provider>
     </entry>
