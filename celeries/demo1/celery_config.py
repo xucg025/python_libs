@@ -8,7 +8,7 @@
 from kombu import Exchange,Queue
 
 BROKER_URL = "amqp://root:ajmd123@192.168.174.28:5672//"
-# CELERY_RESULT_BACKEND = "redis://47.106.106.220:5000/2"
+CELERY_RESULT_BACKEND = 'redis://root:ajmd123@192.168.174.28:6379/0' # 把任务结果存在了Redis
 #
 # CELERY_QUEUES = (
 # Queue("default",Exchange("default"),routing_key="default"),

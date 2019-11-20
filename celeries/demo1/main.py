@@ -6,5 +6,6 @@
 
 from tasks import add
 
-for i in range(100000):
+
+for i in range(100):
     add.delay(i, i+1)
