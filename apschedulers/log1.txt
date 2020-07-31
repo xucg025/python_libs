@@ -1,0 +1,424 @@
+2019-12-26 16:03:51 base.py[line:131] ERROR Job "date_test (trigger: date[2019-12-26 16:03:35 CST], next run at: 2019-12-26 16:03:50 CST)" raised an exception
+Traceback (most recent call last):
+  File "D:\Program Files\Python3.7\lib\site-packages\apscheduler\executors\base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "F:/python_libs/apschedulers/main.py", line 25, in date_test
+    print(1/0)
+ZeroDivisionError: division by zero
+2019-12-26 16:17:29 base.py[line:131] ERROR Job "date_test (trigger: interval[0:00:03], next run at: 2019-12-26 16:17:32 CST)" raised an exception
+Traceback (most recent call last):
+  File "D:\Program Files\Python3.7\lib\site-packages\apscheduler\executors\base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "F:/python_libs/apschedulers/main.py", line 25, in date_test
+    print(1/0)
+ZeroDivisionError: division by zero
+2019-12-26 16:17:33 base.py[line:131] ERROR Job "date_test (trigger: interval[0:00:03], next run at: 2019-12-26 16:17:35 CST)" raised an exception
+Traceback (most recent call last):
+  File "D:\Program Files\Python3.7\lib\site-packages\apscheduler\executors\base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "F:/python_libs/apschedulers/main.py", line 25, in date_test
+    print(1/0)
+ZeroDivisionError: division by zero
+2019-12-26 16:17:35 base.py[line:131] ERROR Job "date_test (trigger: interval[0:00:03], next run at: 2019-12-26 16:17:38 CST)" raised an exception
+Traceback (most recent call last):
+  File "D:\Program Files\Python3.7\lib\site-packages\apscheduler\executors\base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "F:/python_libs/apschedulers/main.py", line 25, in date_test
+    print(1/0)
+ZeroDivisionError: division by zero
+2019-12-26 16:17:38 base.py[line:131] ERROR Job "date_test (trigger: interval[0:00:03], next run at: 2019-12-26 16:17:41 CST)" raised an exception
+Traceback (most recent call last):
+  File "D:\Program Files\Python3.7\lib\site-packages\apscheduler\executors\base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "F:/python_libs/apschedulers/main.py", line 25, in date_test
+    print(1/0)
+ZeroDivisionError: division by zero
+2019-12-26 16:17:41 base.py[line:131] ERROR Job "date_test (trigger: interval[0:00:03], next run at: 2019-12-26 16:17:44 CST)" raised an exception
+Traceback (most recent call last):
+  File "D:\Program Files\Python3.7\lib\site-packages\apscheduler\executors\base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "F:/python_libs/apschedulers/main.py", line 25, in date_test
+    print(1/0)
+ZeroDivisionError: division by zero
+2019-12-26 16:17:44 base.py[line:131] ERROR Job "date_test (trigger: interval[0:00:03], next run at: 2019-12-26 16:17:47 CST)" raised an exception
+Traceback (most recent call last):
+  File "D:\Program Files\Python3.7\lib\site-packages\apscheduler\executors\base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "F:/python_libs/apschedulers/main.py", line 25, in date_test
+    print(1/0)
+ZeroDivisionError: division by zero
+2019-12-26 16:17:47 base.py[line:131] ERROR Job "date_test (trigger: interval[0:00:03], next run at: 2019-12-26 16:17:50 CST)" raised an exception
+Traceback (most recent call last):
+  File "D:\Program Files\Python3.7\lib\site-packages\apscheduler\executors\base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "F:/python_libs/apschedulers/main.py", line 25, in date_test
+    print(1/0)
+ZeroDivisionError: division by zero
+2019-12-26 16:17:50 base.py[line:131] ERROR Job "date_test (trigger: interval[0:00:03], next run at: 2019-12-26 16:17:53 CST)" raised an exception
+Traceback (most recent call last):
+  File "D:\Program Files\Python3.7\lib\site-packages\apscheduler\executors\base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "F:/python_libs/apschedulers/main.py", line 25, in date_test
+    print(1/0)
+ZeroDivisionError: division by zero
+2019-12-26 16:17:53 base.py[line:131] ERROR Job "date_test (trigger: interval[0:00:03], next run at: 2019-12-26 16:17:56 CST)" raised an exception
+Traceback (most recent call last):
+  File "D:\Program Files\Python3.7\lib\site-packages\apscheduler\executors\base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "F:/python_libs/apschedulers/main.py", line 25, in date_test
+    print(1/0)
+ZeroDivisionError: division by zero
+2019-12-26 16:17:56 base.py[line:131] ERROR Job "date_test (trigger: interval[0:00:03], next run at: 2019-12-26 16:17:59 CST)" raised an exception
+Traceback (most recent call last):
+  File "D:\Program Files\Python3.7\lib\site-packages\apscheduler\executors\base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "F:/python_libs/apschedulers/main.py", line 25, in date_test
+    print(1/0)
+ZeroDivisionError: division by zero
+2019-12-26 16:17:59 base.py[line:131] ERROR Job "date_test (trigger: interval[0:00:03], next run at: 2019-12-26 16:18:02 CST)" raised an exception
+Traceback (most recent call last):
+  File "D:\Program Files\Python3.7\lib\site-packages\apscheduler\executors\base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "F:/python_libs/apschedulers/main.py", line 25, in date_test
+    print(1/0)
+ZeroDivisionError: division by zero
+2019-12-26 16:18:02 base.py[line:131] ERROR Job "date_test (trigger: interval[0:00:03], next run at: 2019-12-26 16:18:05 CST)" raised an exception
+Traceback (most recent call last):
+  File "D:\Program Files\Python3.7\lib\site-packages\apscheduler\executors\base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "F:/python_libs/apschedulers/main.py", line 25, in date_test
+    print(1/0)
+ZeroDivisionError: division by zero
+2019-12-26 16:18:05 base.py[line:131] ERROR Job "date_test (trigger: interval[0:00:03], next run at: 2019-12-26 16:18:08 CST)" raised an exception
+Traceback (most recent call last):
+  File "D:\Program Files\Python3.7\lib\site-packages\apscheduler\executors\base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "F:/python_libs/apschedulers/main.py", line 25, in date_test
+    print(1/0)
+ZeroDivisionError: division by zero
+2019-12-26 16:18:08 base.py[line:131] ERROR Job "date_test (trigger: interval[0:00:03], next run at: 2019-12-26 16:18:11 CST)" raised an exception
+Traceback (most recent call last):
+  File "D:\Program Files\Python3.7\lib\site-packages\apscheduler\executors\base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "F:/python_libs/apschedulers/main.py", line 25, in date_test
+    print(1/0)
+ZeroDivisionError: division by zero
+2019-12-26 16:18:26 base.py[line:131] ERROR Job "date_test (trigger: interval[1 day, 0:00:00], next run at: 2019-12-27 16:18:26 CST)" raised an exception
+Traceback (most recent call last):
+  File "D:\Program Files\Python3.7\lib\site-packages\apscheduler\executors\base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "F:/python_libs/apschedulers/main.py", line 25, in date_test
+    print(1/0)
+ZeroDivisionError: division by zero
+2019-12-26 16:29:41 base.py[line:131] ERROR Job "date_test (trigger: interval[0:01:00], next run at: 2019-12-26 16:30:41 CST)" raised an exception
+Traceback (most recent call last):
+  File "D:\Program Files\Python3.7\lib\site-packages\apscheduler\executors\base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "F:/python_libs/apschedulers/main.py", line 25, in date_test
+    print(1/0)
+ZeroDivisionError: division by zero
+2019-12-26 16:30:41 base.py[line:131] ERROR Job "date_test (trigger: interval[0:01:00], next run at: 2019-12-26 16:31:41 CST)" raised an exception
+Traceback (most recent call last):
+  File "D:\Program Files\Python3.7\lib\site-packages\apscheduler\executors\base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "F:/python_libs/apschedulers/main.py", line 25, in date_test
+    print(1/0)
+ZeroDivisionError: division by zero
+2019-12-26 16:31:41 base.py[line:131] ERROR Job "date_test (trigger: interval[0:01:00], next run at: 2019-12-26 16:32:41 CST)" raised an exception
+Traceback (most recent call last):
+  File "D:\Program Files\Python3.7\lib\site-packages\apscheduler\executors\base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "F:/python_libs/apschedulers/main.py", line 25, in date_test
+    print(1/0)
+ZeroDivisionError: division by zero
+2019-12-26 16:32:41 base.py[line:131] ERROR Job "date_test (trigger: interval[0:01:00], next run at: 2019-12-26 16:32:41 CST)" raised an exception
+Traceback (most recent call last):
+  File "D:\Program Files\Python3.7\lib\site-packages\apscheduler\executors\base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "F:/python_libs/apschedulers/main.py", line 25, in date_test
+    print(1/0)
+ZeroDivisionError: division by zero
+2019-12-26 16:33:41 base.py[line:131] ERROR Job "date_test (trigger: interval[0:01:00], next run at: 2019-12-26 16:34:41 CST)" raised an exception
+Traceback (most recent call last):
+  File "D:\Program Files\Python3.7\lib\site-packages\apscheduler\executors\base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "F:/python_libs/apschedulers/main.py", line 25, in date_test
+    print(1/0)
+ZeroDivisionError: division by zero
+2019-12-26 16:34:41 base.py[line:131] ERROR Job "date_test (trigger: interval[0:01:00], next run at: 2019-12-26 16:35:41 CST)" raised an exception
+Traceback (most recent call last):
+  File "D:\Program Files\Python3.7\lib\site-packages\apscheduler\executors\base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "F:/python_libs/apschedulers/main.py", line 25, in date_test
+    print(1/0)
+ZeroDivisionError: division by zero
+2019-12-26 16:35:41 base.py[line:131] ERROR Job "date_test (trigger: interval[0:01:00], next run at: 2019-12-26 16:35:41 CST)" raised an exception
+Traceback (most recent call last):
+  File "D:\Program Files\Python3.7\lib\site-packages\apscheduler\executors\base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "F:/python_libs/apschedulers/main.py", line 25, in date_test
+    print(1/0)
+ZeroDivisionError: division by zero
+2019-12-26 16:36:41 base.py[line:131] ERROR Job "date_test (trigger: interval[0:01:00], next run at: 2019-12-26 16:37:41 CST)" raised an exception
+Traceback (most recent call last):
+  File "D:\Program Files\Python3.7\lib\site-packages\apscheduler\executors\base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "F:/python_libs/apschedulers/main.py", line 25, in date_test
+    print(1/0)
+ZeroDivisionError: division by zero
+2019-12-26 16:37:41 base.py[line:131] ERROR Job "date_test (trigger: interval[0:01:00], next run at: 2019-12-26 16:38:41 CST)" raised an exception
+Traceback (most recent call last):
+  File "D:\Program Files\Python3.7\lib\site-packages\apscheduler\executors\base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "F:/python_libs/apschedulers/main.py", line 25, in date_test
+    print(1/0)
+ZeroDivisionError: division by zero
+2019-12-26 16:38:41 base.py[line:131] ERROR Job "date_test (trigger: interval[0:01:00], next run at: 2019-12-26 16:39:41 CST)" raised an exception
+Traceback (most recent call last):
+  File "D:\Program Files\Python3.7\lib\site-packages\apscheduler\executors\base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "F:/python_libs/apschedulers/main.py", line 25, in date_test
+    print(1/0)
+ZeroDivisionError: division by zero
+2019-12-26 16:42:00 base.py[line:131] ERROR Job "date_test (trigger: cron[day_of_week='mon-fri', hour='16', minute='42'], next run at: 2019-12-27 16:42:00 CST)" raised an exception
+Traceback (most recent call last):
+  File "D:\Program Files\Python3.7\lib\site-packages\apscheduler\executors\base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "F:/python_libs/apschedulers/main.py", line 25, in date_test
+    print(1/0)
+ZeroDivisionError: division by zero
+2019-12-26 16:45:00 base.py[line:131] ERROR Job "date_test (trigger: cron[day_of_week='thu', hour='16', minute='45'], next run at: 2020-01-02 16:45:00 CST)" raised an exception
+Traceback (most recent call last):
+  File "D:\Program Files\Python3.7\lib\site-packages\apscheduler\executors\base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "F:/python_libs/apschedulers/main.py", line 25, in date_test
+    print(1/0)
+ZeroDivisionError: division by zero
+2019-12-27 16:18:26 base.py[line:131] ERROR Job "date_test (trigger: interval[1 day, 0:00:00], next run at: 2019-12-28 16:18:26 CST)" raised an exception
+Traceback (most recent call last):
+  File "D:\Program Files\Python3.7\lib\site-packages\apscheduler\executors\base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "F:/python_libs/apschedulers/main.py", line 25, in date_test
+    print(1/0)
+ZeroDivisionError: division by zero
+2019-12-28 16:18:26 base.py[line:131] ERROR Job "date_test (trigger: interval[1 day, 0:00:00], next run at: 2019-12-29 16:18:26 CST)" raised an exception
+Traceback (most recent call last):
+  File "D:\Program Files\Python3.7\lib\site-packages\apscheduler\executors\base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "F:/python_libs/apschedulers/main.py", line 25, in date_test
+    print(1/0)
+ZeroDivisionError: division by zero
+2019-12-29 16:18:26 base.py[line:131] ERROR Job "date_test (trigger: interval[1 day, 0:00:00], next run at: 2019-12-30 16:18:26 CST)" raised an exception
+Traceback (most recent call last):
+  File "D:\Program Files\Python3.7\lib\site-packages\apscheduler\executors\base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "F:/python_libs/apschedulers/main.py", line 25, in date_test
+    print(1/0)
+ZeroDivisionError: division by zero
+2020-05-18 16:10:25 base.py[line:131] ERROR Job "date_test (trigger: interval[0:00:03], next run at: 2020-05-18 16:10:25 CST)" raised an exception
+Traceback (most recent call last):
+  File "D:\Program Files\Python3.7\lib\site-packages\apscheduler\executors\base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "F:/python_libs/apschedulers/main.py", line 25, in date_test
+    print(1/0)
+ZeroDivisionError: division by zero
+2020-05-18 16:10:29 base.py[line:131] ERROR Job "date_test (trigger: interval[0:00:03], next run at: 2020-05-18 16:10:31 CST)" raised an exception
+Traceback (most recent call last):
+  File "D:\Program Files\Python3.7\lib\site-packages\apscheduler\executors\base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "F:/python_libs/apschedulers/main.py", line 25, in date_test
+    print(1/0)
+ZeroDivisionError: division by zero
+2020-05-18 16:10:31 base.py[line:131] ERROR Job "date_test (trigger: interval[0:00:03], next run at: 2020-05-18 16:10:34 CST)" raised an exception
+Traceback (most recent call last):
+  File "D:\Program Files\Python3.7\lib\site-packages\apscheduler\executors\base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "F:/python_libs/apschedulers/main.py", line 25, in date_test
+    print(1/0)
+ZeroDivisionError: division by zero
+2020-05-18 16:10:34 base.py[line:131] ERROR Job "date_test (trigger: interval[0:00:03], next run at: 2020-05-18 16:10:37 CST)" raised an exception
+Traceback (most recent call last):
+  File "D:\Program Files\Python3.7\lib\site-packages\apscheduler\executors\base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "F:/python_libs/apschedulers/main.py", line 25, in date_test
+    print(1/0)
+ZeroDivisionError: division by zero
+2020-05-18 16:10:37 base.py[line:131] ERROR Job "date_test (trigger: interval[0:00:03], next run at: 2020-05-18 16:10:40 CST)" raised an exception
+Traceback (most recent call last):
+  File "D:\Program Files\Python3.7\lib\site-packages\apscheduler\executors\base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "F:/python_libs/apschedulers/main.py", line 25, in date_test
+    print(1/0)
+ZeroDivisionError: division by zero
+2020-05-18 16:10:40 base.py[line:131] ERROR Job "date_test (trigger: interval[0:00:03], next run at: 2020-05-18 16:10:43 CST)" raised an exception
+Traceback (most recent call last):
+  File "D:\Program Files\Python3.7\lib\site-packages\apscheduler\executors\base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "F:/python_libs/apschedulers/main.py", line 25, in date_test
+    print(1/0)
+ZeroDivisionError: division by zero
+2020-05-18 16:10:43 base.py[line:131] ERROR Job "date_test (trigger: interval[0:00:03], next run at: 2020-05-18 16:10:46 CST)" raised an exception
+Traceback (most recent call last):
+  File "D:\Program Files\Python3.7\lib\site-packages\apscheduler\executors\base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "F:/python_libs/apschedulers/main.py", line 25, in date_test
+    print(1/0)
+ZeroDivisionError: division by zero
+2020-05-18 16:10:46 base.py[line:131] ERROR Job "date_test (trigger: interval[0:00:03], next run at: 2020-05-18 16:10:49 CST)" raised an exception
+Traceback (most recent call last):
+  File "D:\Program Files\Python3.7\lib\site-packages\apscheduler\executors\base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "F:/python_libs/apschedulers/main.py", line 25, in date_test
+    print(1/0)
+ZeroDivisionError: division by zero
+2020-05-18 16:10:49 base.py[line:131] ERROR Job "date_test (trigger: interval[0:00:03], next run at: 2020-05-18 16:10:52 CST)" raised an exception
+Traceback (most recent call last):
+  File "D:\Program Files\Python3.7\lib\site-packages\apscheduler\executors\base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "F:/python_libs/apschedulers/main.py", line 25, in date_test
+    print(1/0)
+ZeroDivisionError: division by zero
+2020-05-18 16:10:52 base.py[line:131] ERROR Job "date_test (trigger: interval[0:00:03], next run at: 2020-05-18 16:10:55 CST)" raised an exception
+Traceback (most recent call last):
+  File "D:\Program Files\Python3.7\lib\site-packages\apscheduler\executors\base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "F:/python_libs/apschedulers/main.py", line 25, in date_test
+    print(1/0)
+ZeroDivisionError: division by zero
+2020-05-18 16:10:55 base.py[line:131] ERROR Job "date_test (trigger: interval[0:00:03], next run at: 2020-05-18 16:10:58 CST)" raised an exception
+Traceback (most recent call last):
+  File "D:\Program Files\Python3.7\lib\site-packages\apscheduler\executors\base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "F:/python_libs/apschedulers/main.py", line 25, in date_test
+    print(1/0)
+ZeroDivisionError: division by zero
+2020-05-18 16:11:36 base.py[line:131] ERROR Job "interval_task (trigger: interval[0:00:03], next run at: 2020-05-18 16:11:39 CST)" raised an exception
+Traceback (most recent call last):
+  File "D:\Program Files\Python3.7\lib\site-packages\apscheduler\executors\base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "F:/python_libs/apschedulers/main.py", line 25, in date_test
+    print(1/0)
+ZeroDivisionError: division by zero
+2020-05-18 16:11:39 base.py[line:131] ERROR Job "interval_task (trigger: interval[0:00:03], next run at: 2020-05-18 16:11:42 CST)" raised an exception
+Traceback (most recent call last):
+  File "D:\Program Files\Python3.7\lib\site-packages\apscheduler\executors\base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "F:/python_libs/apschedulers/main.py", line 25, in date_test
+    print(1/0)
+ZeroDivisionError: division by zero
+2020-05-18 16:11:42 base.py[line:131] ERROR Job "interval_task (trigger: interval[0:00:03], next run at: 2020-05-18 16:11:45 CST)" raised an exception
+Traceback (most recent call last):
+  File "D:\Program Files\Python3.7\lib\site-packages\apscheduler\executors\base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "F:/python_libs/apschedulers/main.py", line 25, in date_test
+    print(1/0)
+ZeroDivisionError: division by zero
+2020-05-18 16:11:45 base.py[line:131] ERROR Job "interval_task (trigger: interval[0:00:03], next run at: 2020-05-18 16:11:48 CST)" raised an exception
+Traceback (most recent call last):
+  File "D:\Program Files\Python3.7\lib\site-packages\apscheduler\executors\base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "F:/python_libs/apschedulers/main.py", line 25, in date_test
+    print(1/0)
+ZeroDivisionError: division by zero
+2020-05-18 16:11:48 base.py[line:131] ERROR Job "interval_task (trigger: interval[0:00:03], next run at: 2020-05-18 16:11:51 CST)" raised an exception
+Traceback (most recent call last):
+  File "D:\Program Files\Python3.7\lib\site-packages\apscheduler\executors\base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "F:/python_libs/apschedulers/main.py", line 25, in date_test
+    print(1/0)
+ZeroDivisionError: division by zero
+2020-05-18 16:11:51 base.py[line:131] ERROR Job "interval_task (trigger: interval[0:00:03], next run at: 2020-05-18 16:11:54 CST)" raised an exception
+Traceback (most recent call last):
+  File "D:\Program Files\Python3.7\lib\site-packages\apscheduler\executors\base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "F:/python_libs/apschedulers/main.py", line 25, in date_test
+    print(1/0)
+ZeroDivisionError: division by zero
+2020-05-18 16:11:54 base.py[line:131] ERROR Job "interval_task (trigger: interval[0:00:03], next run at: 2020-05-18 16:11:57 CST)" raised an exception
+Traceback (most recent call last):
+  File "D:\Program Files\Python3.7\lib\site-packages\apscheduler\executors\base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "F:/python_libs/apschedulers/main.py", line 25, in date_test
+    print(1/0)
+ZeroDivisionError: division by zero
+2020-05-18 16:11:57 base.py[line:131] ERROR Job "interval_task (trigger: interval[0:00:03], next run at: 2020-05-18 16:12:00 CST)" raised an exception
+Traceback (most recent call last):
+  File "D:\Program Files\Python3.7\lib\site-packages\apscheduler\executors\base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "F:/python_libs/apschedulers/main.py", line 25, in date_test
+    print(1/0)
+ZeroDivisionError: division by zero
+2020-05-18 16:12:00 base.py[line:131] ERROR Job "interval_task (trigger: interval[0:00:03], next run at: 2020-05-18 16:12:03 CST)" raised an exception
+Traceback (most recent call last):
+  File "D:\Program Files\Python3.7\lib\site-packages\apscheduler\executors\base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "F:/python_libs/apschedulers/main.py", line 25, in date_test
+    print(1/0)
+ZeroDivisionError: division by zero
+2020-05-18 16:12:03 base.py[line:131] ERROR Job "interval_task (trigger: interval[0:00:03], next run at: 2020-05-18 16:12:03 CST)" raised an exception
+Traceback (most recent call last):
+  File "D:\Program Files\Python3.7\lib\site-packages\apscheduler\executors\base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "F:/python_libs/apschedulers/main.py", line 25, in date_test
+    print(1/0)
+ZeroDivisionError: division by zero
+2020-05-18 16:12:06 base.py[line:131] ERROR Job "interval_task (trigger: interval[0:00:03], next run at: 2020-05-18 16:12:09 CST)" raised an exception
+Traceback (most recent call last):
+  File "D:\Program Files\Python3.7\lib\site-packages\apscheduler\executors\base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "F:/python_libs/apschedulers/main.py", line 25, in date_test
+    print(1/0)
+ZeroDivisionError: division by zero
+2020-05-18 16:12:54 base.py[line:131] ERROR Job "interval_task (trigger: interval[0:00:03], next run at: 2020-05-18 16:12:57 CST)" raised an exception
+Traceback (most recent call last):
+  File "D:\Program Files\Python3.7\lib\site-packages\apscheduler\executors\base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "F:/python_libs/apschedulers/main.py", line 25, in date_test
+    print(1/0)
+ZeroDivisionError: division by zero
+2020-05-18 16:12:57 base.py[line:131] ERROR Job "interval_task (trigger: interval[0:00:03], next run at: 2020-05-18 16:13:00 CST)" raised an exception
+Traceback (most recent call last):
+  File "D:\Program Files\Python3.7\lib\site-packages\apscheduler\executors\base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "F:/python_libs/apschedulers/main.py", line 25, in date_test
+    print(1/0)
+ZeroDivisionError: division by zero
+2020-05-18 16:13:00 base.py[line:131] ERROR Job "interval_task (trigger: interval[0:00:03], next run at: 2020-05-18 16:13:03 CST)" raised an exception
+Traceback (most recent call last):
+  File "D:\Program Files\Python3.7\lib\site-packages\apscheduler\executors\base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "F:/python_libs/apschedulers/main.py", line 25, in date_test
+    print(1/0)
+ZeroDivisionError: division by zero
+2020-05-18 16:13:03 base.py[line:131] ERROR Job "interval_task (trigger: interval[0:00:03], next run at: 2020-05-18 16:13:06 CST)" raised an exception
+Traceback (most recent call last):
+  File "D:\Program Files\Python3.7\lib\site-packages\apscheduler\executors\base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "F:/python_libs/apschedulers/main.py", line 25, in date_test
+    print(1/0)
+ZeroDivisionError: division by zero
+2020-05-18 16:13:06 base.py[line:131] ERROR Job "interval_task (trigger: interval[0:00:03], next run at: 2020-05-18 16:13:09 CST)" raised an exception
+Traceback (most recent call last):
+  File "D:\Program Files\Python3.7\lib\site-packages\apscheduler\executors\base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "F:/python_libs/apschedulers/main.py", line 25, in date_test
+    print(1/0)
+ZeroDivisionError: division by zero
+2020-05-18 16:13:09 base.py[line:131] ERROR Job "interval_task (trigger: interval[0:00:03], next run at: 2020-05-18 16:13:12 CST)" raised an exception
+Traceback (most recent call last):
+  File "D:\Program Files\Python3.7\lib\site-packages\apscheduler\executors\base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "F:/python_libs/apschedulers/main.py", line 25, in date_test
+    print(1/0)
+ZeroDivisionError: division by zero
+2020-05-18 16:44:00 base.py[line:984] ERROR Error submitting job "interval_task (trigger: interval[0:00:03], next run at: 2020-05-18 16:44:00 CST)" to executor "default"
+Traceback (most recent call last):
+  File "D:\Program Files\Python3.7\lib\site-packages\apscheduler\schedulers\base.py", line 974, in _process_jobs
+    executor.submit_job(job, run_times)
+  File "D:\Program Files\Python3.7\lib\site-packages\apscheduler\executors\base.py", line 71, in submit_job
+    self._do_submit_job(job, run_times)
+  File "D:\Program Files\Python3.7\lib\site-packages\apscheduler\executors\pool.py", line 22, in _do_submit_job
+    f = self._pool.submit(run_job, job, job._jobstore_alias, run_times, self._logger.name)
+  File "D:\Program Files\Python3.7\lib\concurrent\futures\thread.py", line 163, in submit
+    raise RuntimeError('cannot schedule new futures after shutdown')
+RuntimeError: cannot schedule new futures after shutdown

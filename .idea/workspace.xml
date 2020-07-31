@@ -1,9 +1,102 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://E:/opt/web_pub_task/quotes/models_proc/models_getter.py" description="estate_info = self._db_session.query(MsEstateInfo)..." line="87" />
+    <bookmark url="file://$PROJECT_DIR$/twisteds/connect_test.py" line="42" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="40aacc82-43a8-4fae-9bb6-eb261bea9b0d" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/celeries.tar.gz" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/ansibles/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ansibles/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apschedulers/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apschedulers/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apschedulers/main2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apschedulers/main3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bloom_filters/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bloom_filters/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/celeries/demo1/trigger.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code_distribute.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/distributed_lock/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/distributed_lock/gun.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/distributed_lock/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/distributed_lock/redis_lock.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hadoops/hdfss/test.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iteratables/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iteratables/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itsdangerouses/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itsdangerouses/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/namekos/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/namekos/hello.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/namekos/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_basics/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_basics/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmqs/direct_demos/consumer0.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmqs/direct_demos/consumer1_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmqs/direct_demos/producer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmqs/fanout_demos/producer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmqs/topic_demos/consumer0.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmqs/topic_demos/consumer1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmqs/topic_demos/producer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rate_limiter/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rate_limiter/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis-clusters/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis-clusters/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis-sentinels/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis-sentinels/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redises/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redises/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentries/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentries/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/serializations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/serializations/json_demo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/serializations/pickle_demo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simHashs/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simHashs/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensorflows/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensorflows/basics.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensorflows/basics/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensorflows/basics/data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensorflows/basics/fashion_minst.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensorflows/basics/fuel_regression.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensorflows/basics/imdb.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensorflows/mlp_demo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread_synchronization/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread_synchronization/conditions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread_synchronization/lock_rlock.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thrifts/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thrifts/client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thrifts/server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thrifts/service.thrift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/twisteds/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/twisteds/connect_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/twisteds/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/twisteds/main_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/twisteds/reactor_main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unicode_utf-8/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unicode_utf-8/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wsgis/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wsgis/hello.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wsgis/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zipkins/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zipkins/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zipkins/server1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zookeepers/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zookeepers/distribute_lock.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/celeries/demo1/celery_config.py" beforeDir="false" afterPath="$PROJECT_DIR$/celeries/demo1/celery_config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/celeries/demo1/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/celeries/demo1/tasks.py" beforeDir="false" afterPath="$PROJECT_DIR$/celeries/demo1/tasks.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/celeries/fabfile.py" beforeDir="false" afterPath="$PROJECT_DIR$/celeries/fabfile.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmqs/conn_factory.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmqs/direct_demos/consumer1.py" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmqs/direct_demos/consumer1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmqs/direct_demos/consumer2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmqs/direct_demos/producer1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmqs/fabfile.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmqs/fanout_demos/consumer1.py" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmqs/fanout_demos/consumer1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmqs/fanout_demos/consumer2.py" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmqs/fanout_demos/consumer2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmqs/fanout_demos/producer1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmqs/rabbit_config.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,56 +107,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="fabfile.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rabbitmqs/fabfile.py">
+      <file leaf-file-name="producer.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rabbitmqs/direct_demos/producer.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
+            <state relative-caret-position="109">
               <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="fabfile.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/celeries/fabfile.py">
+      <file leaf-file-name="consumer1.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rabbitmqs/direct_demos/consumer1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="339">
-              <caret line="45" column="12" selection-start-line="45" selection-start-column="12" selection-end-line="45" selection-end-column="12" />
+            <state relative-caret-position="327">
+              <caret line="31" selection-start-line="31" selection-end-line="31" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="result.py" pinned="false" current-in-tab="false">
-        <entry file="file://D:/Program Files/Python3.7/Lib/site-packages/celery/result.py">
+      <file leaf-file-name="consumer1_2.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/rabbitmqs/direct_demos/consumer1_2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="212">
-              <caret line="318" column="8" selection-start-line="318" selection-start-column="8" selection-end-line="318" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="synchronization.py" pinned="false" current-in-tab="false">
-        <entry file="file://D:/Program Files/Python3.7/Lib/site-packages/vine/synchronization.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="512">
-              <caret line="51" column="26" selection-start-line="51" selection-start-column="26" selection-end-line="51" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ntpath.py" pinned="false" current-in-tab="false">
-        <entry file="file://D:/Program Files/Python3.7/Lib/ntpath.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-32">
-              <caret line="74" column="4" selection-start-line="74" selection-start-column="4" selection-end-line="74" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="operations.py" pinned="false" current-in-tab="false">
-        <entry file="file://D:/Program Files/Python3.7/Lib/site-packages/fabric/operations.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2571">
-              <caret line="974" column="4" selection-start-line="974" selection-start-column="4" selection-end-line="974" selection-end-column="4" />
+            <state relative-caret-position="225">
+              <caret line="30" column="40" lean-forward="true" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -79,11 +145,41 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>queue_declare</find>
-      <find>self.rou</find>
-      <find>self.queu</find>
-      <find>self.con</find>
+      <find>deleted node</find>
+      <find>os.path.join</find>
+      <find>doing_jobs</find>
+      <find>datasets</find>
+      <find>layers</find>
+      <find>optimizers</find>
+      <find>Dense</find>
+      <find>keras</find>
+      <find>get_sessionId</find>
+      <find>get_responseId_bgImgUrl</find>
+      <find>T</find>
+      <find>True</find>
+      <find>BackgroundScheduler</find>
+      <find>self.thread_event</find>
+      <find>watch_node_is_exist</find>
+      <find>watch</find>
+      <find>admin</find>
+      <find>errorhandler</find>
+      <find>__str__</find>
+      <find>5000</find>
+      <find>60</find>
+      <find>5050</find>
+      <find>tx_</find>
+      <find>confirm_</find>
+      <find>confirm_del</find>
+      <find>wait</find>
+      <find>wait_</find>
+      <find>uuid.</find>
+      <find>dead</find>
+      <find>dead-letter</find>
     </findStrings>
+    <dirStrings>
+      <dir>F:\python_libs\micro_blog</dir>
+      <dir>F:\python_libs</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -91,57 +187,65 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/rabbitmqs/main.py" />
-        <option value="$PROJECT_DIR$/rabbitmqs/demo1/consumer.py" />
-        <option value="$PROJECT_DIR$/rabbitmqs/demo1/producer.py" />
-        <option value="$PROJECT_DIR$/rabbitmqs/demo1/direct_producer.py" />
-        <option value="$PROJECT_DIR$/rabbitmqs/demo1/fanout_producer.py" />
-        <option value="$PROJECT_DIR$/rabbitmqs/demo1/direct_consumer.py" />
-        <option value="$PROJECT_DIR$/rabbitmqs/demo1/fanout_consumer.py" />
-        <option value="$PROJECT_DIR$/rabbitmqs/demo1/topic_producer.py" />
-        <option value="$PROJECT_DIR$/rabbitmqs/demo1/topic_consumer.py" />
-        <option value="$PROJECT_DIR$/rabbitmqs/fanout_demos/fanout_producer.py" />
-        <option value="$PROJECT_DIR$/rabbitmqs/fanout_demos/producer.py" />
-        <option value="$PROJECT_DIR$/rabbitmqs/direct_demos/producer.py" />
-        <option value="$PROJECT_DIR$/rabbitmqs/direct_demos/consumer.py" />
-        <option value="$PROJECT_DIR$/rabbitmqs/fanout_demos/consumer.py" />
-        <option value="$PROJECT_DIR$/rabbitmqs/producer.py" />
-        <option value="$PROJECT_DIR$/rabbitmqs/topic_demos/producer1.py" />
-        <option value="$PROJECT_DIR$/rabbitmqs/topic_demos/consumer1.py" />
-        <option value="$PROJECT_DIR$/rabbitmqs/topic_demos/consumer2.py" />
-        <option value="$PROJECT_DIR$/rabbitmqs/parent.py" />
-        <option value="$PROJECT_DIR$/rabbitmqs/direct_demos/cousumer_x.py" />
-        <option value="$PROJECT_DIR$/rabbitmqs/consumer.py" />
-        <option value="$PROJECT_DIR$/rabbitmqs/topic_demos/cousumer_x.py" />
-        <option value="$PROJECT_DIR$/rabbitmqs/channel_factory.py" />
-        <option value="$PROJECT_DIR$/rabbitmqs/conn_factory.py" />
+        <option value="$PROJECT_DIR$/wsgis/main.py" />
+        <option value="$PROJECT_DIR$/flasks/application/templates/hello.html" />
+        <option value="$PROJECT_DIR$/flasks/run.py" />
+        <option value="$PROJECT_DIR$/micro_blog/micro_blog/admin/admin_module.py" />
+        <option value="$PROJECT_DIR$/micro_blog/micro_blog/front/templates/hello.html" />
+        <option value="$PROJECT_DIR$/micro_blog/micro_blog/admin/templates/hello.html" />
+        <option value="$PROJECT_DIR$/micro_blog/micro_blog/views.py" />
+        <option value="$PROJECT_DIR$/micro_blog/create_app.py" />
+        <option value="$PROJECT_DIR$/micro_blog/config.py" />
+        <option value="$PROJECT_DIR$/micro_blog/runserver.py" />
+        <option value="$PROJECT_DIR$/micro_blog/micro_blog/__init__.py" />
+        <option value="$PROJECT_DIR$/micro_blog/micro_blog/front/views.py" />
+        <option value="$PROJECT_DIR$/micro_blog/micro_blog/admin/templates_admin/404.html" />
+        <option value="$PROJECT_DIR$/micro_blog/micro_blog/admin/views.py" />
+        <option value="$PROJECT_DIR$/micro_blog/app/tools.py" />
+        <option value="$PROJECT_DIR$/micro_blog/app/__init__.py" />
+        <option value="$PROJECT_DIR$/redis-sentinels/main.py" />
+        <option value="$PROJECT_DIR$/micro_blog/run.py" />
+        <option value="$PROJECT_DIR$/micro_blog/app/views.py" />
+        <option value="$PROJECT_DIR$/redis-clusters/main.py" />
+        <option value="$PROJECT_DIR$/serializations/pickle_demo.py" />
+        <option value="$PROJECT_DIR$/serializations/json_demo.py" />
+        <option value="$PROJECT_DIR$/advanced_funcs/main.py" />
+        <option value="$PROJECT_DIR$/python_basics/main.py" />
+        <option value="$PROJECT_DIR$/thrifts/example.thrift" />
+        <option value="$PROJECT_DIR$/thrifts/helloworld.thrift.py" />
+        <option value="$PROJECT_DIR$/thrifts/server_helloworld.py" />
+        <option value="$PROJECT_DIR$/thrifts/server_hello_world.py" />
+        <option value="$PROJECT_DIR$/thrifts/helloworld.thrift" />
+        <option value="$PROJECT_DIR$/thrifts/service.thrift" />
+        <option value="$PROJECT_DIR$/thrifts/server.py" />
+        <option value="$PROJECT_DIR$/thrifts/client.py" />
+        <option value="$PROJECT_DIR$/zipkins/main.py" />
+        <option value="$PROJECT_DIR$/zipkins/server1.py" />
+        <option value="$PROJECT_DIR$/ansibles.py" />
+        <option value="$PROJECT_DIR$/ansibles/main.py" />
+        <option value="$PROJECT_DIR$/thread_synchronization/conditions.py" />
+        <option value="$PROJECT_DIR$/thread_synchronization/lock_rlock.py" />
+        <option value="$PROJECT_DIR$/iteratables/main.py" />
         <option value="$PROJECT_DIR$/rabbitmqs/fanout_demos/producer1.py" />
         <option value="$PROJECT_DIR$/rabbitmqs/fanout_demos/consumer1.py" />
         <option value="$PROJECT_DIR$/rabbitmqs/fanout_demos/consumer2.py" />
-        <option value="$PROJECT_DIR$/rabbitmqs/rabbit_config.py" />
+        <option value="$PROJECT_DIR$/rabbitmqs/fanout_demos/producer.py" />
         <option value="$PROJECT_DIR$/rabbitmqs/direct_demos/producer1.py" />
+        <option value="$PROJECT_DIR$/rabbitmqs/topic_demos/consumer1.py" />
+        <option value="$PROJECT_DIR$/rabbitmqs/topic_demos/producer.py" />
+        <option value="$PROJECT_DIR$/rabbitmqs/topic_demos/consumer0.py" />
+        <option value="$PROJECT_DIR$/rabbitmqs/direct_demos/consumer0.py" />
+        <option value="$PROJECT_DIR$/rabbitmqs/direct_demos/consumer1_2.py" />
         <option value="$PROJECT_DIR$/rabbitmqs/direct_demos/consumer1.py" />
-        <option value="$PROJECT_DIR$/rabbitmqs/direct_demos/consumer2.py" />
-        <option value="$PROJECT_DIR$/celeries/celery_config.py" />
-        <option value="$PROJECT_DIR$/celeries/demo1/app_test.py" />
-        <option value="$PROJECT_DIR$/celeries/demo1/diaoyong.py" />
-        <option value="$PROJECT_DIR$/celeries/demo1/celery_config.py" />
-        <option value="$PROJECT_DIR$/celeries/demo1/tasks.py" />
-        <option value="$PROJECT_DIR$/celeries/demo1/main.py" />
-        <option value="$PROJECT_DIR$/fabrics/main.py" />
-        <option value="$PROJECT_DIR$/fabrics/test.py" />
-        <option value="$PROJECT_DIR$/fabrics/test1.py" />
-        <option value="$PROJECT_DIR$/fabrics/test2.py" />
-        <option value="$PROJECT_DIR$/fabrics/fabfile.py" />
-        <option value="$PROJECT_DIR$/celeries/fabfile.py" />
+        <option value="$PROJECT_DIR$/rabbitmqs/direct_demos/producer.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-80" />
-    <option name="y" value="180" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="114" />
+    <option name="y" value="49" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -161,12 +265,23 @@
             <path>
               <item name="python_libs" type="b2602c69:ProjectViewProjectNode" />
               <item name="python_libs" type="462c0819:PsiDirectoryNode" />
-              <item name="celeries" type="462c0819:PsiDirectoryNode" />
+              <item name="rabbitmqs" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="python_libs" type="b2602c69:ProjectViewProjectNode" />
               <item name="python_libs" type="462c0819:PsiDirectoryNode" />
               <item name="rabbitmqs" type="462c0819:PsiDirectoryNode" />
+              <item name="direct_demos" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="python_libs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python_libs" type="462c0819:PsiDirectoryNode" />
+              <item name="unicode_utf-8" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="python_libs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python_libs" type="462c0819:PsiDirectoryNode" />
+              <item name="zipkins" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -180,18 +295,19 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\python_libs\celeries" />
-      <recent name="F:\python_libs\rabbitmqs" />
-      <recent name="F:\python_libs\rabbitmqs\topic_demos" />
-      <recent name="F:\python_libs\rabbitmqs\direct_demos" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\python_libs\micro_blog\micro_blog" />
+      <recent name="F:\python_libs\micro_blog\micro_blog\front\templates" />
+      <recent name="F:\python_libs\micro_blog\micro_blog\front\templates\front" />
       <recent name="F:\python_libs\celeries\demo1" />
       <recent name="F:\python_libs\rabbitmqs" />
-      <recent name="F:\python_libs\rabbitmqs\topic_demos" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\python_libs\rabbitmqs\direct_demos" />
-      <recent name="F:\python_libs\rabbitmqs\fanout_demos" />
+      <recent name="F:\python_libs\rabbitmqs\topic_demos" />
+      <recent name="F:\python_libs\micro_blog\micro_blog\front" />
+      <recent name="F:\python_libs\flasks" />
+      <recent name="F:\python_libs\microblog\app" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -206,8 +322,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.fabfile">
-    <configuration name="app_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.producer (1)">
+    <configuration name="consumer0 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python_libs" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -215,11 +331,29 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/celeries/demo1" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/rabbitmqs/topic_demos" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/celeries/demo1/app_test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/rabbitmqs/topic_demos/consumer0.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="consumer0" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python_libs" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/rabbitmqs/direct_demos" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/rabbitmqs/direct_demos/consumer0.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -243,43 +377,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="fabfile" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python_libs" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/fabrics" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fabrics/fabfile.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python_libs" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/celeries/demo1" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/celeries/demo1/main.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="producer1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="consumer1_2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python_libs" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -291,26 +389,44 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/rabbitmqs/direct_demos/producer1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/rabbitmqs/direct_demos/consumer1_2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="producer (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python_libs" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/rabbitmqs/direct_demos" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/rabbitmqs/direct_demos/producer.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.producer1" />
+      <item itemvalue="Python.consumer0 (1)" />
+      <item itemvalue="Python.producer (1)" />
+      <item itemvalue="Python.consumer0" />
       <item itemvalue="Python.consumer1" />
-      <item itemvalue="Python.main" />
-      <item itemvalue="Python.app_test" />
-      <item itemvalue="Python.fabfile" />
+      <item itemvalue="Python.consumer1_2" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.fabfile" />
-        <item itemvalue="Python.main" />
-        <item itemvalue="Python.app_test" />
-        <item itemvalue="Python.producer1" />
         <item itemvalue="Python.consumer1" />
+        <item itemvalue="Python.consumer1_2" />
+        <item itemvalue="Python.producer (1)" />
+        <item itemvalue="Python.consumer0" />
+        <item itemvalue="Python.consumer0 (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -331,24 +447,25 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17228661" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.144" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.18120806" />
+      <window_info anchor="right" id="aiXcoder" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5008" side_tool="true" weight="0.37583894" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Python Console" order="7" weight="0.32997763" />
+      <window_info anchor="bottom" id="Python Console" order="7" weight="0.17337808" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3098434" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.11409396" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.2572707" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.2606264" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4992" weight="0.2706935" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32997763" />
-      <window_info anchor="bottom" id="Messages" order="7" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -356,6 +473,181 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/simHashs/main.py</url>
+          <line>21</line>
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://D:/Program Files/Python3.7/Lib/site-packages/apscheduler/schedulers/base.py</url>
+          <line>465</line>
+          <option name="timeStamp" value="81" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/zookeepers/distribute_lock.py</url>
+          <line>115</line>
+          <option name="timeStamp" value="88" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/zookeepers/distribute_lock.py</url>
+          <line>97</line>
+          <option name="timeStamp" value="95" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/zookeepers/distribute_lock.py</url>
+          <line>112</line>
+          <option name="timeStamp" value="103" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/zookeepers/distribute_lock.py</url>
+          <line>91</line>
+          <option name="timeStamp" value="104" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/celeries/fabfile.py</url>
+          <line>40</line>
+          <option name="timeStamp" value="109" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/celeries/fabfile.py</url>
+          <line>35</line>
+          <option name="timeStamp" value="110" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/zookeepers/distribute_lock.py</url>
+          <line>33</line>
+          <option name="timeStamp" value="113" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tensorflows/mlp_demo.py</url>
+          <line>64</line>
+          <option name="timeStamp" value="126" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$USER_HOME$/Desktop/solve_captcha-master(1) - 副本/solve_captcha-master/58/run.py</url>
+          <line>217</line>
+          <option name="timeStamp" value="160" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/rate_limiter/main.py</url>
+          <line>20</line>
+          <option name="timeStamp" value="166" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/itsdangerouses/main.py</url>
+          <line>13</line>
+          <option name="timeStamp" value="175" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/unicode_utf-8/main.py</url>
+          <line>24</line>
+          <option name="timeStamp" value="193" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/unicode_utf-8/main.py</url>
+          <line>16</line>
+          <option name="timeStamp" value="195" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/wsgis/hello.py</url>
+          <line>9</line>
+          <option name="timeStamp" value="197" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/micro_bl/micro_blog/admin/views.py</url>
+          <line>101</line>
+          <option name="timeStamp" value="214" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/micro_bl/micro_blog/admin/views.py</url>
+          <line>75</line>
+          <option name="timeStamp" value="215" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/micro_bl/micro_blog/admin/views.py</url>
+          <line>62</line>
+          <option name="timeStamp" value="216" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/iteratables/main.py</url>
+          <line>17</line>
+          <option name="timeStamp" value="238" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/iteratables/main.py</url>
+          <line>21</line>
+          <option name="timeStamp" value="239" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/iteratables/main.py</url>
+          <line>12</line>
+          <option name="timeStamp" value="241" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/iteratables/main.py</url>
+          <line>24</line>
+          <option name="timeStamp" value="242" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/serializations/pickle_demo.py</url>
+          <line>18</line>
+          <option name="timeStamp" value="249" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python_basics/main.py</url>
+          <line>36</line>
+          <option name="timeStamp" value="255" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/thread_synchronization/lock_rlock.py</url>
+          <line>18</line>
+          <option name="timeStamp" value="261" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/thread_synchronization/conditions.py</url>
+          <line>41</line>
+          <option name="timeStamp" value="264" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://D:/Program Files/Python3.7/Lib/threading.py</url>
+          <line>258</line>
+          <option name="timeStamp" value="265" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://D:/Program Files/Python3.7/Lib/threading.py</url>
+          <line>261</line>
+          <option name="timeStamp" value="266" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://D:/Program Files/Python3.7/Lib/threading.py</url>
+          <line>216</line>
+          <option name="timeStamp" value="267" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://D:/Program Files/Python3.7/Lib/threading.py</url>
+          <line>218</line>
+          <option name="timeStamp" value="268" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/thread_synchronization/conditions.py</url>
+          <line>56</line>
+          <option name="timeStamp" value="269" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/iteratables/main.py</url>
+          <line>35</line>
+          <option name="timeStamp" value="270" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/rabbitmqs/fanout_demos/consumer2.py</url>
+          <line>27</line>
+          <option name="timeStamp" value="280" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
       <default-breakpoints>
         <breakpoint type="python-exception">
           <properties notifyOnTerminate="true" exception="BaseException">
@@ -363,235 +655,320 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="43" />
+      <option name="time" value="357" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/rabbitmqs/main.py" />
-    <entry file="file://D:/Program Files/Python3.7/Lib/site-packages/pika/channel.py">
+    <entry file="file://$PROJECT_DIR$/wsgis/hello.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code_distribute.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="625" column="8" selection-start-line="625" selection-start-column="8" selection-end-line="625" selection-end-column="8" />
+        <state relative-caret-position="-2175" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simHashs/main.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sentries/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rabbitmqs/demo1/consumer.py" />
-    <entry file="file://$PROJECT_DIR$/rabbitmqs/demo1/producer.py" />
-    <entry file="file://D:/Program Files/Python3.7/Lib/site-packages/pika/connection.py">
+    <entry file="file://$PROJECT_DIR$/rate_limiter/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="545" column="8" selection-start-line="545" selection-start-column="8" selection-end-line="545" selection-end-column="8" />
+        <state relative-caret-position="300">
+          <caret line="28" column="15" selection-start-line="28" selection-start-column="15" selection-end-line="28" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rabbitmqs/direct_demos/direct_consumer.py" />
-    <entry file="file://$PROJECT_DIR$/rabbitmqs/direct_demos/direct_producer.py" />
-    <entry file="file://$PROJECT_DIR$/rabbitmqs/direct_demos/consumer.py" />
-    <entry file="file://$PROJECT_DIR$/rabbitmqs/fanout_demos/consumer.py" />
-    <entry file="file://D:/Program Files/Python3.7/Lib/site-packages/pika/adapters/blocking_connection.py">
+    <entry file="file://$PROJECT_DIR$/python_basics/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="1493" selection-start-line="1493" selection-end-line="1493" />
+        <state relative-caret-position="519">
+          <caret line="92" column="45" selection-start-line="92" selection-start-column="45" selection-end-line="92" selection-end-column="45" />
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/Program Files/Python3.7/Lib/site-packages/pika/adapters/twisted_connection.py">
+    <entry file="file://$PROJECT_DIR$/thrifts/server.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="318" column="8" selection-start-line="318" selection-start-column="8" selection-end-line="318" selection-end-column="8" />
+        <state relative-caret-position="394">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rabbitmqs/topic_demos/cousumer_x.py" />
-    <entry file="file://$PROJECT_DIR$/rabbitmqs/direct_demos/cousumer_x.py" />
-    <entry file="file://$PROJECT_DIR$/rabbitmqs/consumer.py" />
-    <entry file="file://$PROJECT_DIR$/rabbitmqs/conn_factory.py">
+    <entry file="file://$PROJECT_DIR$/thrifts/example.thrift" />
+    <entry file="file://D:/Program Files/Python3.7/Lib/site-packages/thrift/server/TServer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="79" column="8" selection-start-line="79" selection-start-column="8" selection-end-line="79" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thrifts/service.thrift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="18" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zipkins/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1300">
+          <caret line="55" selection-start-line="55" selection-end-line="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Program Files/Python3.7/Lib/site-packages/pymysql/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2400">
+          <caret line="107" selection-start-line="107" selection-end-line="107" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zipkins/server1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1950">
+          <caret line="78" column="35" selection-start-line="78" selection-start-column="33" selection-end-line="78" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/namekos/hello.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/namekos/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="17" column="31" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thrifts/client.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1400">
+          <caret line="58" column="71" selection-start-line="58" selection-start-column="71" selection-end-line="58" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Program Files/Python3.7/Lib/site-packages/thriftpy2/server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1850">
+          <caret line="74" column="8" selection-start-line="74" selection-start-column="8" selection-end-line="74" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Program Files/Python3.7/Lib/site-packages/thriftpy2/rpc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3125">
+          <caret line="125" column="8" selection-start-line="125" selection-start-column="8" selection-end-line="125" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ansibles.py" />
+    <entry file="file://$PROJECT_DIR$/thrifts/server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1625">
+          <caret line="65" column="1" selection-start-line="65" selection-start-column="1" selection-end-line="65" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ansibles/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/Program Files/Python3.7/Lib/codecs.py">
+    <entry file="file://$USER_HOME$/.PyCharmCE2018.1/system/python_stubs/-1184311076/builtins.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="309" selection-start-line="309" selection-end-line="309" />
+        <state relative-caret-position="90525">
+          <caret line="3621" column="6" selection-start-line="3621" selection-start-column="6" selection-end-line="3621" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/2and3/threading.pyi">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="88" column="12" selection-start-line="88" selection-start-column="12" selection-end-line="88" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharmCE2018.1/system/python_stubs/-1184311076/_thread.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unicode_utf-8/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" column="22" lean-forward="true" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/distributed_lock/zklock/build/lib/zklock.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="108" lean-forward="true" selection-start-line="108" selection-end-line="108" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thread_synchronization/lock_rlock.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Program Files/Python3.7/Lib/threading.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6625">
+          <caret line="272" column="40" selection-start-line="272" selection-start-column="40" selection-end-line="272" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thread_synchronization/conditions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1500">
+          <caret line="60" column="20" selection-start-line="60" selection-start-column="20" selection-end-line="60" selection-end-column="20" />
+          <folding>
+            <element signature="e#110#121#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iteratables/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="34" column="15" selection-start-line="34" selection-start-column="15" selection-end-line="34" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmqs/direct_demos/consumer2.py" />
+    <entry file="file://D:/Program Files/Python3.7/Lib/site-packages/pika/channel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="279" column="53" lean-forward="true" selection-start-line="279" selection-start-column="53" selection-end-line="279" selection-end-column="53" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/rabbitmqs/fanout_demos/consumer2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="21" column="54" lean-forward="true" selection-start-line="21" selection-start-column="54" selection-end-line="21" selection-end-column="54" />
+        <state relative-caret-position="925">
+          <caret line="39" column="48" lean-forward="true" selection-start-line="39" selection-start-column="48" selection-end-line="39" selection-end-column="48" />
+          <folding>
+            <element signature="e#109#155#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rabbitmqs/fanout_demos/producer1.py">
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="1663" selection-start-line="1663" selection-end-line="1663" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Program Files/Python3.7/Lib/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="309" selection-start-line="309" selection-end-line="309" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmqs/fanout_demos/consumer1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="13" selection-start-line="13" selection-end-line="13" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmqs/topic_demos/consumer1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="6" selection-start-line="6" selection-end-line="8" selection-end-column="46" />
+          <caret line="9" column="17" lean-forward="true" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rabbitmqs/direct_demos/producer1.py">
+    <entry file="file://$PROJECT_DIR$/rabbitmqs/rabbit_config.py" />
+    <entry file="file://$PROJECT_DIR$/rabbitmqs/fabfile.py" />
+    <entry file="file://$PROJECT_DIR$/rabbitmqs/conn_factory.py" />
+    <entry file="file://$PROJECT_DIR$/rabbitmqs/fanout_demos/producer.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="875">
-          <caret line="37" column="43" selection-start-line="37" selection-start-column="43" selection-end-line="37" selection-end-column="43" />
+        <state relative-caret-position="500">
+          <caret line="44" column="94" selection-start-line="44" selection-start-column="84" selection-end-line="44" selection-end-column="94" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Program Files/Python3.7/Lib/site-packages/pika/connection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="2231" column="52" selection-start-line="2231" selection-start-column="52" selection-end-line="2231" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmqs/topic_demos/producer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="24" column="37" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmqs/topic_demos/consumer0.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Program Files/Python3.7/Lib/site-packages/pika/spec.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="2076" column="8" selection-start-line="2076" selection-start-column="8" selection-end-line="2076" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Program Files/Python3.7/Lib/site-packages/pika/adapters/blocking_connection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="1493" selection-start-line="1493" selection-end-line="1493" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apschedulers/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1050">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmqs/direct_demos/consumer0.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="59" column="42" lean-forward="true" selection-start-line="59" selection-start-column="8" selection-end-line="59" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmqs/direct_demos/producer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/rabbitmqs/direct_demos/consumer1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="20" column="111" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="111" />
+        <state relative-caret-position="327">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rabbitmqs/producer.py" />
-    <entry file="file://$PROJECT_DIR$/rabbitmqs/parent.py" />
-    <entry file="file://$PROJECT_DIR$/rabbitmqs/direct_demos/consumer2.py">
+    <entry file="file://$PROJECT_DIR$/rabbitmqs/direct_demos/consumer1_2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="850">
-          <caret line="35" column="22" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rabbitmqs/topic_demos/topic_consumer.py" />
-    <entry file="file://$PROJECT_DIR$/rabbitmqs/topic_demos/topic_producer.py" />
-    <entry file="file://$PROJECT_DIR$/rabbitmqs/topic_demos/producer1.py" />
-    <entry file="file://$PROJECT_DIR$/rabbitmqs/topic_demos/consumer2.py" />
-    <entry file="file://$PROJECT_DIR$/rabbitmqs/topic_demos/consumer1.py" />
-    <entry file="file://$PROJECT_DIR$/rabbitmqs/fanout_demos/consumer1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rabbitmqs/rabbit_config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="48" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rabbitmqs/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://D:/Program Files/Python3.7/Lib/site-packages/kombu/utils/objects.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/celeries/demo1/diaoyong.py" />
-    <entry file="file://$PROJECT_DIR$/celeries/demo1/app_test.py" />
-    <entry file="file://$PROJECT_DIR$/celeries/demo1/tasks.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/celeries/demo1/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fabrics/main.py" />
-    <entry file="file://$PROJECT_DIR$/celeries/demo1/celery_config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Program Files/Python3.7/Lib/site-packages/fabric/state.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8175">
-          <caret line="333" selection-start-line="333" selection-end-line="333" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Program Files/Python3.7/Lib/site-packages/fabric/decorators.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Program Files/Python3.7/Lib/os.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://D:/Program Files/Python3.7/Lib/ntpath.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-32">
-          <caret line="74" column="4" selection-start-line="74" selection-start-column="4" selection-end-line="74" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Program Files/Python3.7/Lib/site-packages/fabric/operations.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2571">
-          <caret line="974" column="4" selection-start-line="974" selection-start-column="4" selection-end-line="974" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fabrics/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fabrics/test1.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fabrics/test2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fabrics/fabfile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
-          <folding>
-            <element signature="e#107#131#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rabbitmqs/fabfile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Program Files/Python3.7/Lib/site-packages/vine/synchronization.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="512">
-          <caret line="51" column="26" selection-start-line="51" selection-start-column="26" selection-end-line="51" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Program Files/Python3.7/Lib/site-packages/celery/result.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="318" column="8" selection-start-line="318" selection-start-column="8" selection-end-line="318" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/celeries/fabfile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="45" column="12" selection-start-line="45" selection-start-column="12" selection-end-line="45" selection-end-column="12" />
+        <state relative-caret-position="225">
+          <caret line="30" column="40" lean-forward="true" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="40" />
         </state>
       </provider>
     </entry>

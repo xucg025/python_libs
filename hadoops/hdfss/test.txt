@@ -1,0 +1,788 @@
+docker 启动：
+docker run -ti -p 50001:22 ubuntu:scrapy-ssh
+
+redis 启动：
+docker run -d -p 6379:6379 -v /opt/redis/redis.conf:/usr/local/etc/redis/redis.conf --name myredis redis redis-server /usr/local/etc/redis/redis.conf 
+
+findHouse启动（58同城）：
+docker run -d -ti -v /opt/findHouse:/data ubuntu:scrapy
+启动爬虫： scrapy crawl quotes
+进去容器：docker exec -ti findHouse bash
+去水印：
+依赖
+libglib2.0-0
+apt install -y libsm6 libxext6
+apt-get install -y libxrender-dev
+
+365商铺容器启动
+docker run --name findHouse365 -d -ti -v /opt/findHouse365:/data -v /home/www.912zufang.cn/public/uploads/webs/:/home/webs ubuntu:scrapy-findHouse /bin/bash
+docker run --net=host --name findHouse365 -d -ti -v /opt/findHouse365:/data -v /home/www_remote/img/uploads/webs/:/home/webs -v /opt/ms_common:/opt/common -v /etc/localtime:/etc/localtime:ro ubuntu:scrapy-findHouse /bin/bash
+365写字楼容器启动
+docker run --name findHouse365_xzl -d -ti -v /opt/findHouse365_xzl:/data -v /home/www.912zufang.cn/public/uploads/webs/:/home/webs ubuntu:scrapy-findHouse /bin/bash
+docker run --net=host --name findHouse365_xzl -d -ti -v /opt/findHouse365_xzl:/data -v /home/www_remote/img/uploads/webs/:/home/webs -v /opt/ms_common:/opt/common -v /etc/localtime:/etc/localtime:ro ubuntu:scrapy-findHouse /bin/bash
+365住宅容器启动
+docker run --name findHouse365_zz -d -ti -v /opt/findHouse365_zz:/data -v /home/www.912zufang.cn/public/uploads/webs/:/home/webs ubuntu:scrapy-findHouse /bin/bash
+docker run --net=host --name findHouse365_zz -d -ti -v /opt/findHouse365_zz:/data -v /home/www_remote/img/uploads/webs/:/home/webs ubuntu:scrapy-findHouse /bin/bash
+
+58商铺容器启动
+docker run --name findHouse -d -ti -v /opt/findHouse:/data -v /home/www.912zufang.cn/public/uploads/webs/:/home/webs ubuntu:scrapy-findHouse /bin/bash
+docker run --net=host --name findHouse -d -ti -v /opt/findHouse:/data -v /home/www_remote/img/uploads/webs/:/home/webs -v /opt/ms_common:/opt/common -v /etc/localtime:/etc/localtime:ro ubuntu:scrapy-findHouse /bin/bash
+docker run --net=host --name findHouse -d -ti -v /opt/findHouse:/data -v /home/www_remote/img/uploads/webs/:/home/webs -v /opt/pc_common:/opt/common -v /etc/localtime:/etc/localtime:ro ubuntu:scrapy-findHouse /bin/bash
+58写字楼启动
+docker run --name findHouse_xzl -d -ti -v /opt/findHouse_xzl:/data -v /home/www.912zufang.cn/public/uploads/webs/:/home/webs ubuntu:scrapy-findHouse /bin/bash
+docker run --net=host --name findHouse_xzl -d -ti -v /opt/findHouse_xzl:/data -v /home/www_remote/img/uploads/webs/:/home/webs -v /opt/ms_common:/opt/common -v /etc/localtime:/etc/localtime:ro ubuntu:scrapy-findHouse /bin/bash
+58住宅启动
+docker run --name findHouse_zz -d -ti -v /opt/findHouse_zz:/data -v /home/www.912zufang.cn/public/uploads/webs/:/home/webs ubuntu:scrapy-findHouse /bin/bash
+docker run --net=host --name findHouse_zz -d -ti -v /opt/findHouse_zz:/data -v /home/www_remote/img/uploads/webs/:/home/webs ubuntu:scrapy-findHouse /bin/bash
+赶集商铺启动
+docker run --name findHouseGanji -d -ti -v /opt/findHouseGanji:/data -v /home/www.912zufang.cn/public/uploads/webs/:/home/webs ubuntu:scrapy-findHouse /bin/bash
+docker run --net=host --name findHouseGanji -d -ti -v /opt/findHouseGanji:/data -v /home/www_remote/img/uploads/webs/:/home/webs -v /opt/ms_common:/opt/common -v /etc/localtime:/etc/localtime:ro ubuntu:scrapy-findHouse /bin/bash
+赶集写字楼启动
+docker run --name findHouseGanji_xzl -d -ti -v /opt/findHouseGanji_xzl:/data -v /home/www.912zufang.cn/public/uploads/webs/:/home/webs ubuntu:scrapy-findHouse /bin/bash
+docker run --net=host --name findHouseGanji_xzl -d -ti -v /opt/findHouseGanji_xzl:/data -v /home/www_remote/img/uploads/webs/:/home/webs -v /opt/ms_common:/opt/common -v /etc/localtime:/etc/localtime:ro ubuntu:scrapy-findHouse /bin/bash
+房天下商铺启动
+docker run --name findHouseFang -d -ti -v /opt/findHouseFang:/data -v /home/www.912zufang.cn/public/uploads/webs/:/home/webs ubuntu:scrapy-findHouse /bin/bash
+docker run --net=host --name findHouseFang -d -ti -v /opt/findHouseFang:/data -v /home/www_remote/img/uploads/webs/:/home/webs -v /opt/ms_common:/opt/common -v /etc/localtime:/etc/localtime:ro ubuntu:scrapy-findHouse /bin/bash
+房天下写字楼启动
+docker run --name findHouseFang_xzl -d -ti -v /opt/findHouseFang_xzl:/data -v /home/www.912zufang.cn/public/uploads/webs/:/home/webs ubuntu:scrapy-findHouse /bin/bash
+docker run --net=host --name findHouseFang_xzl -d -ti -v /opt/findHouseFang_xzl:/data -v /home/www_remote/img/uploads/webs/:/home/webs -v /opt/ms_common:/opt/common -v /etc/localtime:/etc/localtime:ro ubuntu:scrapy-findHouse /bin/bash
+
+小区爬虫
+================
+docker run --name findXiaoqu -d -ti -v /opt/findXiaoqu:/data -v /home/www.912zufang.cn/public/uploads/webs/:/home/webs ubuntu:scrapy-findHouse /bin/bash
+58小区
+docker run --net=host --name findXiaoqu -d -ti -v /opt/ms_xiaoqu/findXiaoqu:/data -v /opt/ms_common:/opt/common -v /etc/localtime:/etc/localtime:ro ubuntu:scrapy-findHouse /bin/bash
+365小区
+docker run --net=host --name findXiaoqu365 -d -ti -v /opt/ms_xiaoqu/findXiaoqu365:/data -v /opt/ms_common:/opt/common -v /etc/localtime:/etc/localtime:ro ubuntu:scrapy-findHouse /bin/bash
+房天下小区
+docker run --net=host --name findXiaoquFang -d -ti -v /opt/ms_xiaoqu/findXiaoquFang:/data -v /opt/ms_common:/opt/common -v /etc/localtime:/etc/localtime:ro ubuntu:scrapy-findHouse /bin/bash
+安居客楼盘
+docker run --net=host --name findBuildingAjk -d -ti -v /opt/ms_xiaoqu/findBuildingAjk:/data -v /opt/ms_common:/opt/common -v /etc/localtime:/etc/localtime:ro ubuntu:scrapy-findHouse /bin/bash
+58小区价格
+docker run --net=host --name findXiaoquPrice -d -ti -v /opt/ms_xiaoqu/findPrice58:/data -v /opt/ms_common:/opt/common -v /etc/localtime:/etc/localtime:ro ubuntu:scrapy-findHouse /bin/bash
+365小区价格
+docker run --net=host --name findXiaoquPrice365 -d -ti -v /opt/ms_xiaoqu/findPrice365:/data -v /opt/ms_common:/opt/common -v /etc/localtime:/etc/localtime:ro ubuntu:scrapy-findHouse /bin/bash
+房天下小区价格
+docker run --net=host --name findXiaoquPriceFang -d -ti -v /opt/ms_xiaoqu/findPriceFang:/data -v /opt/ms_common:/opt/common -v /etc/localtime:/etc/localtime:ro ubuntu:scrapy-findHouse /bin/bash
+
+
+copyHouse 任务爬虫
+========================
+365出租
+docker run --net=host --name ms_task_365 -d -ti -v /opt/ms_for_rental/ms_task_365:/data -v /home/www_remote/ms_img/uploads/webs/:/home/webs -v /opt/ms_common:/opt/common -v /etc/localtime:/etc/localtime:ro ubuntu:scrapy-findHouse /bin/bash
+58出租
+docker run --net=host --name ms_task_58 -d -ti -v /opt/ms_for_rental/ms_task_58:/data -v /home/www_remote/ms_img/uploads/webs/:/home/webs -v /opt/ms_common:/opt/common -v /etc/localtime:/etc/localtime:ro ubuntu:scrapy-findHouse /bin/bash
+ganji出租
+docker run --net=host --name ms_task_ganji -d -ti -v /opt/ms_for_rental/ms_task_ganji:/data -v /home/www_remote/ms_img/uploads/webs/:/home/webs -v /opt/ms_common:/opt/common -v /etc/localtime:/etc/localtime:ro ubuntu:scrapy-findHouse /bin/bash
+fang出租
+docker run --net=host --name ms_task_fang -d -ti -v /opt/ms_for_rental/ms_task_fang:/data -v /home/www_remote/ms_img/uploads/webs/:/home/webs -v /opt/ms_common:/opt/common -v /etc/localtime:/etc/localtime:ro ubuntu:scrapy-findHouse /bin/bash
+
+fang出售
+docker run --net=host --name ms_task_sale_fang -d -ti -v /opt/ms_for_sale/ms_task_fang:/data -v /home/www_remote/ms_img/uploads/webs/:/home/webs -v /opt/ms_common:/opt/common -v /etc/localtime:/etc/localtime:ro ubuntu:scrapy-findHouse /bin/bash
+365出售
+docker run --net=host --name ms_task_sale_365 -d -ti -v /opt/ms_for_sale/ms_task_365:/data -v /home/www_remote/ms_img/uploads/webs/:/home/webs -v /opt/ms_common:/opt/common -v /etc/localtime:/etc/localtime:ro ubuntu:scrapy-findHouse /bin/bash
+58出售
+docker run --net=host --name ms_task_sale_58 -d -ti -v /opt/ms_for_sale/ms_task_58:/data -v /home/www_remote/ms_img/uploads/webs/:/home/webs -v /opt/ms_common:/opt/common -v /etc/localtime:/etc/localtime:ro ubuntu:scrapy-findHouse /bin/bash
+ganji出售
+docker run --net=host --name ms_task_sale_ganji -d -ti -v /opt/ms_for_sale/ms_task_ganji:/data -v /home/www_remote/ms_img/uploads/webs/:/home/webs -v /opt/ms_common:/opt/common -v /etc/localtime:/etc/localtime:ro ubuntu:scrapy-findHouse /bin/bash
+
+列表爬虫
+========================
+365出租
+docker run --net=host --name ms_spider_365 -d -ti -v /opt/ms_for_rental/ms_spider_365:/data -v /home/www_remote/ms_img/uploads/webs/:/home/webs -v /opt/ms_common:/opt/common -v /etc/localtime:/etc/localtime:ro ubuntu:scrapy-findHouse /bin/bash
+docker run --net=host --name ms_list_365 -d -ti -v /opt/ms_house_list:/data -v /home/www_remote/ms_img/uploads/webs/:/home/webs -v /opt/ms_common:/opt/common -v /etc/localtime:/etc/localtime:ro ubuntu:scrapy-findHouse /bin/bash
+docker run --net=host --name ms_spider_365_extend -d -ti -v /opt/ms_for_rental/ms_spider_365_extend:/data -v /home/www_remote/ms_img/uploads/webs/:/home/webs -v /opt/ms_common:/opt/common -v /etc/localtime:/etc/localtime:ro ubuntu:scrapy-findHouse /bin/bash
+
+58出租
+docker run --net=host --name ms_spider_58 -d -ti -v /opt/ms_for_rental/ms_spider_58:/data -v /home/www_remote/ms_img/uploads/webs/:/home/webs -v /opt/ms_common:/opt/common -v /etc/localtime:/etc/localtime:ro ubuntu:scrapy-findHouse /bin/bash
+docker run --net=host --name ms_list_58 -d -ti -v /opt/ms_house_list:/data -v /home/www_remote/ms_img/uploads/webs/:/home/webs -v /opt/ms_common:/opt/common -v /etc/localtime:/etc/localtime:ro ubuntu:scrapy-findHouse /bin/bash
+docker run --net=host --name ms_spider_58_extend -d -ti -v /opt/ms_for_rental/ms_spider_58_extend:/data -v /home/www_remote/ms_img/uploads/webs/:/home/webs -v /opt/ms_common:/opt/common -v /etc/localtime:/etc/localtime:ro ubuntu:scrapy-findHouse /bin/bash
+
+ganji出租
+docker run --net=host --name ms_spider_ganji -d -ti -v /opt/ms_for_rental/ms_spider_ganji:/data -v /home/www_remote/ms_img/uploads/webs/:/home/webs -v /opt/ms_common:/opt/common -v /etc/localtime:/etc/localtime:ro ubuntu:scrapy-findHouse /bin/bash
+fang出租
+docker run --net=host --name ms_spider_fang -d -ti -v /opt/ms_for_rental/ms_spider_fang:/data -v /home/www_remote/ms_img/uploads/webs/:/home/webs -v /opt/ms_common:/opt/common -v /etc/localtime:/etc/localtime:ro ubuntu:scrapy-findHouse /bin/bash
+docker run --net=host --name ms_list_fang -d -ti -v /opt/ms_house_list:/data -v /home/www_remote/ms_img/uploads/webs/:/home/webs -v /opt/ms_common:/opt/common -v /etc/localtime:/etc/localtime:ro ubuntu:scrapy-findHouse /bin/bash
+docker run --net=host --name ms_spider_fang_extend -d -ti -v /opt/ms_for_rental/ms_spider_fang_extend:/data -v /home/www_remote/ms_img/uploads/webs/:/home/webs -v /opt/ms_common:/opt/common -v /etc/localtime:/etc/localtime:ro ubuntu:scrapy-findHouse /bin/bash
+
+01fy出租
+docker run --net=host --name ms_spider_01fy -d -ti -v /opt/ms_for_rental/ms_spider_01fy:/data -v /home/www_remote/ms_img/uploads/webs/:/home/webs -v /opt/ms_common:/opt/common -v /etc/localtime:/etc/localtime:ro ubuntu:scrapy-findHouse /bin/bash
+
+fang出售
+docker run --net=host --name ms_spider_sale_fang -d -ti -v /opt/ms_for_sale/ms_spider_fang:/data -v /home/www_remote/ms_img/uploads/webs/:/home/webs -v /opt/ms_common:/opt/common -v /etc/localtime:/etc/localtime:ro ubuntu:scrapy-findHouse /bin/bash
+docker run --net=host --name ms_list_sale_fang -d -ti -v /opt/ms_house_list:/data -v /home/www_remote/ms_img/uploads/webs/:/home/webs -v /opt/ms_common:/opt/common -v /etc/localtime:/etc/localtime:ro ubuntu:scrapy-findHouse /bin/bash
+docker run --net=host --name ms_spider_sale_fang_extend -d -ti -v /opt/ms_for_sale/ms_spider_fang_extend:/data -v /home/www_remote/ms_img/uploads/webs/:/home/webs -v /opt/ms_common:/opt/common -v /etc/localtime:/etc/localtime:ro ubuntu:scrapy-findHouse /bin/bash
+
+365出售
+docker run --net=host --name ms_spider_sale_365 -d -ti -v /opt/ms_for_sale/ms_spider_365:/data -v /home/www_remote/ms_img/uploads/webs/:/home/webs -v /opt/ms_common:/opt/common -v /etc/localtime:/etc/localtime:ro ubuntu:scrapy-findHouse /bin/bash
+docker run --net=host --name ms_list_sale_365 -d -ti -v /opt/ms_house_list:/data -v /home/www_remote/ms_img/uploads/webs/:/home/webs -v /opt/ms_common:/opt/common -v /etc/localtime:/etc/localtime:ro ubuntu:scrapy-findHouse /bin/bash
+docker run --net=host --name ms_spider_sale_365_extend -d -ti -v /opt/ms_for_sale/ms_spider_365_extend:/data -v /home/www_remote/ms_img/uploads/webs/:/home/webs -v /opt/ms_common:/opt/common -v /etc/localtime:/etc/localtime:ro ubuntu:scrapy-findHouse /bin/bash
+
+58出售
+docker run --net=host --name ms_spider_sale_58 -d -ti -v /opt/ms_for_sale/ms_spider_58:/data -v /home/www_remote/ms_img/uploads/webs/:/home/webs -v /opt/ms_common:/opt/common -v /etc/localtime:/etc/localtime:ro ubuntu:scrapy-findHouse /bin/bash
+docker run --net=host --name ms_list_sale_58 -d -ti -v /opt/ms_house_list:/data -v /home/www_remote/ms_img/uploads/webs/:/home/webs -v /opt/ms_common:/opt/common -v /etc/localtime:/etc/localtime:ro ubuntu:scrapy-findHouse /bin/bash
+docker run --net=host --name ms_spider_sale_58_extend -d -ti -v /opt/ms_for_sale/ms_spider_58_extend:/data -v /home/www_remote/ms_img/uploads/webs/:/home/webs -v /opt/ms_common:/opt/common -v /etc/localtime:/etc/localtime:ro ubuntu:scrapy-findHouse /bin/bash
+
+赶集出售
+docker run --net=host --name ms_spider_sale_ganji -d -ti -v /opt/ms_for_sale/ms_spider_ganji:/data -v /home/www_remote/ms_img/uploads/webs/:/home/webs -v /opt/ms_common:/opt/common -v /etc/localtime:/etc/localtime:ro ubuntu:scrapy-findHouse /bin/bash
+
+01fy出售
+docker run --net=host --name ms_spider_sale_01fy -d -ti -v /opt/ms_for_sale/ms_spider_01fy:/data -v /home/www_remote/ms_img/uploads/webs/:/home/webs -v /opt/ms_common:/opt/common -v /etc/localtime:/etc/localtime:ro ubuntu:scrapy-findHouse /bin/bash
+
+
+主站全量出售列表爬虫
+=====
+docker run --net=host --name ms_spider_sale_365_house -d -ti -v /opt/ms_for_sale/ms_spider_365_house:/data -v /home/www_remote/ms_img/uploads/webs/:/home/webs -v /opt/ms_common:/opt/common -v /etc/localtime:/etc/localtime:ro ubuntu:scrapy-findHouse /bin/bash
+docker run --net=host --name ms_spider_sale_ke_house -d -ti -v /opt/ms_for_sale/ms_spider_ke_house:/data -v /home/www_remote/ms_img/uploads/webs/:/home/webs -v /opt/ms_common:/opt/common -v /etc/localtime:/etc/localtime:ro ubuntu:scrapy-findHouse /bin/bash
+docker run --net=host --name ms_spider_sale_5i5j_house -d -ti -v /opt/ms_for_sale/ms_spider_5i5j_house:/data -v /home/www_remote/ms_img/uploads/webs/:/home/webs -v /opt/ms_common:/opt/common -v /etc/localtime:/etc/localtime:ro ubuntu:scrapy-findHouse /bin/bash
+
+58求租
+docker run --net=host --name ms_want_rental_58 -d -ti -v /opt/ms_want_rental/ms_want_rental_58:/data -v /home/www_remote/ms_img/uploads/webs/:/home/webs -v /opt/ms_common:/opt/common -v /etc/localtime:/etc/localtime:ro ubuntu:scrapy-findHouse /bin/bash
+ganji求租
+docker run --net=host --name ms_want_rental_ganji -d -ti -v /opt/ms_want_rental/ms_want_rental_ganji:/data -v /home/www_remote/ms_img/uploads/webs/:/home/webs -v /opt/ms_common:/opt/common -v /etc/localtime:/etc/localtime:ro ubuntu:scrapy-findHouse /bin/bash
+
+58求购
+docker run --net=host --name ms_want_sale_58 -d -ti -v /opt/ms_want_sale/ms_want_sale_58:/data -v /home/www_remote/ms_img/uploads/webs/:/home/webs -v /opt/ms_common:/opt/common -v /etc/localtime:/etc/localtime:ro ubuntu:scrapy-findHouse /bin/bash
+
+全量低频爬取
+docker run --net=host --name ms_for_full_all -d -ti -v /opt/ms_for_full_all:/data -v /opt/ms_common:/opt/common -v /etc/localtime:/etc/localtime:ro ubuntu:scrapy-findHouse /bin/bash
+docker run --net=host --name ms_for_want_all -d -ti -v /opt/ms_for_want_all:/data -v /opt/ms_common:/opt/common -v /etc/localtime:/etc/localtime:ro ubuntu:scrapy-findHouse /bin/bash
+
+登录发布爬虫
+=========================
+docker run --net=host --name ms_task_pub -d -ti -v /opt/ms_task_pub:/data -v /home/www_remote/ms_img/uploads/webs/:/home/webs -v /opt/ms_common:/opt/common ubuntu:scrapy-findHouse /bin/bash
+docker run --net=host --name ms_task_pub_ --add-host img.fjling.com:192.168.5.250 -d -ti -v /opt/ms_task_pub_:/data -v /home/www_remote/ms_img/uploads/webs/:/home/webs -v /opt/ms_common:/opt/common -v /etc/localtime:/etc/localtime:ro ubuntu:scrapy-findHouse-pub /bin/bash
+docker run --net=host --name ms_task_pub_refresh -d -ti -v /opt/ms_task_pub_:/data -v /home/www_remote/ms_img/uploads/webs/:/home/webs -v /opt/ms_common:/opt/common -v /etc/localtime:/etc/localtime:ro ubuntu:scrapy-findHouse-pub /bin/bash
+docker run --net=host --name ms_task_pub_sync -d -ti -v /opt/ms_task_pub_:/data -v /home/www_remote/ms_img/uploads/webs/:/home/webs -v /opt/ms_common:/opt/common -v /etc/localtime:/etc/localtime:ro ubuntu:scrapy-findHouse-pub /bin/bash
+
+爬虫守护进程
+=========================
+docker run --net=host --name ms_task_watch -d -ti -v /opt/ms_task_watch:/data -v /home/www_remote/ms_img/uploads/webs/:/home/webs -v /opt/ms_common:/opt/common ubuntu:scrapy-findHouse /bin/bash
+
+过期检查爬虫
+========
+docker run --net=host --name ms_check_invalid_rental -d -ti -v /opt/ms_check_invalid_rental:/data -v /home/www_remote/ms_img/uploads/webs/:/home/webs -v /opt/ms_common:/opt/common -v /etc/localtime:/etc/localtime:ro ubuntu:scrapy-findHouse /bin/bash
+docker run --net=host --name ms_check_invalid_sale -d -ti -v /opt/ms_check_invalid_sale:/data -v /home/www_remote/ms_img/uploads/webs/:/home/webs -v /opt/ms_common:/opt/common -v /etc/localtime:/etc/localtime:ro ubuntu:scrapy-findHouse /bin/bash
+
+crm
+============
+docker run --net=host --name crm -d -ti -p 8080:9527 --add-host crm.912zufang.org:172.16.185.109 --add-host boss.912zufang.org:127.0.0.1 -v /home/www_remote/monitor/:/home/www_remote/monitor/ ubuntu:crm /bin/bash
+docker run --name test-ldap-crm -d -p 8088:80 --dns=192.168.5.250 -v /root/soft:/root/soft -v /etc/localtime:/etc/localtime:ro -ti centos/php-lday-v.02 /bin/bash
+
+pip install -i https://pypi.doubanio.com/simple/ requests faker
+
+webTask
+==============
+copy.taskapi.912zufang.com
+docker run --name ms_web_task --add-host img.fjling.com:192.168.5.250 --dns=192.168.5.250 -d -ti -p 5000:5000 -v /opt/webTask:/data -v /home/www_remote/ms_img/uploads/webs/:/home/webs -v /opt/ms_common:/opt/common -v /etc/localtime:/etc/localtime:ro ubuntu:web-task /bin/bash
+docker run --name ms_web_task2 -d -ti -p 5001:5001 -v /opt/webTask:/data -v /home/www_remote/ms_img/uploads/webs/:/home/webs -v /opt/ms_common:/opt/common -v /etc/localtime:/etc/localtime:ro ubuntu:web-task /bin/bash
+
+gunicorn -w2 -b0.0.0.0:5000 index:app -D
+docker exec -d -w /data ms_web_task pip install -i https://pypi.doubanio.com/simple/ fonttools
+apt-get update
+apt-get install python-mysqldb
+pip install -i https://pypi.doubanio.com/simple/ DBUtils
+pip install -i https://pypi.doubanio.com/simple/ moviepy
+export FLASK_APP=index.py
+python -m flask run
+import moviepy
+from moviepy.editor import VideoFileClip
+
+docker run --name ms_web_task_detail -d -ti -p 5050:5050 -v /opt/webTask:/data -v /opt/ms_common:/opt/common -v /etc/localtime:/etc/localtime:ro ubuntu:web-task /bin/bash
+gunicorn -w10 -b0.0.0.0:5050 index:app
+
+web_pub_task
+==============
+pub.taskapi.912zufang.com
+docker run --name ms_web_pub_task --add-host img.fjling.com:192.168.5.250 -d -ti -p 6000:6000 -v /opt/web_pub_task:/data -v /home/www_remote/ms_img/uploads/webs/:/home/webs -v /opt/ms_common:/opt/common -v /etc/localtime:/etc/localtime:ro ubuntu:web-pub-task /bin/bash
+pip install -i https://pypi.doubanio.com/simple/ gunicorn
+pip install -i https://pypi.doubanio.com/simple/ flask
+pip install -i https://pypi.doubanio.com/simple/ futures
+# selenium + Phantomjs  安装
+pip install -i https://pypi.doubanio.com/simple/ selenium
+https://blog.csdn.net/yin__ren/article/details/79410393
+> apt-get install build-essential chrpath libssl-dev libxft-dev libfreetype6-dev libfreetype6 libfontconfig1-dev libfontconfig1 -y
+> apt-get install wget
+> wget https://bitbucket.org/ariya/phantomjs/downloads/phantomjs-2.1.1-linux-x86_64.tar.bz2
+> tar xvjf phantomjs-2.1.1-linux-x86_64.tar.bz2 -C /usr/local/share/
+> ln -s /usr/local/share/phantomjs-2.1.1-linux-x86_64/bin/phantomjs /usr/local/bin/
+> phantomjs --version  # 检查是否安装成功
+
+gunicorn -w2 -b0.0.0.0:6000 index:app -D
+
+web_service_common
+==============
+common.api.912zufang.com
+docker run --name web_service_common --dns=192.168.5.250 -d -ti -p 8000:8000 -v /opt/service_common:/data -v /opt/ms_common:/opt/common -v /etc/localtime:/etc/localtime:ro ubuntu:web-task /bin/bash
+docker run --net=host --name web_service_common -d -ti -v /opt/service_common:/data -v /opt/ms_common:/opt/common -v /etc/localtime:/etc/localtime:ro ubuntu/web_service_common:latest /bin/bash
+pip install -i https://pypi.doubanio.com/simple/ gunicorn
+pip install -i https://pypi.doubanio.com/simple/ flask
+pip install -i https://pypi.doubanio.com/simple/ pycrypto
+gunicorn -w2 -b0.0.0.0:8000 index:app
+
+proxy_spider启动：
+docker run -d -ti -v /opt/proxy_spider:/data ubuntu:scrapy
+docker run --name proxy_spider -d -ti -v /opt/proxy_spider:/data -v /etc/localtime:/etc/localtime:ro ubuntu:scrapy /bin/bash
+docker run --net=host --name proxy_spider -d -ti -v /opt/proxy_spider:/data -v /opt/ms_common:/opt/common -v /etc/localtime:/etc/localtime:ro ubuntu:proxy_spider /bin/bash
+proxy_spider_58爬虫启动：
+docker run --net=host --name proxy_spider_58 -d -ti -v /opt/proxy_spider_58:/data -v /opt/ms_common:/opt/common -v /etc/localtime:/etc/localtime:ro ubuntu:proxy_spider /bin/bash
+proxy_spider_good爬虫启动：
+docker run --net=host --name proxy_spider_good -d -ti -v /opt/proxy_spider_good:/data -v /opt/ms_common:/opt/common -v /etc/localtime:/etc/localtime:ro ubuntu:proxy_spider /bin/bash
+proxy_spider_365爬虫启动：
+docker run --net=host --name proxy_spider_365 -d -ti -v /opt/proxy_spider_365:/data -v /opt/ms_common:/opt/common -v /etc/localtime:/etc/localtime:ro ubuntu:proxy_spider /bin/bash
+proxy_spider_ganji爬虫启动：
+docker run --net=host --name proxy_spider_ganji -d -ti -v /opt/proxy_spider_ganji:/data -v /opt/ms_common:/opt/common -v /etc/localtime:/etc/localtime:ro ubuntu:proxy_spider /bin/bash
+proxy_spider_fang爬虫启动：
+docker run --net=host --name proxy_spider_fang -d -ti -v /opt/proxy_spider_fang:/data -v /opt/ms_common:/opt/common -v /etc/localtime:/etc/localtime:ro ubuntu:proxy_spider /bin/bash
+proxy_spider_ajk爬虫启动：
+docker run --net=host --name proxy_spider_ajk -d -ti -v /opt/proxy_spider_ajk:/data -v /opt/ms_common:/opt/common -v /etc/localtime:/etc/localtime:ro ubuntu:proxy_spider /bin/bash
+进入容器：docker exec -ti proxy_spider bash
+启动脚本：
+cd /data
+pip install -r requirements.txt
+cp hq-proxies.yml /etc
+python ./start.py
+
+
+walle启动：
+docker run -ti -v /opt/walle:/opt/walle-web -v /opt/ezhttp-master:/opt/ezhttp-master ubuntu:latest
+docker run -ti -d -p:8081:80 -v /opt/walle:/opt/walle-web -v /opt/walle/docker/vhost:/usr/local/nginx/conf/vhost ubuntu:walle
+需要启动
+发布系统walle启动：
+docker run -ti -d --privileged -v /opt/walle:/home/wwwroot/ -p 8080:80 --name walle centos:np71  
+www 123456
+www_remote 123456
+报错： Warning: exec() has been disabled for security reasons =====>编辑php.ini查找 disable_functions 将等号后面的 system exec 去掉即可
+escapeshellarg() has been disabled for security reasons ====>I searched escapesshellarg, and found it in disable_functions=
+
+创建www_remote
+adduser www_remote
+su - www_remote
+lid -g wheel
+vi /etc/ssh/sshd_config
+service sshd restart
+  
+  
+
+gogs启动：
+docker run -d --name=mygogs -p 10022:22 -p 10080:3000 -v /opt/gogs:/data gogs/gogs
+
+svn:
+docker run --name svn-server \
+           --detach \
+           --volume /opt/svn:/var/opt/svn \
+           --publish 3690:3690 \
+           garethflowers/svn-server
+		   
+进入容器：docker exec -it some-svn-server svnadmin create new-repo
+
+
+
+elk启动：
+#docker pull sebp/elk
+#docker run --ulimit nofile=65536:65536 -p 5601:5601 -p 9200:9200 -p 5044:5044 -p 5045:5045 -p 5046:5046 -d -v /opt/elk/logstash:/etc/logstash -v /etc/localtime:/etc/localtime --name elk sebp/elk
+docker run --name elasticsearch -v /opt/elk/es/esdata:/usr/share/elasticsearch/data -p 9200:9200 -d elasticsearch
+docker run \
+-d \
+-p 5601:5601 \
+--link elasticsearch:elasticsearch \
+-e ELASTICSEARCH_URL=http://elasticsearch:9200 \
+--name kinaba \
+kibana
+
+
+docker run \
+-d \
+-p 4560:4560 \
+-v /opt/elk/logstash/logstash.conf:/etc/logstash.conf \
+-v /tmp/log:/tmp/log \
+--link elasticsearch:elasticsearch \
+--name logstash \
+logstash \
+logstash -f /etc/logstash.conf
+
+
+
+docker爬虫启动脚本：
+=========启动58住宅脚本
+docker exec -d -w /data findHouse_zz scrapy crawl quotes
+=========启动58写字楼脚本
+docker exec -d -w /data findHouse_xzl scrapy crawl quotes
+=========启动58商铺脚本
+docker exec -d -w /data findHouse scrapy crawl quotes
+
+=========启动365住宅脚本
+docker exec -d -w /data findHouse365_zz scrapy crawl quotes
+=========启动365写字楼脚本
+docker exec -d -w /data findHouse365_xzl scrapy crawl quotes
+=========启动365商铺脚本
+docker exec -d -w /data findHouse365 scrapy crawl quotes
+
+
+docker exec -d -w /data ms_task_ganji pip install -i https://pypi.doubanio.com/simple/ oss2
+docker restart findHouse365_xzl
+docker exec -d -w /data findHouse365_xzl python start.py
+docker restart findHouse365
+docker exec -d -w /data findHouse365 python start.py
+
+docker restart findHouseFang_xzl
+docker exec -d -w /data findHouseFang_xzl python start.py
+
+docker restart findHouseFang
+docker exec -d -w /data findHouseFang python start.py
+
+docker restart findHouse_xzl
+docker exec -d -w /data findHouse_xzl python start.py
+
+docker restart findHouse
+docker exec -d -w /data findHouse python start.py
+
+docker restart findHouseGanji_xzl
+docker exec -d -w /data findHouseGanji_xzl python start.py
+
+docker restart findHouseGanji
+docker exec -d -w /data findHouseGanji python start.py
+
+每天晚上12点执行脚本：
+crontab -l
+crontab -e
+01 21 * * * /root/shell/start_scrapy.sh
+#每天早上9点01分 预发布爬虫日报脚本
+01 9 * * * python /root/shell_python/check_scrapy_data.py
+#每天早上9点05分 预发布912租房日报脚本
+05 9 * * * python /root/shell_python/check_reg_user_data.py
+#每天早上9点05分 预发布房鲸灵租房日报脚本
+05 9 * * * python /root/shell_python/ms_check_reg_user_data.py
+晚上1点到早上6点之间，每隔一小时重启apache
+0,30 1-6 * * * python /root/shell_python/del_old_scrapy_data.py
+#每天晚上3点01分 首页数据生成脚本
+01 3 * * * /usr/local/php/bin/php /home/www_remote/thinkscript/think echart
+
+#每天早上7点01分 登录任务执行
+01 7 * * * python /opt/ms_task_watch/check_login.py
+#每天晚上9点01分 登录任务执行
+01 21 * * * python /opt/ms_task_watch/check_login.py
+#每天晚上11点01分 同步房源任务执行
+01 23 * * * python /opt/ms_task_watch/check_syn_house_plan.py
+
+nohup python /opt/ms_task_watch/check_task.py >> /opt/ms_task_watch/check_task.log 2>&1 &
+nohup python /opt/ms_task_watch/pre_pub_task.py >> /opt/ms_task_watch/pre_pub_task.log 2>&1 &
+nohup python /opt/ms_task_watch/check_syn_house.py >> /opt/ms_task_watch/check_syn_house.log 2>&1 &
+#####nohup python /opt/ms_task_watch/pub_task_delay_monitor.py >> /opt/ms_task_watch/pub_task_delay_monitor.log 2>&1 & 
+nohup python /opt/ms_task_watch/check_refresh.py >> /opt/ms_task_watch/check_refresh.log 2>&1 & 
+nohup python /opt/ms_task_watch/pre_re_pub.py >> /opt/ms_task_watch/pre_re_pub.log 2>&1 & 
+nohup python /opt/ms_task_watch/check_error_proxy.py >> /opt/ms_task_watch/check_error_proxy.log 2>&1 & 
+elk服务器上
+nohup python /root/shell_python/check_http_nginx.py &
+nohup mom run -c /root/test_mom/binlog_config.py >> /root/test_mom/binlog_config.log 2>&1 &
+nohup mom run -c /root/test_mom/sale_binlog_config.py >> /root/test_mom/sale_binlog_config.log 2>&1 &
+nohup mom run -c /root/test_mom/rental_binlog_config.py >> /root/test_mom/rental_binlog_config.log 2>&1 &
+
+nohup /root/wine-3.0.5/wine main.exe >> /root/wine.log 2>&1 &
+
+
+
+jenkins记录：
+docker run \
+-d \
+-u root \
+-p 8080:8080 \
+-v jenkins-data:/var/jenkins_home \
+-v /var/run/docker.sock:/var/run/docker.sock \
+-v "$HOME":/home \
+jenkinsci/blueocean
+
+07661d9e19f346519d02478a3b9c49d3
+6f76544c9689424894161536dce3995a
+admin admin1688
+
+
+wuah9g4giys1g73
+
+
+dns容器启动：
+docker run -d \
+-p 192.168.5.250:53:53/tcp \
+-p 192.168.5.250:53:53/udp \
+-v /opt/dns/my_dnsmasq_hosts:/etc/my_dnsmasq_hosts \
+-v /opt/dns/my_resolv.dnsmasq:/etc/my_resolv.dnsmasq \
+--cap-add=NET_ADMIN \
+--name my_dns_server \
+andyshinn/dnsmasq
+
+
+预发布修改域名
+/home/www_remote/thinkphp/library/think/Url.php
+158 		$domain = '';
+
+gitlab
+docker network create --subnet=172.18.0.0/16 mynetwork
+docker run --detach \
+--hostname git.912zufang.org \
+--publish 11443:443 --publish 11080:80 --publish 11022:22 \
+--name gitlab \
+--restart always \
+--volume /opt/gitlab/config:/etc/gitlab \
+--volume /opt/gitlab/logs:/var/log/gitlab \
+--volume /opt/gitlab/data:/var/opt/gitlab \
+gitlab/gitlab-ce:latest
+
+elk623
+=================
+sudo docker run -p 5601:5601 -p 9200:9200 -p 5044:5044 -it --name elk sebp/elk /usr/local/bin/start.sh
+
+
+filebeat
+=================
+nohup /root/filebeat/filebeat -e -c /root/filebeat/filebeat_php.yml &
+
+elastalert 容器
+=====================
+docker run --name elastalert -d -ti --net=host -v /opt/elastalert:/opt/elastalert ubuntu:python 
+
+python -m elastalert.elastalert --verbose --rule example_frequency.yaml
+nohup python -m elastalert.elastalert --verbose --rule example_frequency.yaml &
+
+Zabbix
+=========
+docker run --name zabbix_server_mysql --net=host -d -p 10051:10051 -e DB_SERVER_HOST=192.168.174.1 -e DB_SERVER_PORT=3306 -e MYSQL_USER=ldl -e MYSQL_PASSWORD=123456 zabbix/zabbix-server-mysql
+docker run --name zabbix_server_mysql -d -p 10051:10051 -e DB_SERVER_HOST=192.168.5.250 -e DB_SERVER_PORT=3306 -e MYSQL_USER=devadmin -e MYSQL_PASSWORD=admin1688 zabbix/zabbix-server-mysql
+
+docker run --name zabbix_web_apache_mysql -p 8088:80 -e DB_SERVER_HOST="192.168.5.250" \
+-e MYSQL_USER="devadmin" \
+-e MYSQL_PASSWORD="admin1688" \
+-e ZBX_SERVER_HOST="192.168.5.250" \
+-e PHP_TZ="Asia/Shanghai" \
+-d zabbix/zabbix-web-apache-mysql
+
+docker run --name zabbix_agent \
+-p 10050:10050 -e ZBX_HOSTNAME="192.168.5.250" \
+-e ZBX_SERVER_HOST="192.168.5.250" \
+-e ZBX_SERVER_PORT=10051 \
+-d zabbix/zabbix-agent
+
+admin admin1688
+
+https://s.release.xms.4846.com/release-web/ajax/import/findDistricts.do?city=21
+
+
+五点半的时候跑下SQL：
+SELECT
+    count(id) as num,
+    title,
+    user_id,
+    collect_type,
+    edit_user_id,
+    scrapy_extend_info,
+    from_unixtime(create_time),
+    house_type
+FROM
+    fang_rental
+WHERE
+`status` = 1
+and
+    id>=5280
+GROUP BY house_type
+把数据发祥哥即可~
+
+
+vip.anjuke.com/newverify/?isPseudo=0&opid=&source=&opip=&token=f06a7f93cd534821f9019648a5a302fa
+login.anjuke.com/login/verify?token=06dad88c5987ddec813d82a7e873a9d7&source=1
+vip.anjuke.com/login/token/?token=07a1f6179d9adc6be43e46e6c3ae098c&loginType=qrcode
+http://h5.anjuke.com/qrcodeLogin/?guid=7c30a013834818739e5e
+
+1====》 https://vip.anjuke.com/ajax/getloginqrcode?t=1535958269385
+{"status":"ok","data":{"url":"vip.anjuke.com/qrcode/login/?guid=69363ef46d63cf3318f3","guid":"039aebe355ae5aecfcfa"}}
+2====》 保存二维码&打开移动经纪人扫描这个二维码，先不点确定
+https://api.anjuke.com/mobile-ajk-broker/3.0/codelogin/scan?app=i-broker2&brokerId=6094547&cid=16&cv=8.7&from=mobile&guid=27d5015b80ccaaf868ab&i=47003803-D155-4939-AE2F-201809171146&idfa=24514D85-9D9A-44AD-B2E2-FB536716A40B&m=iPhone&macid=0f607264fc6318a92b9e13c65db7cd3c&o=iOS&openudid=a3f338cc3d97668ea4ef5a52e7c1ee86cc917947&ostype2=ios11&pm=A01&qtime=20180917131202&token=f13fe8060205c8c06beda59a8726666a&udid2=4261873D-6BF2-480D-A9EB-201806211832&uuid2=47003803-D155-4939-AE2F-201809171146&uuid=47003803-D155-4939-AE2F-201809171146&v=11.4.1
+:method	GET
+:scheme	https
+:path	/mobile-ajk-broker/3.0/codelogin/scan?app=i-broker2&brokerId=6094547&cid=16&cv=8.7&from=mobile&guid=27d5015b80ccaaf868ab&i=47003803-D155-4939-AE2F-201809171146&idfa=24514D85-9D9A-44AD-B2E2-FB536716A40B&m=iPhone&macid=0f607264fc6318a92b9e13c65db7cd3c&o=iOS&openudid=a3f338cc3d97668ea4ef5a52e7c1ee86cc917947&ostype2=ios11&pm=A01&qtime=20180917131202&token=f13fe8060205c8c06beda59a8726666a&udid2=4261873D-6BF2-480D-A9EB-201806211832&uuid2=47003803-D155-4939-AE2F-201809171146&uuid=47003803-D155-4939-AE2F-201809171146&v=11.4.1
+:authority	api.anjuke.com
+content-type	application/json
+accept	application/json
+authtoken	f13fe8060205c8c06beda59a8726666a
+key	16ef94c3684a3b93626e5694affd167e
+accept-language	zh-Hans-CN;q=1
+accept-encoding	br, gzip, deflate
+nsign	10006c712963d9684ac991cba731f6ea6204
+user-agent	AnjukeBroker_New/8.7 (iPhone; iOS 11.4.1; Scale/2.00)
+sig	5dfa5b06bcc2f694570c33ace6e921a6
+cookie	sessid=72F3D642-D55E-D929-EA61-D84DF9C6CB97
+
+https://api.anjuke.com/mobile-ajk-broker/3.0/codelogin/checkok?app=i-broker2&brokerId=6094547&cid=16&cv=8.7&from=mobile&guid=27d5015b80ccaaf868ab&i=47003803-D155-4939-AE2F-201809171146&idfa=24514D85-9D9A-44AD-B2E2-FB536716A40B&m=iPhone&macid=0f607264fc6318a92b9e13c65db7cd3c&o=iOS&openudid=a3f338cc3d97668ea4ef5a52e7c1ee86cc917947&ostype2=ios11&pm=A01&qtime=20180917131204&token=f13fe8060205c8c06beda59a8726666a&udid2=4261873D-6BF2-480D-A9EB-201806211832&uuid2=47003803-D155-4939-AE2F-201809171146&uuid=47003803-D155-4939-AE2F-201809171146&v=11.4.1
+:method	GET
+:scheme	https
+:path	/mobile-ajk-broker/3.0/codelogin/checkok?app=i-broker2&brokerId=6094547&cid=16&cv=8.7&from=mobile&guid=27d5015b80ccaaf868ab&i=47003803-D155-4939-AE2F-201809171146&idfa=24514D85-9D9A-44AD-B2E2-FB536716A40B&m=iPhone&macid=0f607264fc6318a92b9e13c65db7cd3c&o=iOS&openudid=a3f338cc3d97668ea4ef5a52e7c1ee86cc917947&ostype2=ios11&pm=A01&qtime=20180917131204&token=f13fe8060205c8c06beda59a8726666a&udid2=4261873D-6BF2-480D-A9EB-201806211832&uuid2=47003803-D155-4939-AE2F-201809171146&uuid=47003803-D155-4939-AE2F-201809171146&v=11.4.1
+:authority	api.anjuke.com
+content-type	application/json
+accept	application/json
+authtoken	f13fe8060205c8c06beda59a8726666a
+key	16ef94c3684a3b93626e5694affd167e
+accept-language	zh-Hans-CN;q=1
+accept-encoding	br, gzip, deflate
+nsign	1000c00c4085e25945d9b199bb99893c962c
+user-agent	AnjukeBroker_New/8.7 (iPhone; iOS 11.4.1; Scale/2.00)
+sig	9d582871875ee76e77232d0e5c55ac4b
+cookie	sessid=72F3D642-D55E-D929-EA61-D84DF9C6CB97
+
+https://api.anjuke.com/mobile-ajk-broker/3.0/codelogin/cancel?app=i-broker2&brokerId=6094547&cid=16&cv=8.7&from=mobile&guid=27d5015b80ccaaf868ab&i=47003803-D155-4939-AE2F-201809171146&idfa=24514D85-9D9A-44AD-B2E2-FB536716A40B&m=iPhone&macid=0f607264fc6318a92b9e13c65db7cd3c&o=iOS&openudid=a3f338cc3d97668ea4ef5a52e7c1ee86cc917947&ostype2=ios11&pm=A01&qtime=20180917131204&token=f13fe8060205c8c06beda59a8726666a&udid2=4261873D-6BF2-480D-A9EB-201806211832&uuid2=47003803-D155-4939-AE2F-201809171146&uuid=47003803-D155-4939-AE2F-201809171146&v=11.4.1
+:method	GET
+:scheme	https
+:path	/mobile-ajk-broker/3.0/codelogin/cancel?app=i-broker2&brokerId=6094547&cid=16&cv=8.7&from=mobile&guid=27d5015b80ccaaf868ab&i=47003803-D155-4939-AE2F-201809171146&idfa=24514D85-9D9A-44AD-B2E2-FB536716A40B&m=iPhone&macid=0f607264fc6318a92b9e13c65db7cd3c&o=iOS&openudid=a3f338cc3d97668ea4ef5a52e7c1ee86cc917947&ostype2=ios11&pm=A01&qtime=20180917131204&token=f13fe8060205c8c06beda59a8726666a&udid2=4261873D-6BF2-480D-A9EB-201806211832&uuid2=47003803-D155-4939-AE2F-201809171146&uuid=47003803-D155-4939-AE2F-201809171146&v=11.4.1
+:authority	api.anjuke.com
+content-type	application/json
+accept	application/json
+authtoken	f13fe8060205c8c06beda59a8726666a
+key	16ef94c3684a3b93626e5694affd167e
+accept-language	zh-Hans-CN;q=1
+accept-encoding	br, gzip, deflate
+nsign	1000118c6d26010d55c959cf3c16014fa201
+user-agent	AnjukeBroker_New/8.7 (iPhone; iOS 11.4.1; Scale/2.00)
+sig	bce4dd4a6190dd7ce828985d6ca73b0e
+cookie	sessid=72F3D642-D55E-D929-EA61-D84DF9C6CB97
+
+3====》 http://qrserver-vip.anjuke.com/login?appid=broker&guid=039aebe355ae5aecfcfa&t=1535953553835&callback=jQuery11100033734093158266365_1535953399743&_=1535953399750
+这个是一个长连接一直等待，直到用户点击确定位置
+4=====》 点击确定登录
+5=====》 3步骤返回结果
+jQuery11100033734093158266365_1535953399743({
+	"status": "ok",
+	"data": {
+		"redirectUri": "https://vip.anjuke.com/login/token/?token=0f9698c54dfd2a9908d152a6d5e79a9b&loginType=qrcode",
+		"code": 200,
+		"guid": "02d7302a79d742c9a1bd"
+	}
+})
+6=====》拿到redirectUri
+
+
+#新建账号
+INSERT INTO `mishu`.`ms_user` (`username`, `password`, `reg_time`, `email`, `mobile`, `status`, `province`, `city`, `distinct`, `company`, `organization`, `recommend_tel`, `login_time`, `login_ip`, `login_num`, `update_time`, `package_id`, `end_time`, `pc_session`, `app_session`) 
+VALUES ('方先生', '10470c3b4b1fed12c3baac014be15fac67c6e815', '1536204796', NULL, '13072552156', '1', '7', '25', '2501', NULL, '', '', '0', '', '0', '0', '3', '1544065200', '', '');
+INSERT INTO `mishu`.`ms_user` (`username`, `password`, `reg_time`, `email`, `mobile`, `status`, `province`, `city`, `distinct`, `company`, `organization`, `recommend_tel`, `login_time`, `login_ip`, `login_num`, `update_time`, `package_id`, `end_time`, `pc_session`, `app_session`) 
+VALUES ('李先生', '10470c3b4b1fed12c3baac014be15fac67c6e815', '1536204796', NULL, '13851651278', '1', '7', '25', '2501', NULL, '', '', '0', '', '0', '0', '3', '1544065200', '', '');
+INSERT INTO `mishu`.`ms_user` (`username`, `password`, `reg_time`, `email`, `mobile`, `status`, `province`, `city`, `distinct`, `company`, `organization`, `recommend_tel`, `login_time`, `login_ip`, `login_num`, `update_time`, `package_id`, `end_time`, `pc_session`, `app_session`) 
+VALUES ('葛先生', '10470c3b4b1fed12c3baac014be15fac67c6e815', '1536204796', NULL, '18061255280', '1', '7', '25', '2501', NULL, '', '', '0', '', '0', '0', '3', '1544065200', '', '');
+INSERT INTO `mishu`.`ms_user` (`username`, `password`, `reg_time`, `email`, `mobile`, `status`, `province`, `city`, `distinct`, `company`, `organization`, `recommend_tel`, `login_time`, `login_ip`, `login_num`, `update_time`, `package_id`, `end_time`, `pc_session`, `app_session`) 
+VALUES ('孔小姐', '10470c3b4b1fed12c3baac014be15fac67c6e815', '1536204796', NULL, '13675127822', '1', '7', '25', '2501', NULL, '', '', '0', '', '0', '0', '3', '1544065200', '', '');
+INSERT INTO `mishu`.`ms_user` (`username`, `password`, `reg_time`, `email`, `mobile`, `status`, `province`, `city`, `distinct`, `company`, `organization`, `recommend_tel`, `login_time`, `login_ip`, `login_num`, `update_time`, `package_id`, `end_time`, `pc_session`, `app_session`) 
+VALUES ('沈兴悦', '10470c3b4b1fed12c3baac014be15fac67c6e815', '1536204796', NULL, '18851020506', '1', '7', '25', '2501', NULL, '', '', '0', '', '0', '0', '3', '1544065200', '', '');
+INSERT INTO `mishu`.`ms_user` (`username`, `password`, `reg_time`, `email`, `mobile`, `status`, `province`, `city`, `distinct`, `company`, `organization`, `recommend_tel`, `login_time`, `login_ip`, `login_num`, `update_time`, `package_id`, `end_time`, `pc_session`, `app_session`) 
+VALUES ('马成功', '10470c3b4b1fed12c3baac014be15fac67c6e815', '1536204796', NULL, '15651729308', '1', '7', '25', '2501', NULL, '', '', '0', '', '0', '0', '3', '1544065200', '', '');
+
+INSERT INTO `mishu`.`ms_user` (`username`, `password`, `reg_time`, `email`, `mobile`, `status`, `province`, `city`, `distinct`, `company`, `organization`, `recommend_tel`, `login_time`, `login_ip`, `login_num`, `update_time`, `package_id`, `end_time`, `pc_session`, `app_session`) 
+VALUES ('钱宝江', '10470c3b4b1fed12c3baac014be15fac67c6e815', '1536204796', NULL, '15312024523', '1', '7', '25', '2501', NULL, '', '', '0', '', '0', '0', '3', '1544065200', '', '');
+INSERT INTO `mishu`.`ms_user` (`username`, `password`, `reg_time`, `email`, `mobile`, `status`, `province`, `city`, `distinct`, `company`, `organization`, `recommend_tel`, `login_time`, `login_ip`, `login_num`, `update_time`, `package_id`, `end_time`, `pc_session`, `app_session`) 
+VALUES ('张小姐', '10470c3b4b1fed12c3baac014be15fac67c6e815', '1536204796', NULL, '13815888426', '1', '7', '25', '2501', NULL, '', '', '0', '', '0', '0', '3', '1544065200', '', '');
+INSERT INTO `mishu`.`ms_user` (`username`, `password`, `reg_time`, `email`, `mobile`, `status`, `province`, `city`, `distinct`, `company`, `organization`, `recommend_tel`, `login_time`, `login_ip`, `login_num`, `update_time`, `package_id`, `end_time`, `pc_session`, `app_session`) 
+VALUES ('刘女士', '10470c3b4b1fed12c3baac014be15fac67c6e815', '1536204796', NULL, '13851664275', '1', '7', '25', '2501', NULL, '', '', '0', '', '0', '0', '3', '1544065200', '', '');
+
+INSERT INTO `mishu`.`ms_user` (`username`, `password`, `reg_time`, `email`, `mobile`, `status`, `province`, `city`, `distinct`, `company`, `organization`, `recommend_tel`, `login_time`, `login_ip`, `login_num`, `update_time`, `package_id`, `end_time`, `pc_session`, `app_session`) 
+VALUES ('杨先生', '10470c3b4b1fed12c3baac014be15fac67c6e815', '1536204796', NULL, '13327861888', '1', '7', '25', '2501', NULL, '', '', '0', '', '0', '0', '3', '1544065200', '', '');
+INSERT INTO `mishu`.`ms_user` (`username`, `password`, `reg_time`, `email`, `mobile`, `status`, `province`, `city`, `distinct`, `company`, `organization`, `recommend_tel`, `login_time`, `login_ip`, `login_num`, `update_time`, `package_id`, `end_time`, `pc_session`, `app_session`) 
+VALUES ('赵先生', '10470c3b4b1fed12c3baac014be15fac67c6e815', '1536204796', NULL, '15251822776', '1', '7', '25', '2501', NULL, '', '', '0', '', '0', '0', '3', '1544065200', '', '');
+INSERT INTO `mishu`.`ms_user` (`username`, `password`, `reg_time`, `email`, `mobile`, `status`, `province`, `city`, `distinct`, `company`, `organization`, `recommend_tel`, `login_time`, `login_ip`, `login_num`, `update_time`, `package_id`, `end_time`, `pc_session`, `app_session`) 
+VALUES ('邵新沂', '10470c3b4b1fed12c3baac014be15fac67c6e815', '1536204796', NULL, '18651564119', '1', '7', '25', '2501', NULL, '', '', '0', '', '0', '0', '3', '1544065200', '', '');
+
+INSERT INTO `mishu`.`ms_user` (`username`, `password`, `reg_time`, `email`, `mobile`, `status`, `province`, `city`, `distinct`, `company`, `organization`, `recommend_tel`, `login_time`, `login_ip`, `login_num`, `update_time`, `package_id`, `end_time`, `pc_session`, `app_session`) 
+VALUES ('徐小姐', '10470c3b4b1fed12c3baac014be15fac67c6e815', '1536204796', NULL, '15062228837', '1', '7', '25', '2501', NULL, '', '', '0', '', '0', '0', '3', '1544065200', '', '');
+
+INSERT INTO `mishu`.`ms_user` (`username`, `password`, `reg_time`, `email`, `mobile`, `status`, `province`, `city`, `distinct`, `company`, `organization`, `recommend_tel`, `login_time`, `login_ip`, `login_num`, `update_time`, `package_id`, `end_time`, `pc_session`, `app_session`) 
+VALUES ('杨女士', '10470c3b4b1fed12c3baac014be15fac67c6e815', '1536204796', NULL, '13675151539', '1', '7', '25', '2501', NULL, '', '', '0', '', '0', '0', '3', '1544065200', '', '');
+
+
+
+
+curl -X PUT "localhost:9200/my_temp_index" -H 'Content-Type: application/json' -d'
+{
+    "settings": {
+        "number_of_shards" :   1,
+        "number_of_replicas" : 0
+    }
+}
+'
+curl http://127.0.0.1:9200/_cluster/health?pretty
+
+去除换行符
+UPDATE ms_estate_other SET `name` = REPLACE(REPLACE(name,CHAR(10),''),CHAR(13),'') WHERE web_id = 1 ;
+
+
+#es 搜索引擎
+docker pull elasticsearch:5.6.14
+docker network create somenetwork
+docker run -d --name elasticsearch --net somenetwork -p 9200:9200 -p 9300:9300 -e "discovery.type=single-node" elasticsearch:5.6.14
+pip install mysqlsmom
+pip install --upgrade elasticsearch==5.5.3
+mom new test_mom/init_config.py -t init --force
+mom run -c ./test_mom/init_config.py
+#查看概况
+curl http://localhost:9200/_cat/indices?v
+#获取一个文档 索引名称/type/id
+curl http://localhost:9200/sale_index/test/83565?pretty
+# 删除索引
+curl -XDELETE http://localhost:9200/fang_rental_index
+#新增索引字段
+curl -XPOST http://127.0.0.1:9200/rental_index/test/_update_by_query -d '
+{
+    "script":{
+        "lang":"painless",
+        "inline":"if (ctx._source.deal_status == null) {ctx._source.deal_status= 0}"
+    }
+} '
+
+mom new test_mom/binlog_config.py -t binlog --force
+mom run -c ./test_mom/binlog_config.py
+
+出售初始化
+mom new test_mom/sale_config.py -t init --force
+mom run -c test_mom/sale_config.py
+
+出租初始化
+mom new test_mom/rental_config.py -t init --force
+mom run -c test_mom/rental_config.py
+
+curl -i -XHEAD  http://localhost:9200/sale_index/test/170132
+curl -XDELETE http://localhost:9200/sale_index/test/170132
+# 创建一个文档
+curl -XPUT http://127.0.0.1:9200/sale_index/test/170132/_create -d '
+{
+	"id": 170132,
+    "title": "碧桂园凤凰城临湖宛3栋",
+	"estate_id": 0,
+	"estate_name": "碧桂园凤凰城",
+	"city": 25,
+	"city_name": "南京",
+	"area": 2515,
+	"area_name": "南京周边",
+	"room": 3,
+	"ting": 2,
+	"wei": 2,
+	"chu": 0,
+	"yang": 0,
+	"building_value": 0,
+	"building_type": 1,
+	"unit": 0,
+	"unit_type": 1,
+	"house_number": 0,
+	"price": 130,
+	"mianji": 126,
+	"house_type": 1,
+	"house_second_type": 2,
+	"house_third_type": 1,
+	"zhuangxiu": 73,
+	"chaoxiang": 85,
+	"niandai": "",
+	"address": "",
+	"status": 1,
+	"create_time": 1553590211,
+	"contact": "李女士",
+	"contact_phone": "15295550389",
+	"user_type": 1,
+	"width": 0,
+	"depth": 0,
+	"height": 0,
+	"pay_type": "",
+	"url": "https://nj.58.com/ershoufang/37579543790624x.shtml",
+	"floor_desc": "中层",
+	"total_floor_desc": 22,
+	"can_register": 0,
+	"area_name2": "镇江",
+	"add_timespan": 1553590140,
+	"update_timespan": 1553590140,
+	"web_id": 11,
+	"file_count": 13,
+	"area2": 0,
+	"is_frontage": 0,
+	"floor_rate": 3,
+	"post_type": 1,
+	"rental_type": 0
+} '
+
+# 主站生产es索引生成
+mom run -c /root/test_mom/fang_search_log_init_config.py
+mom run -c /root/test_mom/fang_rental_init_config.py
+nohup mom run -c /root/test_mom/fang_search_log_binlog_config.py >> /root/test_mom/fang_search_log_binlog_config.log 2>&1 &
+nohup mom run -c /root/test_mom/fang_rental_binlog_config.py >> /root/test_mom/fang_rental_binlog_config.log 2>&1 &
+
+# 关闭索引
+curl -XPOST http://127.0.0.1:9200/fang_rental_index/_close
+# 创建索引
+curl -XPUT 'http://127.0.0.1:9200/fang_rental_index2' -d '
+{
+  "settings": {
+    "analysis": {
+      "analyzer": {
+        "douhao": {
+          "type": "pattern", 
+          "pattern": ","
+        }
+      }
+    }
+  }
+}'
+
+
+# 开启索引
+curl -XPOST http://127.0.0.1:9200/fang_rental_index/_open
+
+
+分析器加在字段上
+curl -XPOST 'http://127.0.0.1:9200/fang_rental_index2/test/_mapping' -d '
+{
+  "properties": {
+    "subway_id": {
+		"type": "string", 
+		"analyzer": "douhao", 
+		"search_analyzer":"douhao"
+    }
+  }
+}'
+# 重建索引
+curl -X POST "localhost:9200/_reindex" -H 'Content-Type: application/json' -d'
+{
+  "source": {
+    "index": "fang_rental_index"
+  },
+  "dest": {
+    "index": "fang_rental_index2"
+  }
+}
+'
+# 删除索引
+curl -XDELETE http://localhost:9200/fang_rental_index
+# 创建别名
+curl -X PUT "localhost:9200/fang_rental_index2/_alias/fang_rental_index"
+--user elastic:3%oKR$1Sjk4NWT98 es-cn-v0h14mb800002l2fy.elasticsearch.aliyuncs.com
+
+拼接字符串
+update ms_estate_img_o_copy set oss_file = concat('/',oss_file) where oss_file != '' and id < 19931
+
+
+UPDATE ms_user set end_time = end_time + 2592000 where mobile in (18252054729)
+
+
+nohup ./gost -L=ss://aes-128-cfb:123456@:22300
+
+# 让autoload.php添加这个插件
+composer require elasticsearch/elasticsearch:5.3.2
+
+
+# 验证码安装
+apt update
+apt install tesseract-ocr
+apt-get install tesseract-ocr-eng
+apt install imagemagick
+pip install pytesseract
+
+# windows exe运行容器
+docker run --name img_code -d -ti -p 7788:7788 -v /opt/img_code:/data ubuntu /bin/bash
+
+# mac ocr之路
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+# 3.05
+brew install tesseract --with-training-tools	
+tesseract -v
+
+# ubuntu
+docker run -d -ti -v /opt/trandata:/data ubuntu:18.04 

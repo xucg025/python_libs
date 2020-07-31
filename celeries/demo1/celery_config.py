@@ -5,10 +5,11 @@
 # @time: 2019-11-13 13:53:35
 
 
-from kombu import Exchange,Queue
+from kombu import Exchange, Queue
 
-BROKER_URL = "amqp://root:ajmd123@192.168.174.28:5672//"
-CELERY_RESULT_BACKEND = 'redis://root:ajmd123@192.168.174.28:6379/0' # 把任务结果存在了Redis
+# BROKER_URL = "amqp://root:ajmd123@192.168.174.28:5672//"
+# BROKER_URL = 'redis://root:ajmd123@192.168.174.28:6379/1'  # 把任务结果存在了Redis
+# CELERY_RESULT_BACKEND = 'redis://root:ajmd123@192.168.174.28:6379/0'  # 把任务结果存在了Redis
 #
 # CELERY_QUEUES = (
 # Queue("default",Exchange("default"),routing_key="default"),
@@ -20,3 +21,18 @@ CELERY_RESULT_BACKEND = 'redis://root:ajmd123@192.168.174.28:6379/0' # 把任务
 # 'tasks.taskA':{"queue":"for_task_A","routing_key":"for_task_A"},
 # 'tasks.taskB':{"queue":"for_task_B","routing_key":"for_task_B"}
 # }
+
+from datetime import timedelta
+from celery.schedules import crontab
+
+
+CELERYBEAT_SCHEDULE = {
+    'ptask': {
+        'task': 'tasks.period_task',
+        'schedule': timedelta(seconds=5),
+    },
+}
+
+CELERY_RESULT_BACKEND = 'redis://root:ajmd123@192.168.174.28:6379/0'
+
+CELERY_TIMEZONE = 'Asia/Shanghai'

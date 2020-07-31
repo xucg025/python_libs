@@ -7,7 +7,6 @@
 from fabric.api import *
 from fabric.contrib.console import confirm
 from fabric.utils import abort
-from fabric.colors import *
 import os
 
 from fabric.api import env, roles, run, execute
