@@ -1,0 +1,1 @@
+python3 word_count.py pg20417.txt -r hadoop
