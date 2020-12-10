@@ -33,29 +33,3 @@ for i in range(50000):
                           properties=properties, mandatory=True)
     print(message)
 connection.close()
-
-
-# class Producer(object):
-#     def __init__(self):
-#         self.conn = ConnFactory(**conn_config)
-#         self.channel = self.conn.get_channel()
-#         self.exchange_name = mq_config['direct']['exchange_name']
-#         self.channel.exchange_declare(self.exchange_name, durable=True, exchange_type=mq_config['direct']['type'])
-#
-#     def close(self):
-#         self.conn.close()
-#
-#     def produce(self, msg, routing_key):
-#         # delivery_mode = 2 声明消息在队列中持久化，delivery_mod = 1 消息非持久化。
-#         self.channel.basic_publish(exchange=self.exchange_name, body=msg, routing_key=routing_key,
-#                                    properties=pika.BasicProperties(delivery_mode=2))
-#
-#
-# if __name__ == '__main__':
-#     producer = Producer()
-#     for i in range(20):
-#         routing_key = 'direct_key_{}'.format(i % 5)
-#         message = json.dumps({'OrderId': "1000%s" % i})
-#         print(message)
-#         producer.produce(message, routing_key)
-#     producer.close()

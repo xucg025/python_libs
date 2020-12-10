@@ -4,7 +4,7 @@
 # @ide: PyCharm
 # @time: 2019-11-11 14:05:02
 
-import pika, json
+import pika
 
 config = pika.ConnectionParameters(host='192.168.174.30', port=5672, virtual_host='vhost_test',
                                    credentials=pika.PlainCredentials('xucg', 'ajmd123'))
@@ -19,23 +19,15 @@ channel.exchange_declare(exchange=exchange_name, durable=True, exchange_type='fa
 # 绑定exchange和队列  exchange 使我们能够确切地指定消息应该到哪个队列去
 channel.queue_bind(exchange=exchange_name, queue=queue_name)
 
-channel.basic_qos(prefetch_count=1)
-
-i = 0
-
 
 def callback(ch, method, properties, body):
-    global i
-    obj = json.loads(body.decode())
-
-    if int(obj['OrderId']) == 5:
-        ch.basic_nack(delivery_tag=method.delivery_tag)
-    else:
-        ch.basic_ack(delivery_tag=method.delivery_tag)
+    ch.basic_ack(delivery_tag=method.delivery_tag)
     print(body.decode())
-    i += 1
+    import time
+    time.sleep(5)
 
 
+# 设置成 False，在调用callback函数时，未收到确认标识，消息会重回队列。True，无论调用callback成功与否，消息都被消费掉
 channel.basic_consume(queue_name, callback, auto_ack=False)
 channel.start_consuming()
 

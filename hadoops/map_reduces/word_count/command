@@ -1,1 +1,5 @@
-python3 word_count.py pg20417.txt -r hadoop
+python3 word_count.py -r  local  pg20417.txt > hh.txt (本地运行)
+
+
+
+python3 word_count.py -r hadoop hdfs:///test/input/ > hh.txt  (集群运行)

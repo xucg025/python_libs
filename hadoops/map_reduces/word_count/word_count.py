@@ -15,11 +15,16 @@ class MRWordCount(MRJob):
         (a,1)(c1)
         (a1)
     """
-    def mapper(self, _, line):
-        pattern = re.compile(r'(\W+)')
-        for word in re.split(pattern=pattern, string=line):
-            if word.isalpha():
-                yield (word.lower(), 1)
+    def mapper(self, key, lines):
+        line = lines.strip().split(' ')
+
+        for word in line:
+            yield word, 1
+
+        # pattern = re.compile(r'(\W+)')
+        # for word in re.split(pattern=pattern, string=line):
+        #     if word.isalpha():
+        #         yield (word.lower(), 1)
 
     def reducer(self, word, count):
         """
@@ -28,8 +33,8 @@ class MRWordCount(MRJob):
         :param count:
         :return:
         """
-        l = list(count)
-        yield (word, sum(l))
+        # l = list(count)
+        yield (word, sum(count))
 
 
 if __name__ == '__main__':

@@ -4,10 +4,6 @@
 # @ide: PyCharm
 # @time: 2019-11-08 16:58:59
 
-import json, pika
-from rabbitmqs.rabbit_config import conn_config, mq_config
-from rabbitmqs.conn_factory import ConnFactory
-
 # 这种模式下，传递到 exchange 的消息将会转发到所有与其绑定的 queue 上。
 
 # 不需要指定 routing_key ，即使指定了也是无效。
@@ -16,66 +12,39 @@ from rabbitmqs.conn_factory import ConnFactory
 
 import pika, json
 
-config = pika.ConnectionParameters(host='localhost', port=5672, credentials=pika.PlainCredentials('guest', 'guest'))
+config = pika.ConnectionParameters(host='192.168.174.30', port=5672, virtual_host='vhost_test',
+                                   credentials=pika.PlainCredentials('xucg', 'ajmd123'))
 connection = pika.BlockingConnection(config)
 channel = connection.channel()
 channel.confirm_delivery()
-exchange_name = 'python-test'
+exchange_name = 'exchange-fanout-test'
 channel.exchange_declare(exchange=exchange_name, durable=True, exchange_type='fanout', auto_delete=False, passive=False)
 
-
-for i in range(10):
+for i in range(100):
     try:
-        message = json.dumps({'OrderId_111': "1000%s" % i})
+        message = json.dumps({'OrderId': "%s" % i})
         print(message)
         # 向队列插入数值 routing_key是队列名。delivery_mode = 2 声明消息在队列中持久化，
         # delivery_mod = 1 消息非持久化。routing_key 不需要配置
         # channel.tx_select()
-        # channel.basic_publish(exchange=exchange_name, routing_key='', body=message,
-        #                       properties=pika.BasicProperties(delivery_mode=2))
+        channel.basic_publish(exchange=exchange_name, routing_key='', body=message,
+                              properties=pika.BasicProperties(delivery_mode=2))
 
-        # # 1/0
+        # 1/0
         # channel.tx_commit()
-
-        properties = pika.BasicProperties(delivery_mode=2)
-        properties.content_type = 'text/plain'
-
-
-
-        channel.basic_publish(exchange=exchange_name, routing_key='', body=message, properties=properties)
-        # ack = channel.basic_publish(exchange=exchange_name, routing_key='', body=message, properties=properties)
+        #
+        # properties = pika.BasicProperties(delivery_mode=2)
+        # properties.content_type = 'text/plain'
+        # # channel.basic_publish(exchange=exchange_name, routing_key='', body=message, properties=properties)
+        # channel.basic_publish(exchange=exchange_name, routing_key='', body=message, properties=properties)
         # if ack:
         #     print('push message to broker succeed')
         # else:
         #     print('push message to broker failed')
-
     except Exception as e:
         print(e)
         # channel.tx_rollback()
 connection.close()
 
-
-# class Producer(object):
-#     def __init__(self):
-#         self.conn = ConnFactory(**conn_config)
-#         self.channel = self.conn.get_channel()
-#         self.exchange_name = mq_config['fanout']['exchange_name']
-#         self.channel.exchange_declare(self.exchange_name, durable=True, exchange_type=mq_config['fanout']['type'])
-#
-#     def close(self):
-#         self.conn.close()
-#
-#     def produce(self, msg):
-#         # delivery_mode = 2 声明消息在队列中持久化，delivery_mod = 1 消息非持久化。
-#         self.channel.basic_publish(exchange=self.exchange_name, body=msg, routing_key='',
-#                                    properties=pika.BasicProperties(delivery_mode=2))
-#
-#
-# if __name__ == '__main__':
-#     producer = Producer()
-#     for i in range(20):
-#         message = json.dumps({'OrderId': "1000%s" % i})
-#         producer.produce(message)
-#     producer.close()
 
 

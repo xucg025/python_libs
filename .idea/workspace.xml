@@ -6,26 +6,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="40aacc82-43a8-4fae-9bb6-eb261bea9b0d" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/hadoops/kafkas/consumer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hadoops/kafkas/consumer1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hadoops/kafkas/consumer2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hadoops/map_reduces/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hadoops/map_reduces/word_count/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hadoops/map_reduces/word_count/command" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hadoops/map_reduces/word_count/mapper.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hadoops/map_reduces/word_count/pg20417.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hadoops/map_reduces/word_count/reducer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hadoops/map_reduces/word_count/run.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hadoops/map_reduces/word_count/word_count.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hadoops/map_reduces/word_count/words.text" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hadoops/map_reduces/word_count/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmqs/fanout_demos/consumer0.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/distributed_lock/zklock" beforeDir="false" afterPath="$PROJECT_DIR$/distributed_lock/zklock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hadoops/hdfss/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/hadoops/hdfss/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hbases/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/hadoops/hbases/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hbases/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/hadoops/hbases/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kafkas/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/hadoops/kafkas/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kafkas/consumer.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kafkas/producer.py" beforeDir="false" afterPath="$PROJECT_DIR$/hadoops/kafkas/producer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hadoops/map_reduces/word_count/command" beforeDir="false" afterPath="$PROJECT_DIR$/hadoops/map_reduces/word_count/command" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hadoops/map_reduces/word_count/word_count.py" beforeDir="false" afterPath="$PROJECT_DIR$/hadoops/map_reduces/word_count/word_count.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmqs/direct_demos/producer.py" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmqs/direct_demos/producer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmqs/fanout_demos/consumer1.py" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmqs/fanout_demos/consumer1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmqs/fanout_demos/consumer2.py" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmqs/fanout_demos/consumer2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmqs/fanout_demos/producer.py" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmqs/fanout_demos/producer.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -36,41 +26,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="mapper.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hadoops/map_reduces/word_count/mapper.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="word_count.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hadoops/map_reduces/word_count/word_count.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
-              <folding>
-                <element signature="e#104#131#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pg20417.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hadoops/map_reduces/word_count/pg20417.txt">
+      <file leaf-file-name="consumer1.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/rabbitmqs/fanout_demos/consumer1.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="350">
-              <caret line="14" column="45" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
+              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="command" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/hadoops/map_reduces/word_count/command">
+      <file leaf-file-name="producer.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rabbitmqs/fanout_demos/producer.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="43" selection-start-column="43" selection-end-column="43" />
+            <state relative-caret-position="164">
+              <caret line="20" column="41" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -86,7 +55,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Dense</find>
       <find>keras</find>
       <find>get_sessionId</find>
       <find>get_responseId_bgImgUrl</find>
@@ -114,8 +82,9 @@
       <find>DoMD5</find>
       <find>Request</find>
       <find>backjson</find>
-      <find>def set</find>
+      <find />
       <find>xcg_test:4</find>
+      <find>confirm</find>
     </findStrings>
     <dirStrings>
       <dir>F:\python_libs\micro_blog</dir>
@@ -128,8 +97,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/advanced_funcs/main.py" />
-        <option value="$PROJECT_DIR$/python_basics/main.py" />
         <option value="$PROJECT_DIR$/thrifts/example.thrift" />
         <option value="$PROJECT_DIR$/thrifts/helloworld.thrift.py" />
         <option value="$PROJECT_DIR$/thrifts/server_helloworld.py" />
@@ -146,9 +113,6 @@
         <option value="$PROJECT_DIR$/thread_synchronization/lock_rlock.py" />
         <option value="$PROJECT_DIR$/iteratables/main.py" />
         <option value="$PROJECT_DIR$/rabbitmqs/fanout_demos/producer1.py" />
-        <option value="$PROJECT_DIR$/rabbitmqs/fanout_demos/consumer1.py" />
-        <option value="$PROJECT_DIR$/rabbitmqs/fanout_demos/consumer2.py" />
-        <option value="$PROJECT_DIR$/rabbitmqs/fanout_demos/producer.py" />
         <option value="$PROJECT_DIR$/rabbitmqs/direct_demos/producer1.py" />
         <option value="$PROJECT_DIR$/rabbitmqs/topic_demos/consumer1.py" />
         <option value="$PROJECT_DIR$/rabbitmqs/topic_demos/producer.py" />
@@ -156,7 +120,6 @@
         <option value="$PROJECT_DIR$/rabbitmqs/direct_demos/consumer0.py" />
         <option value="$PROJECT_DIR$/rabbitmqs/direct_demos/consumer1_2.py" />
         <option value="$PROJECT_DIR$/rabbitmqs/direct_demos/consumer1.py" />
-        <option value="$PROJECT_DIR$/rabbitmqs/direct_demos/producer.py" />
         <option value="$PROJECT_DIR$/grpcs/client/client.py" />
         <option value="$PROJECT_DIR$/db-sharding/rebuild_id.py" />
         <option value="$PROJECT_DIR$/hash_rings/main.py" />
@@ -173,12 +136,18 @@
         <option value="$PROJECT_DIR$/hadoops/hdfss/main.py" />
         <option value="$PROJECT_DIR$/hadoops/map_reduces/word_count/main.py" />
         <option value="$PROJECT_DIR$/hadoops/map_reduces/word_count/word.text" />
-        <option value="$PROJECT_DIR$/hadoops/map_reduces/word_count/reducer.py" />
         <option value="$PROJECT_DIR$/hadoops/map_reduces/word_count/run.sh.py" />
-        <option value="$PROJECT_DIR$/hadoops/map_reduces/word_count/mapper.py" />
         <option value="$PROJECT_DIR$/hadoops/map_reduces/word_count/run.sh" />
+        <option value="$PROJECT_DIR$/hadoops/map_reduces/word_count/mapper.py" />
+        <option value="$PROJECT_DIR$/hadoops/map_reduces/word_count/test.py" />
+        <option value="$PROJECT_DIR$/hadoops/map_reduces/word_count/reducer.py" />
         <option value="$PROJECT_DIR$/hadoops/map_reduces/word_count/word_count.py" />
         <option value="$PROJECT_DIR$/hadoops/map_reduces/word_count/command" />
+        <option value="$PROJECT_DIR$/rabbitmqs/direct_demos/producer.py" />
+        <option value="$PROJECT_DIR$/rabbitmqs/fanout_demos/consumer2.py" />
+        <option value="$PROJECT_DIR$/rabbitmqs/fanout_demos/consumer0.py" />
+        <option value="$PROJECT_DIR$/rabbitmqs/fanout_demos/producer.py" />
+        <option value="$PROJECT_DIR$/rabbitmqs/fanout_demos/consumer1.py" />
       </list>
     </option>
   </component>
@@ -196,7 +165,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -207,26 +175,19 @@
             <path>
               <item name="python_libs" type="b2602c69:ProjectViewProjectNode" />
               <item name="python_libs" type="462c0819:PsiDirectoryNode" />
-              <item name="hadoops" type="462c0819:PsiDirectoryNode" />
+              <item name="rabbitmqs" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="python_libs" type="b2602c69:ProjectViewProjectNode" />
               <item name="python_libs" type="462c0819:PsiDirectoryNode" />
-              <item name="hadoops" type="462c0819:PsiDirectoryNode" />
-              <item name="hdfss" type="462c0819:PsiDirectoryNode" />
+              <item name="rabbitmqs" type="462c0819:PsiDirectoryNode" />
+              <item name="direct_demos" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="python_libs" type="b2602c69:ProjectViewProjectNode" />
               <item name="python_libs" type="462c0819:PsiDirectoryNode" />
-              <item name="hadoops" type="462c0819:PsiDirectoryNode" />
-              <item name="map_reduces" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="python_libs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python_libs" type="462c0819:PsiDirectoryNode" />
-              <item name="hadoops" type="462c0819:PsiDirectoryNode" />
-              <item name="map_reduces" type="462c0819:PsiDirectoryNode" />
-              <item name="word_count" type="462c0819:PsiDirectoryNode" />
+              <item name="rabbitmqs" type="462c0819:PsiDirectoryNode" />
+              <item name="fanout_demos" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="python_libs" type="b2602c69:ProjectViewProjectNode" />
@@ -242,26 +203,27 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="F:/projects/stock_exchange" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\python_libs\rabbitmqs\fanout_demos" />
+      <recent name="F:\python_libs\hadoops\map_reduces\word_count" />
+      <recent name="F:\python_libs\db-sharding" />
+      <recent name="F:\python_libs\grpcs\client" />
+      <recent name="F:\python_libs\rabbitmqs\direct_demos" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\python_libs\hadoops\map_reduces\word_count" />
       <recent name="F:\python_libs\hadoops\map_reduces" />
       <recent name="F:\python_libs\hadoops" />
       <recent name="F:\python_libs\micro_blog\micro_blog" />
       <recent name="F:\python_libs\micro_blog\micro_blog\front\templates" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\python_libs\hadoops\map_reduces\word_count" />
-      <recent name="F:\python_libs\db-sharding" />
-      <recent name="F:\python_libs\grpcs\client" />
-      <recent name="F:\python_libs\rabbitmqs\direct_demos" />
-      <recent name="F:\python_libs\rabbitmqs\topic_demos" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -276,8 +238,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.main">
-    <configuration name="consumer" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.consumer1">
+    <configuration name="consumer0" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python_libs" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -285,11 +247,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/kafkas" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/rabbitmqs/fanout_demos" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/kafkas/consumer.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/rabbitmqs/fanout_demos/consumer0.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -303,11 +265,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/kafkas" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/rabbitmqs/fanout_demos" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/kafkas/consumer1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/rabbitmqs/fanout_demos/consumer1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -321,17 +283,17 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/kafkas" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/rabbitmqs/fanout_demos" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/kafkas/consumer2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/rabbitmqs/fanout_demos/consumer2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="producer (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python_libs" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -339,17 +301,17 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/hadoops/hdfss" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/rabbitmqs/fanout_demos" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hadoops/hdfss/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/rabbitmqs/fanout_demos/producer.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="producer" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python_libs" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -357,30 +319,30 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/kafkas" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/hadoops/map_reduces/word_count" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/kafkas/producer.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hadoops/map_reduces/word_count/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.consumer" />
-      <item itemvalue="Python.producer" />
+      <item itemvalue="Python.test" />
+      <item itemvalue="Python.producer (1)" />
       <item itemvalue="Python.consumer1" />
       <item itemvalue="Python.consumer2" />
-      <item itemvalue="Python.main" />
+      <item itemvalue="Python.consumer0" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.main" />
-        <item itemvalue="Python.consumer" />
-        <item itemvalue="Python.producer" />
         <item itemvalue="Python.consumer1" />
+        <item itemvalue="Python.producer (1)" />
+        <item itemvalue="Python.consumer0" />
         <item itemvalue="Python.consumer2" />
+        <item itemvalue="Python.test" />
       </list>
     </recent_temporary>
   </component>
@@ -401,17 +363,17 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18453333" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19093333" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="aiXcoder" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5008" side_tool="true" weight="0.37583894" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.22595078" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.17337808" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.4362416" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.2606264" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.20917226" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4992" weight="0.27404922" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.4992" visible="true" weight="0.30425057" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -421,6 +383,32 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32997763" />
     </layout>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -434,7 +422,7 @@
           <option name="timeStamp" value="62" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://D:/Program Files/Python3.7/Lib/site-packages/apscheduler/schedulers/base.py</url>
+          <url />
           <line>465</line>
           <option name="timeStamp" value="81" />
         </line-breakpoint>
@@ -479,7 +467,7 @@
           <option name="timeStamp" value="126" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$USER_HOME$/Desktop/solve_captcha-master(1) - 副本/solve_captcha-master/58/run.py</url>
+          <url />
           <line>217</line>
           <option name="timeStamp" value="160" />
         </line-breakpoint>
@@ -564,22 +552,22 @@
           <option name="timeStamp" value="264" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://D:/Program Files/Python3.7/Lib/threading.py</url>
+          <url />
           <line>258</line>
           <option name="timeStamp" value="265" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://D:/Program Files/Python3.7/Lib/threading.py</url>
+          <url />
           <line>261</line>
           <option name="timeStamp" value="266" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://D:/Program Files/Python3.7/Lib/threading.py</url>
+          <url />
           <line>216</line>
           <option name="timeStamp" value="267" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://D:/Program Files/Python3.7/Lib/threading.py</url>
+          <url />
           <line>218</line>
           <option name="timeStamp" value="268" />
         </line-breakpoint>
@@ -592,11 +580,6 @@
           <url>file://$PROJECT_DIR$/iteratables/main.py</url>
           <line>35</line>
           <option name="timeStamp" value="270" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/rabbitmqs/fanout_demos/consumer2.py</url>
-          <line>27</line>
-          <option name="timeStamp" value="280" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/grpcs/client/client.py</url>
@@ -628,6 +611,11 @@
           <line>40</line>
           <option name="timeStamp" value="426" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/rabbitmqs/fanout_demos/consumer1.py</url>
+          <line>31</line>
+          <option name="timeStamp" value="455" />
+        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
@@ -639,141 +627,10 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="430" />
+      <option name="time" value="456" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://D:/Program Files/Python3.7/Lib/site-packages/hash_ring/hash_ring.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1075">
-          <caret line="45" column="14" selection-start-line="45" selection-start-column="6" selection-end-line="45" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Program Files/Python3.7/Lib/site-packages/hash_ring/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hash_rings/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="42" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rate_limiter/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1256" />
-      </provider>
-    </entry>
-    <entry file="file://D:/Program Files/Python3.7/Lib/site-packages/rediscluster/pubsub.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
-          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Program Files/Python3.7/Lib/site-packages/rediscluster/client.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="43" column="23" selection-start-line="43" selection-start-column="23" selection-end-line="43" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Program Files/Python3.7/Lib/site-packages/elasticsearch/client/nodes.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Program Files/Python3.7/Lib/site-packages/elasticsearch/client/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3925">
-          <caret line="193" column="13" selection-start-line="193" selection-start-column="13" selection-end-line="193" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Program Files/Python3.7/Lib/site-packages/elasticsearch/client/cat.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3350">
-          <caret line="134" column="8" selection-start-line="134" selection-start-column="8" selection-end-line="134" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Program Files/Python3.7/Lib/site-packages/elasticsearch/client/utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2425">
-          <caret line="102" column="26" selection-start-line="102" selection-start-column="26" selection-end-line="102" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Program Files/Python3.7/Lib/site-packages/elasticsearch/transport.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7600">
-          <caret line="315" column="8" selection-start-line="315" selection-start-column="8" selection-end-line="315" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Program Files/Python3.7/Lib/site-packages/elasticsearch/client/indices.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2175">
-          <caret line="87" column="8" selection-start-line="87" selection-start-column="8" selection-end-line="87" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/elasticsearches/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/distributed_lock/redis_lock.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="24" column="31" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Program Files/Python3.7/Lib/site-packages/redlock/lock.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1775">
-          <caret line="77" column="8" selection-start-line="77" selection-start-column="8" selection-end-line="77" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="41575">
-          <caret line="1663" selection-start-line="1663" selection-end-line="1663" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Program Files/Python3.7/Lib/site-packages/hbase/Hbase.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51525">
-          <caret line="2065" selection-start-line="2065" selection-end-line="2065" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Program Files/Python3.7/Lib/site-packages/redis/client.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72425">
-          <caret line="2921" column="16" selection-start-line="2921" selection-start-column="16" selection-end-line="2921" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/redis-sentinels/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/redis-clusters/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
@@ -921,13 +778,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/Program Files/Python3.7/Lib/codecs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7700">
-          <caret line="309" selection-start-line="309" selection-end-line="309" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/hadoops/hdfss/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="500">
@@ -935,19 +785,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hadoops/map_reduces/word_count/run.sh.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hadoops/map_reduces/word_count/reducer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="19" column="50" selection-start-line="19" selection-start-column="50" selection-end-line="19" selection-end-column="50" />
-          <folding>
-            <element signature="e#112#122#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/hadoops/map_reduces/word_count/run.sh.py" />
     <entry file="file://$PROJECT_DIR$/hadoops/map_reduces/word_count/words.text">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
@@ -962,34 +800,181 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/hadoops/map_reduces/word_count/pg20417.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharmCE2018.1/system/python_stubs/-1184311076/itertools.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="396" column="8" selection-start-line="396" selection-start-column="8" selection-end-line="396" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hadoops/map_reduces/word_count/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="50" column="47" lean-forward="true" selection-start-line="50" selection-start-column="27" selection-end-line="50" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/hadoops/map_reduces/word_count/mapper.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hadoops/map_reduces/word_count/reducer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="17" column="11" lean-forward="true" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Program Files/Python3.7/Lib/site-packages/mrjob/job.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-978">
+          <caret line="84" column="6" selection-start-line="84" selection-start-column="6" selection-end-line="84" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hadoops/map_reduces/word_count/command">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
-          <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+          <caret line="4" column="48" selection-start-line="4" selection-start-column="48" selection-end-line="4" selection-end-column="48" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hadoops/map_reduces/word_count/word_count.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+        <state relative-caret-position="575">
+          <caret line="24" column="58" selection-start-line="24" selection-start-column="58" selection-end-line="24" selection-end-column="58" />
           <folding>
             <element signature="e#104#131#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hadoops/map_reduces/word_count/pg20417.txt">
+    <entry file="file://$PROJECT_DIR$/rabbitmqs/direct_demos/consumer1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="14" column="45" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
+        <state relative-caret-position="600">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hadoops/map_reduces/word_count/command">
+    <entry file="file://$PROJECT_DIR$/rabbitmqs/topic_demos/consumer1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="43" selection-start-column="43" selection-end-column="43" />
+        <state relative-caret-position="325">
+          <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmqs/topic_demos/producer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="36" column="5" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Program Files/Python3.7/Lib/site-packages/pika/spec.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="2076" column="8" selection-start-line="2076" selection-start-column="8" selection-end-line="2076" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Program Files/Python3.7/Lib/site-packages/amqp/channel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="2050" column="8" selection-start-line="2050" selection-start-column="8" selection-end-line="2050" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Program Files/Python3.7/Lib/site-packages/pika/channel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="551" column="8" selection-start-line="551" selection-start-column="8" selection-end-line="551" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmqs/topic_demos/consumer0.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="32" column="37" lean-forward="true" selection-start-line="32" selection-start-column="37" selection-end-line="32" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmqs/direct_demos/consumer0.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmqs/fanout_demos/consumer2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="22" column="6" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmqs/fanout_demos/consumer0.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="23" column="50" lean-forward="true" selection-start-line="23" selection-start-column="50" selection-end-line="23" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Program Files/Python3.7/Lib/site-packages/pika/adapters/twisted_connection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="503" column="8" selection-start-line="503" selection-start-column="8" selection-end-line="503" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmqs/direct_demos/consumer1_2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="422">
+          <caret line="30" column="20" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmqs/direct_demos/producer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Program Files/Python3.7/Lib/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="309" selection-start-line="309" selection-end-line="309" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Program Files/Python3.7/Lib/site-packages/pika/adapters/blocking_connection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="1493" selection-start-line="1493" selection-end-line="1493" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmqs/fanout_demos/producer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="20" column="41" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmqs/fanout_demos/consumer1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
         </state>
       </provider>
     </entry>
