@@ -28,7 +28,8 @@ for i in range(100):
         # delivery_mod = 1 消息非持久化。routing_key 不需要配置
         # channel.tx_select()
         channel.basic_publish(exchange=exchange_name, routing_key='', body=message,
-                              properties=pika.BasicProperties(delivery_mode=2))
+                              properties=pika.BasicProperties(delivery_mode=2, expiration='5000',
+                                                              message_id='orderId::{}'.format(i)))
 
         # 1/0
         # channel.tx_commit()

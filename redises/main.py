@@ -8,10 +8,13 @@ import redis
 
 client = redis.StrictRedis()
 
-pipe = client.pipeline(transaction=True)
-pipe.incr('books')
-pipe.set('books_a', 'ddd')
-pipe.incr('books_a')
-pipe.incr('books')
-values = pipe.execute()
-print(values)
+# pipe = client.pipeline(transaction=True)
+# pipe.incr('books')
+# pipe.set('books_a', 'ddd')
+# pipe.incr('books_a')
+# pipe.incr('books')
+# values = pipe.execute()
+# print(values)
+
+print(client.incrby('test_count', 100))
+print(client.incrby('test_count', 1000))

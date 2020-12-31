@@ -13,7 +13,7 @@ channel = connection.channel()
 exchange_name = 'exchange-fanout-test'
 queue_name = 'queue-fanout-test-2'
 # 创建临时队列,队列名传空字符，consumer关闭后，队列自动删除
-channel.queue_declare(queue_name, exclusive=True)
+channel.queue_declare(queue_name)
 # 声明exchange，由exchange指定消息在哪个队列传递，如不存在，则创建。durable = True 代表exchange持久化存储，False 非持久化存储
 channel.exchange_declare(exchange=exchange_name, durable=True, exchange_type='fanout')
 # 绑定exchange和队列  exchange 使我们能够确切地指定消息应该到哪个队列去

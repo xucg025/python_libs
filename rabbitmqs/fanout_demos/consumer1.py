@@ -4,7 +4,7 @@
 # @ide: PyCharm
 # @time: 2019-11-11 14:05:02
 
-import pika, json
+import pika, json, time
 
 config = pika.ConnectionParameters(host='192.168.174.30', port=5672, virtual_host='vhost_test',
                                    credentials=pika.PlainCredentials('xucg', 'ajmd123'))
@@ -27,13 +27,15 @@ i = 0
 def callback(ch, method, properties, body):
     global i
     obj = json.loads(body.decode())
+    ch.basic_ack(delivery_tag=method.delivery_tag)
 
-    if int(obj['OrderId']) == 5:
-        ch.basic_nack(delivery_tag=method.delivery_tag)
-    else:
-        ch.basic_ack(delivery_tag=method.delivery_tag)
-    print(body.decode())
+    # if int(obj['OrderId']) == 5:
+    #     ch.basic_nack(delivery_tag=method.delivery_tag)
+    # else:
+    #     ch.basic_ack(delivery_tag=method.delivery_tag)
+    print(obj)
     i += 1
+    time.sleep(1)
 
 
 channel.basic_consume(queue_name, callback, auto_ack=False)
