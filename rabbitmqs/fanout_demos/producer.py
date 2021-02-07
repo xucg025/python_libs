@@ -20,7 +20,7 @@ channel.confirm_delivery()
 exchange_name = 'exchange-fanout-test'
 channel.exchange_declare(exchange=exchange_name, durable=True, exchange_type='fanout', auto_delete=False, passive=False)
 
-for i in range(100):
+for i in range(100000):
     try:
         message = json.dumps({'OrderId': "%s" % i})
         print(message)
@@ -28,7 +28,7 @@ for i in range(100):
         # delivery_mod = 1 消息非持久化。routing_key 不需要配置
         # channel.tx_select()
         channel.basic_publish(exchange=exchange_name, routing_key='', body=message,
-                              properties=pika.BasicProperties(delivery_mode=2, expiration='5000',
+                              properties=pika.BasicProperties(delivery_mode=2, expiration='50000000',
                                                               message_id='orderId::{}'.format(i)))
 
         # 1/0

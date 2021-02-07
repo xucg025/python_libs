@@ -44,7 +44,6 @@ scheduler._daemon = False
 #                   day_of_week='thu', hour=16, minute=45)
 scheduler.add_job(func=aps_test, args=('循环任务_1',), trigger='interval', seconds=3, id='111', name='interval_task')
 # scheduler._logger = logging
-scheduler.start()
 
 scheduler.add_job(func=aps_test, args=('循环任务_2',), trigger='interval', seconds=5, id='222', name='interval_task')
 

@@ -8,23 +8,21 @@ import sys
 # sys.path.append('./gen-py')
 
 from service import IpFetcher
-from service.ttypes import *
+# from service.ttypes import *
 
 from thrift.transport import TSocket
 from thrift.transport import TTransport
 from thrift.protocol import TBinaryProtocol
 from thrift.server import TServer
-from thrift.TMultiplexedProcessor import TMultiplexedProcessor
-import socket
 
 
 class IpFetcherHandler(object):
     def __init__(self):
-        pass
+        self.default_ip_proxy = 'http://124.25.75.25:80'
 
     def fetch_ip(self, web_id, f):
         print(web_id, f)
-        return 'http://124.25.75.25:80'
+        return self.default_ip_proxy
 
 
 if __name__ == '__main__':

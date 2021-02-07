@@ -6,25 +6,13 @@
 
 from elasticsearch import Elasticsearch
 
-es = Elasticsearch(
-    ['192.168.174.30:9200'],
-    # 认证信息
-    # http_auth=('elastic', 'changeme')
-)
-# print(es.ping())
-# print(es.info())
-# print(es.cluster.health())
-# print(es.cluster.client.info())
-# print(es.cluster.stats())
-#
-# print(es.cat.health())
-# print(es.cat.master())
-# print(es.cat.nodes())
-# print(es.cat.indices())
-# print(es.cat.count())
-# print(es.cat.plugins())
-# print(es.cat.templates())
-
-es.indices.create(index='my-index')
-
-
+import sys
+print("print1：",sys.getdefaultencoding())
+name ="中国"
+name = name.encode("utf-8")
+print('name_utf8', name)
+print("print2：",type(name))
+name = name.decode("utf-8")
+name = name.encode("gbk")
+print('name_gbk', name)
+print("print4：",type(name))

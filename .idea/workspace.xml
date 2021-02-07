@@ -6,9 +6,52 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="40aacc82-43a8-4fae-9bb6-eb261bea9b0d" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/hadoops/sparks/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hadoops/sparks/word_count.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hadoops/sparks/words" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jsPy/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/murmurhashs/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmqs/delay_queue/consumer0.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmqs/monitor/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scrapys/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scrapys/teacher/run.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scrapys/teacher/teacher/spiders/hzu.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scrapys/teacher/teacher/spiders/shmtu.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scrapys/teacher_redis/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/python_libs.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python_libs.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apschedulers/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/apschedulers/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db-sharding/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/hadoops/sparks/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db-sharding/rebuild_id.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db-sharding/sharding_table.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/distributed_lock/gun.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/distributed_lock/main.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/distributed_lock/zklock" beforeDir="false" afterPath="$PROJECT_DIR$/distributed_lock/zklock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/elasticsearches/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/elasticsearches/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/namekos/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/jsPy/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/namekos/hello.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/namekos/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ngenders/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/murmurhashs/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ngenders/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmqs/delay_queue/rabbitmq_client.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmqs/direct_demos/consumer0.py" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmqs/direct_demos/consumer0.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmqs/direct_demos/consumer1.py" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmqs/direct_demos/consumer1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmqs/direct_demos/consumer1_2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmqs/direct_demos/producer.py" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmqs/direct_demos/producer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmqs/fanout_demos/consumer0.py" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmqs/fanout_demos/consumer0.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmqs/fanout_demos/consumer1.py" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmqs/fanout_demos/consumer1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmqs/fanout_demos/producer.py" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmqs/fanout_demos/producer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorflows/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmqs/monitor/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorflows/basics.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorflows/basics/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorflows/basics/data.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorflows/basics/fashion_minst.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorflows/basics/fuel_regression.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorflows/basics/imdb.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorflows/mlp_demo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thrifts/ip_fetcher/client.py" beforeDir="false" afterPath="$PROJECT_DIR$/thrifts/ip_fetcher/client.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thrifts/ip_fetcher/client2.py" beforeDir="false" afterPath="$PROJECT_DIR$/thrifts/ip_fetcher/client2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thrifts/ip_fetcher/server.py" beforeDir="false" afterPath="$PROJECT_DIR$/thrifts/ip_fetcher/server.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,22 +62,45 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="test.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test.py">
+      <file leaf-file-name="hzu.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scrapys/teacher/teacher/spiders/hzu.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+            <state relative-caret-position="250">
+              <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="spec.py" pinned="false" current-in-tab="false">
-        <entry file="file://D:/Program Files/Python3.7/Lib/site-packages/pika/spec.py">
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/scrapys/teacher/teacher/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51825">
-              <caret line="2076" column="8" selection-start-line="2076" selection-start-column="8" selection-end-line="2076" selection-end-column="8" />
+            <state relative-caret-position="470">
+              <caret line="81" column="51" selection-start-line="81" selection-start-column="51" selection-end-line="81" selection-end-column="51" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="run.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scrapys/teacher/run.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="650">
+              <caret line="27" column="33" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scrapys/teacher_redis/teacher/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="700">
+              <caret line="28" selection-start-line="28" selection-end-line="28" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="shmtu.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scrapys/teacher/teacher/spiders/shmtu.py">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -48,14 +114,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>BackgroundScheduler</find>
-      <find>self.thread_event</find>
-      <find>watch_node_is_exist</find>
-      <find>watch</find>
-      <find>admin</find>
-      <find>errorhandler</find>
-      <find>__str__</find>
-      <find>5000</find>
       <find>60</find>
       <find>5050</find>
       <find>tx_</find>
@@ -78,10 +136,19 @@
       <find>_get_server</find>
       <find>watch=</find>
       <find>socket</find>
+      <find>windir</find>
+      <find>spark</find>
+      <find>hadoop</find>
+      <find>hadoop_home</find>
+      <find>spark_home</find>
+      <find>setMaxDigits</find>
+      <find>example</find>
+      <find>download</find>
     </findStrings>
     <dirStrings>
       <dir>F:\python_libs\micro_blog</dir>
       <dir>F:\python_libs</dir>
+      <dir>F:\python_libs\scrapys\teacher</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -90,29 +157,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/hadoops/map_reduces/word_count/main.py" />
-        <option value="$PROJECT_DIR$/hadoops/map_reduces/word_count/word.text" />
-        <option value="$PROJECT_DIR$/hadoops/map_reduces/word_count/run.sh.py" />
-        <option value="$PROJECT_DIR$/hadoops/map_reduces/word_count/run.sh" />
-        <option value="$PROJECT_DIR$/hadoops/map_reduces/word_count/mapper.py" />
-        <option value="$PROJECT_DIR$/hadoops/map_reduces/word_count/test.py" />
-        <option value="$PROJECT_DIR$/hadoops/map_reduces/word_count/reducer.py" />
-        <option value="$PROJECT_DIR$/hadoops/map_reduces/word_count/word_count.py" />
-        <option value="$PROJECT_DIR$/hadoops/map_reduces/word_count/command" />
-        <option value="$PROJECT_DIR$/rabbitmqs/fanout_demos/consumer0.py" />
-        <option value="$PROJECT_DIR$/rabbitmqs/fanout_demos/consumer1.py" />
-        <option value="$PROJECT_DIR$/rabbitmqs/fanout_demos/producer.py" />
-        <option value="$PROJECT_DIR$/rabbitmqs/fanout_demos/consumer2.py" />
-        <option value="$PROJECT_DIR$/rabbitmqs/delay_queue/rabbitmq_client.py" />
-        <option value="$PROJECT_DIR$/rabbitmqs/delay_queue/retry_consume.py" />
-        <option value="$PROJECT_DIR$/rabbitmqs/delay_queue/consumer0.py" />
         <option value="$PROJECT_DIR$/rabbitmqs/delay_queue/producer.py" />
         <option value="$PROJECT_DIR$/rabbitmqs/cluster/producer.py" />
         <option value="$PROJECT_DIR$/rabbitmqs/cluster/retry_consume.py" />
         <option value="$PROJECT_DIR$/rabbitmqs/cluster/consumer0.py" />
-        <option value="$PROJECT_DIR$/rabbitmqs/direct_demos/producer.py" />
-        <option value="$PROJECT_DIR$/rabbitmqs/direct_demos/consumer0.py" />
-        <option value="$PROJECT_DIR$/rabbitmqs/direct_demos/consumer1.py" />
         <option value="$PROJECT_DIR$/zookeepers/watcher.py" />
         <option value="$PROJECT_DIR$/redises/main.py" />
         <option value="$PROJECT_DIR$/redises/distribute_increment.py" />
@@ -135,12 +183,31 @@
         <option value="$PROJECT_DIR$/thrifts/ip_fetcher/service.py" />
         <option value="$PROJECT_DIR$/thrifts/ip_fetcher/service/__init__.py" />
         <option value="$PROJECT_DIR$/thrifts/ip_fetcher/service/IpFetcher.py" />
-        <option value="$PROJECT_DIR$/thrifts/ip_fetcher/server.py" />
-        <option value="$PROJECT_DIR$/thrifts/ip_fetcher/client.py" />
         <option value="$PROJECT_DIR$/thrifts/ip_fetcher/service/constants.py" />
         <option value="$PROJECT_DIR$/thrifts/ip_fetcher/server2.py" />
-        <option value="$PROJECT_DIR$/thrifts/ip_fetcher/client2.py" />
         <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/rabbitmqs/fanout_demos/producer.py" />
+        <option value="$PROJECT_DIR$/rabbitmqs/monitor/main.py" />
+        <option value="$PROJECT_DIR$/rabbitmqs/fanout_demos/consumer0.py" />
+        <option value="$PROJECT_DIR$/rabbitmqs/direct_demos/consumer0.py" />
+        <option value="$PROJECT_DIR$/rabbitmqs/fanout_demos/consumer1.py" />
+        <option value="$PROJECT_DIR$/rabbitmqs/direct_demos/consumer1.py" />
+        <option value="$PROJECT_DIR$/rabbitmqs/direct_demos/producer.py" />
+        <option value="$PROJECT_DIR$/thrifts/ip_fetcher/client.py" />
+        <option value="$PROJECT_DIR$/thrifts/ip_fetcher/server.py" />
+        <option value="$PROJECT_DIR$/thrifts/ip_fetcher/client2.py" />
+        <option value="$PROJECT_DIR$/hadoops/sparks/test3.py" />
+        <option value="$PROJECT_DIR$/hadoops/sparks/test2.py" />
+        <option value="$PROJECT_DIR$/hadoops/sparks/test.py" />
+        <option value="$PROJECT_DIR$/hadoops/sparks/words" />
+        <option value="$PROJECT_DIR$/hadoops/sparks/word_count.py" />
+        <option value="$PROJECT_DIR$/murmurhashs/main.py" />
+        <option value="$PROJECT_DIR$/apschedulers/main.py" />
+        <option value="$PROJECT_DIR$/jsPy/main.py" />
+        <option value="$PROJECT_DIR$/elasticsearches/main.py" />
+        <option value="$PROJECT_DIR$/scrapy/teachers/example-project/scrapy.cfg" />
+        <option value="$PROJECT_DIR$/scrapys/teacher/run.py" />
+        <option value="$PROJECT_DIR$/scrapys/teacher/teacher/settings.py" />
       </list>
     </option>
   </component>
@@ -164,12 +231,25 @@
           <expand>
             <path>
               <item name="python_libs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python_libs" type="47feb1d3:ProjectViewModuleNode" />
+            </path>
+            <path>
+              <item name="python_libs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python_libs" type="47feb1d3:ProjectViewModuleNode" />
               <item name="python_libs" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="python_libs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python_libs" type="47feb1d3:ProjectViewModuleNode" />
               <item name="python_libs" type="462c0819:PsiDirectoryNode" />
-              <item name="rabbitmqs" type="462c0819:PsiDirectoryNode" />
+              <item name="scrapys" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="python_libs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python_libs" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="python_libs" type="462c0819:PsiDirectoryNode" />
+              <item name="scrapys" type="462c0819:PsiDirectoryNode" />
+              <item name="teacher" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -178,23 +258,23 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="F:/scrapy-redis" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\python_libs\scrapys\teacher\teacher\spiders" />
+      <recent name="F:\python_libs\scrapys\teacher" />
+      <recent name="F:\python_libs\scrapy-redis" />
+      <recent name="F:\python_libs\rabbitmqs\delay_queue" />
+      <recent name="F:\python_libs\thrifts\ip_fetcher\service" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\python_libs\scrapys\pro1" />
+      <recent name="F:\python_libs\scrapy" />
       <recent name="F:\python_libs\thrifts\ip_fetcher\thrift" />
       <recent name="F:\python_libs\thrifts\ip_fetcher" />
       <recent name="F:\python_libs\hadoops" />
-      <recent name="F:\python_libs\rabbitmqs\delay_queue" />
-      <recent name="F:\python_libs\rabbitmqs\cluster" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\python_libs\thrifts\ip_fetcher\service" />
-      <recent name="F:\python_libs\thrifts" />
-      <recent name="F:\python_libs\hadoops\zookeepers" />
-      <recent name="F:\python_libs\rabbitmqs\cluster" />
-      <recent name="F:\python_libs\rabbitmqs\delay_queue" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -209,8 +289,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.client2">
-    <configuration name="client" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.run (3)">
+    <configuration name="hzu" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python_libs" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -218,17 +298,17 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/thrifts/ip_fetcher" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scrapys/teacher/teacher/spiders" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/thrifts/ip_fetcher/client.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scrapys/teacher/teacher/spiders/hzu.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="client2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="run (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python_libs" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -236,17 +316,17 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/thrifts/ip_fetcher" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scrapy/teacher" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/thrifts/ip_fetcher/client2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scrapy/teacher/run.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="consumer1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="run (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python_libs" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -254,17 +334,17 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/hadoops/kafkas" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scrapys" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hadoops/kafkas/consumer1.py" />
+      <option name="SCRIPT_NAME" value="F:\python_libs\scrapys\pro1\run.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="server" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="run (3)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python_libs" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -272,17 +352,17 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/thrifts/ip_fetcher" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scrapys/teacher" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/thrifts/ip_fetcher/server.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scrapys/teacher/run.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="server2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="run" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python_libs" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -290,30 +370,30 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/thrifts/ip_fetcher" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scrapy/teachers/example-project" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/thrifts/ip_fetcher/server2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scrapy/teachers/example-project/run.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.consumer1" />
-      <item itemvalue="Python.server" />
-      <item itemvalue="Python.client" />
-      <item itemvalue="Python.server2" />
-      <item itemvalue="Python.client2" />
+      <item itemvalue="Python.run" />
+      <item itemvalue="Python.run (1)" />
+      <item itemvalue="Python.run (2)" />
+      <item itemvalue="Python.hzu" />
+      <item itemvalue="Python.run (3)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.client2" />
-        <item itemvalue="Python.server2" />
-        <item itemvalue="Python.client" />
-        <item itemvalue="Python.server" />
-        <item itemvalue="Python.consumer1" />
+        <item itemvalue="Python.run (3)" />
+        <item itemvalue="Python.hzu" />
+        <item itemvalue="Python.run (2)" />
+        <item itemvalue="Python.run (1)" />
+        <item itemvalue="Python.run" />
       </list>
     </recent_temporary>
   </component>
@@ -332,38 +412,26 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18506667" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22453333" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="aiXcoder" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50133336" side_tool="true" weight="0.27628636" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2393736" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.22595078" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.17337808" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2393736" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.20917226" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49866667" weight="0.2673378" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.33333334" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49866667" weight="0.32662192" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18293333" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.22595078" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2393736" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.20917226" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49866667" weight="0.2673378" />
       <window_info anchor="bottom" id="Messages" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50133336" side_tool="true" weight="0.27628636" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32997763" />
-      <window_info anchor="right" id="aiXcoder" order="3" />
-      <window_info anchor="bottom" id="Python Console" order="7" weight="0.17337808" />
     </layout>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -595,7 +663,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/rabbitmqs/fanout_demos/consumer1.py</url>
-          <line>28</line>
+          <line>25</line>
           <option name="timeStamp" value="457" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -663,6 +731,26 @@
           <line>22</line>
           <option name="timeStamp" value="507" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/iteratables/main.py</url>
+          <line>32</line>
+          <option name="timeStamp" value="524" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/hadoops/sparks/test.py</url>
+          <line>17</line>
+          <option name="timeStamp" value="531" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/jsPy/main.py</url>
+          <line>53</line>
+          <option name="timeStamp" value="536" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/jsPy/main.py</url>
+          <line>12</line>
+          <option name="timeStamp" value="538" />
+        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
@@ -674,298 +762,247 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="516" />
+      <option name="time" value="539" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://D:/Program Files/Python3.7/Lib/site-packages/kazoo/client.py">
+    <entry file="file://$PROJECT_DIR$/hadoops/sparks/word_count.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="478">
-          <caret line="1074" column="47" selection-start-line="1074" selection-start-column="42" selection-end-line="1074" selection-end-column="47" />
+        <state relative-caret-position="725">
+          <caret line="30" column="18" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hadoops/zookeepers/distribute_lock.py">
+    <entry file="file://$PROJECT_DIR$/celeries/demo1/tasks.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1121">
-          <caret line="81" lean-forward="true" selection-start-line="81" selection-end-line="81" />
-          <folding>
-            <element signature="e#115#124#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="275">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hadoops/zookeepers/service_discovery/server.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="825">
-          <caret line="51" column="96" selection-start-line="51" selection-start-column="96" selection-end-line="51" selection-end-column="96" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hadoops/zookeepers/watcher.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="28" column="20" lean-forward="true" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hadoops/zookeepers/service_discovery/client.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="750">
-          <caret line="30" column="52" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hadoops/zookeepers/watcher_2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hadoops/zookeepers/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="e#247#258#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grpcs/client/simple_pb2_grpc.py" />
-    <entry file="file://$PROJECT_DIR$/grpcs/client/client.py" />
-    <entry file="file://$PROJECT_DIR$/namekos/test.py">
+    <entry file="file://$PROJECT_DIR$/celeries/demo1/celery_config.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="6" column="32" lean-forward="true" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/Program Files/Python3.7/Lib/os.py">
+    <entry file="file://$PROJECT_DIR$/celeries/demo1/trigger.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="764" selection-start-line="764" selection-end-line="764" />
+        <state relative-caret-position="450">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test.py">
+    <entry file="file://$PROJECT_DIR$/rabbitmqs/delay_queue/consumer0.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        <state relative-caret-position="675">
+          <caret line="27" column="43" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/Program Files/Python3.7/Lib/site-packages/kafka/future.py">
+    <entry file="file://$PROJECT_DIR$/distributed_lock/zklock/setup.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/distributed_lock/redis_lock.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/distributed_lock/main.py" />
+    <entry file="file://$PROJECT_DIR$/distributed_lock/gun.py" />
+    <entry file="file://$PROJECT_DIR$/distributed_lock/zklock/build/lib/zklock.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/distributed_lock/zklock/zklocktest.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/distributed_lock/zklock/zklock.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3925">
+          <caret line="158" column="36" selection-start-line="158" selection-start-column="36" selection-end-line="158" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ansibles/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/Program Files/Python3.7/Lib/site-packages/kafka/consumer/group.py">
+    <entry file="file://$PROJECT_DIR$/wsgis/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="309" column="8" selection-start-line="309" selection-start-column="8" selection-end-line="309" selection-end-column="8" />
+        <state relative-caret-position="300">
+          <caret line="14" column="37" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hadoops/kafkas/consumer.py">
+    <entry file="file://$PROJECT_DIR$/wsgis/hello.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/murmurhashs/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apschedulers/main2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apschedulers/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apschedulers/main3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2500">
+          <caret line="108" selection-start-line="108" selection-end-line="108" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redis-clusters/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
-          <caret line="9" column="104" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="104" />
+          <caret line="8" column="58" selection-start-line="8" selection-start-column="58" selection-end-line="8" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Program Files/Python3.7/Lib/site-packages/js2py/evaljs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3600">
+          <caret line="152" column="8" selection-start-line="152" selection-start-column="8" selection-end-line="152" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Program Files/Python3.7/Lib/site-packages/requests/sessions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18250">
+          <caret line="757" column="4" selection-start-line="757" selection-start-column="4" selection-end-line="757" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://D:/Program Files/Python3.7/Lib/codecs.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
+        <state relative-caret-position="7700">
           <caret line="309" selection-start-line="309" selection-end-line="309" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hadoops/kafkas/consumer2.py">
+    <entry file="file://$PROJECT_DIR$/jsPy/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+        <state relative-caret-position="275">
+          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="64" />
+          <folding>
+            <element signature="e#103#115#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hadoops/kafkas/consumer1.py">
+    <entry file="file://$USER_HOME$/.PyCharmCE2018.1/system/python_stubs/-1184311076/builtins.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="7" column="40" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
+        <state relative-caret-position="118550">
+          <caret line="4742" column="8" selection-start-line="4742" selection-start-column="8" selection-end-line="4742" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/Program Files/Python3.7/Lib/site-packages/kafka/producer/kafka.py">
+    <entry file="file://$USER_HOME$/.PyCharmCE2018.1/system/python_stubs/-1184311076/sys.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="534" column="44" selection-start-line="534" selection-start-column="39" selection-end-line="534" selection-end-column="44" />
+        <state relative-caret-position="485">
+          <caret line="177" column="40" selection-start-line="177" selection-start-column="40" selection-end-line="177" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hadoops/kafkas/producer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="19" column="42" lean-forward="true" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thrifts/ip.thrift" />
-    <entry file="file://$PROJECT_DIR$/thrifts/ip_fetcher/gen-py/ip_fetcher/constants.py" />
-    <entry file="file://$PROJECT_DIR$/thrifts/ip_fetcher/gen-py/ip_fetcher/IpFetcher-remote" />
-    <entry file="file://$PROJECT_DIR$/thrifts/ip_fetcher/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thrifts/ip_fetcher/gen-py/ip_fetcher/ttypes.py" />
-    <entry file="file://$PROJECT_DIR$/thrifts/ip_fetcher/gen-py/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/thrifts/ip_fetcher/service.py" />
-    <entry file="file://$PROJECT_DIR$/thrifts/ip_fetcher/gen-py/ip_fetcher/IpFetcher.py" />
-    <entry file="file://$PROJECT_DIR$/thrifts/ip_fetcher/gen-py/ip_fetcher/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/thrifts/ip_fetcher/service/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-start-column="2" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thrifts/ip_fetcher/service/ttypes.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thrifts/ip_fetcher/service/IpFetcher.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="21" lean-forward="true" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thrifts/ip_fetcher/thrift/ip_fetcher.thrift">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thrifts/ip_fetcher/service/constants.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="53" selection-start-line="8" selection-start-column="53" selection-end-line="8" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thrifts/ip_fetcher/client.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="13" column="39" lean-forward="true" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thrifts/ip_fetcher/server.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="20" selection-start-line="20" selection-end-line="26" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Program Files/Python3.7/Lib/site-packages/thriftpy2/parser/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thrifts/service.thrift">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thrifts/server.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="850">
-          <caret line="34" column="62" selection-start-line="34" selection-start-column="56" selection-end-line="34" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thrifts/client.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1625">
-          <caret line="65" selection-start-line="65" selection-end-line="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thrifts/ip_fetcher/server2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="22" column="75" selection-start-line="22" selection-start-column="71" selection-end-line="22" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thrifts/ip_fetcher/client2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Program Files/Python3.7/Lib/site-packages/pika/spec.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51825">
-          <caret line="2076" column="8" selection-start-line="2076" selection-start-column="8" selection-end-line="2076" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rabbitmqs/direct_demos/producer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="775">
-          <caret line="32" column="34" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rabbitmqs/direct_demos/consumer0.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1225">
-          <caret line="49" column="35" selection-start-line="49" selection-start-column="25" selection-end-line="49" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rabbitmqs/fanout_demos/producer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rabbitmqs/delay_queue/rabbitmq_client.py">
+    <entry file="file://$PROJECT_DIR$/elasticsearches/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
-          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+          <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rabbitmqs/delay_queue/retry_consume.py">
+    <entry file="file://$PROJECT_DIR$/scrapy-redis/example-project/example/spiders/myspider_redis.py" />
+    <entry file="file://$PROJECT_DIR$/scrapy-redis/example-project/example/pipelines.py" />
+    <entry file="file://$PROJECT_DIR$/scrapy-redis/example-project/example/settings.py" />
+    <entry file="file://$PROJECT_DIR$/scrapy-redis/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/scrapy-redis/example-project/example/spiders/mycrawler_redis.py" />
+    <entry file="file://$PROJECT_DIR$/scrapy-redis/src/scrapy_redis/spiders.py" />
+    <entry file="file://$PROJECT_DIR$/scrapy-redis/example-project/scrapy.cfg" />
+    <entry file="file://$PROJECT_DIR$/scrapy-redis/example-project/example/spiders/dmoz.py" />
+    <entry file="file://$PROJECT_DIR$/scrapy-redis/example-project/docker-compose.yml" />
+    <entry file="file://$PROJECT_DIR$/scrapy-redis/example-project/Dockerfile" />
+    <entry file="file://$PROJECT_DIR$/scrapy-redis/example-project/process_items.py" />
+    <entry file="file://$PROJECT_DIR$/scrapys/teacher/example/settings.py" />
+    <entry file="file://$PROJECT_DIR$/scrapy/teachers/setup.cfg" />
+    <entry file="file://$PROJECT_DIR$/scrapy/teachers/setup.py" />
+    <entry file="file://$PROJECT_DIR$/scrapys/teacher_redis/scrapy.cfg">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="14" column="34" lean-forward="true" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+        <state relative-caret-position="200">
+          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rabbitmqs/cluster/producer.py">
+    <entry file="file://D:/Program Files/Python3.7/Lib/site-packages/scrapy/spiders/crawl.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="78" column="29" selection-start-line="78" selection-start-column="29" selection-end-line="78" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapys/teacher_redis/run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapys/teacher_redis/teacher/pipelines.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapys/teacher_redis/teacher/spiders/hzu.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/rabbitmqs/cluster/retry_consume.py">
+    <entry file="file://$PROJECT_DIR$/scrapys/teacher/teacher/spiders/shmtu.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapys/teacher/teacher/spiders/hzu.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="13" column="33" lean-forward="true" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+        <state relative-caret-position="250">
+          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rabbitmqs/cluster/consumer0.py">
+    <entry file="file://$PROJECT_DIR$/scrapys/teacher/run.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-56">
-          <caret line="16" column="54" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="54" />
+        <state relative-caret-position="650">
+          <caret line="27" column="33" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapys/teacher_redis/teacher/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="700">
+          <caret line="28" selection-start-line="28" selection-end-line="28" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapys/teacher/teacher/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="470">
+          <caret line="81" column="51" selection-start-line="81" selection-start-column="51" selection-end-line="81" selection-end-column="51" />
         </state>
       </provider>
     </entry>

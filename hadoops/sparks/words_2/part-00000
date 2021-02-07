@@ -1,0 +1,220 @@
+厦大数据库实验室博客
+总结、分享、收获
+实验室主页
+
+首页
+大数据
+数据库
+数据挖掘
+其他
+搜索…
+﻿
+Spark2.1.0+入门：第一个Spark应用程序：WordCount(Python版)
+ Ruan Rongcheng 2017年12月4日 (updated: 2020年5月29日) 27279
+大数据学习路线图
+【版权声明】博客内容由厦门大学数据库实验室拥有版权，未经允许，请勿转载。版权所有，侵权必究！
+返回Spark教程首页
+推荐纸质教材：林子雨、郑海山、赖永炫编著《Spark编程基础（Python版）》
+
+前面已经学习了Spark安装，完成了实验环境的搭建，并且学习了Spark运行架构和RDD设计原理，同时，我们还学习了Scala编程的基本语法，有了这些基础知识作为铺垫，现在我们可以没有障碍地开始编写一个简单的Spark应用程序了——词频统计。
+
+任务要求
+任务：编写一个Spark应用程序，对某个文件中的单词进行词频统计。
+准备工作：请进入Linux系统，打开“终端”，进入Shell命令提示符状态，然后，执行如下命令新建目录：
+
+cd /usr/local/spark
+mkdir mycode
+cd mycode
+mkdir wordcount
+cd wordcount
+Shell 命令
+然后，在“/usr/local/spark/mycode/wordcount”目录下新建一个包含了一些语句的文本文件word.txt，命令如下：
+
+vim word.txt
+Shell 命令
+你可以在文本文件中随意输入一些单词，用空格隔开，我们会编写Spark程序对该文件进行单词词频统计。然后，按键盘Esc键退出vim编辑状态，输入“:wq”保存文件并退出vim编辑器。
+
+在pyspark中执行词频统计
+启动pyspark
+首先，请登录Linux系统(要注意记住登录采用的用户名，本教程统一采用hadoop用户名进行登录)，打开“终端”（可以在Linux系统中使用Ctrl+Alt+T组合键开启终端），进入shell命令提示符状态，然后执行以下命令进入pyspark：
+
+cd /usr/local/spark
+./bin/pyspark
+....//这里省略启动过程显示的一大堆信息
+>>>
+Shell 命令
+启动进入pyspark需要一点时间，在进入pyspark后，我们可能还需要到Linux文件系统中对相关目录下的文件进行编辑和操作（比如要查看spark程序执行过程生成的文件），这个无法在pyspark中完成，因此，这里再打开第二个终端，用来在Linux系统的Shell命令提示符下操作。
+
+加载本地文件
+在开始具体词频统计代码之前，需要解决一个问题，就是如何加载文件？
+
+要注意，文件可能位于本地文件系统中，也有可能存放在分布式文件系统HDFS中，所以，下面我们分别介绍如何加载本地文件，以及如何加载HDFS中的文件。
+首先，请在第二个终端窗口下操作，用下面命令到达“/usr/local/spark/mycode/wordcount”目录，查看一下上面已经建好的word.txt的内容：
+
+cd /usr/local/spark/mycode/wordcount
+cat word.txt
+Shell 命令
+cat命令会把word.txt文件的内容全部显示到屏幕上。
+
+现有让我们切换回到第一个终端，也就是pyspark，然后输入下面命令：
+
+>>> textFile = sc.textFile('file:///usr/local/spark/mycode/wordcount/word.txt')
+Python
+上面代码中，sc.textFile()中的这个textFile是sc的一个方法名称，这个方法用来加载文件数据。这两个textFile不是一个东西，不要混淆。实际上，前面的变量textFile，你完全可以换个变量名称，比如, lines = sc.textFile(“file:///usr/local/spark/mycode/wordcount/word.txt”)。这里使用相同名称，就是有意强调二者的区别。
+注意，要加载本地文件，必须采用“file:///”开头的这种格式。执行上上面这条命令以后，并不会马上显示结果，因为，Spark采用惰性机制，只有遇到“行动”类型的操作，才会从头到尾执行所有操作。所以，下面我们执行一条“行动”类型的语句，就可以看到结果：
+
+>>> textFile.first()
+Python
+first()是一个“行动”（Action）类型的操作，会启动真正的计算过程，从文件中加载数据到变量textFile中，并取出第一行文本。屏幕上会显示很多反馈信息，这里不再给出，你可以从这些结果信息中，找到word.txt文件中的第一行的内容。
+
+正因为Spark采用了惰性机制，在执行转换操作的时候，即使我们输入了错误的语句，pyspark也不会马上报错，而是等到执行“行动”类型的语句时启动真正的计算，那个时候“转换”操作语句中的错误就会显示出来，比如：
+
+>>> textFile = sc.textFile("file:///usr/local/spark/mycode/wordcount/word123.txt")
+Python
+上面我们使用了一个根本就不存在的word123.txt，执行上面语句时，pyspark根本不会报错，因为，没有遇到“行动”类型的first()操作之前，这个加载操作时不会真正执行的。然后，我们执行一个“行动”类型的操作first()，如下：
+
+>>> textFile.first()
+Python
+执行上面语句后，你会发现，会返回错误信息，其中有四个醒目的中文文字“拒绝连接”，因为，这个word123.txt文件根本就不存在。
+
+好了，现在我们可以练习一下如何把textFile变量中的内容再次写回到另外一个目录wordback中：
+
+>>> textFile = sc.textFile("file:///usr/local/spark/mycode/wordcount/word.txt")
+>>> textFile.saveAsTextFile("file:///usr/local/spark/mycode/wordcount/writeback")
+Python
+上面的saveAsTextFile()括号里面的参数是保存文件的路径，不是文件名。saveAsTextFile()是一个“行动”（Action）类型的操作，所以，马上会执行真正的计算过程，从word.txt中加载数据到变量textFile中，然后，又把textFile中的数据写回到本地文件目录“/usr/local/spark/mycode/wordcount/writeback/”下面，现在让我们切换到Linux Shell命令提示符窗口中，执行下面命令：
+
+cd /usr/local/spark/mycode/wordcount/writeback/
+ls
+Shell 命令
+执行结果类似下面:
+
+part-00000 _SUCCESS
+也就是说，该目录下包含两个文件，我们可以使用cat命令查看一下part-00000文件（注意:part-后面是五个零）
+
+cat part-00000
+Shell 命令
+显示结果，是和上面word.txt中的内容一样的。
+
+加载HDFS文件
+为了能够读取HDFS中的文件，请首先启动Hadoop中的HDFS组件。注意，之前我们在“Spark安装”这章内容已经介绍了如何安装Hadoop和Spark，所以，这里我们可以使用以下命令直接启动Hadoop中的HDFS组件（由于用不到MapReduce组件，所以，不需要启动MapReduce或者YARN）。请到第二个终端窗口，使用Linux Shell命令提示符状态，然后输入下面命令：
+
+cd /usr/local/hadoop
+./sbin/start-dfs.sh
+Shell 命令
+启动结束后，HDFS开始进入可用状态。如果你在HDFS文件系统中，还没有为当前Linux登录用户创建目录(本教程统一使用用户名hadoop登录Linux系统)，请使用下面命令创建：
+
+./bin/hdfs dfs -mkdir -p /user/hadoop
+Shell 命令
+也就是说，HDFS文件系统为Linux登录用户开辟的默认目录是“/user/用户名”（注意：是user，不是usr），本教程统一使用用户名hadoop登录Linux系统，所以，上面创建了“/user/hadoop”目录，再次强调，这个目录是在HDFS文件系统中，不在本地文件系统中。创建好以后，下面我们使用命令查看一下HDFS文件系统中的目录和文件：
+
+./bin/hdfs dfs -ls .
+Shell 命令
+上面命令中，最后一个点号“.”，表示要查看Linux当前登录用户hadoop在HDFS文件系统中与hadoop对应的目录下的文件，也就是查看HDFS文件系统中“/user/hadoop/”目录下的文件，所以，下面两条命令是等价的：
+
+./bin/hdfs dfs -ls .
+./bin/hdfs dfs -ls /user/hadoop
+Shell 命令
+如果要查看HDFS文件系统根目录下的内容，需要使用下面命令：
+
+./bin/hdfs dfs -ls /
+Shell 命令
+下面，我们把本地文件系统中的“/usr/local/spark/mycode/wordcount/word.txt”上传到分布式文件系统HDFS中（放到hadoop用户目录下）：
+
+./bin/hdfs dfs -put /usr/local/spark/mycode/wordcount/word.txt .
+Shell 命令
+然后，用命令查看一下HDFS的hadoop用户目录下是否多了word.txt文件，可以使用下面命令列出hadoop目录下的内容：
+
+./bin/hdfs dfs -ls .
+Shell 命令
+可以看到，确实多了一个word.txt文件，我们使用cat命令查看一个HDFS中的word.txt文件的内容，命令如下：
+
+./bin/hdfs dfs -cat ./word.txt
+Shell 命令
+上面命令执行后，就会看到HDFS中word.txt的内容了。
+
+现在，让我们切换回到pyspark窗口，编写语句从HDFS中加载word.txt文件，并显示第一行文本内容：
+
+>>> textFile = sc.textFile("hdfs://localhost:9000/user/hadoop/word.txt")
+>>> textFile.first()
+Python
+执行上面语句后，就可以看到HDFS文件系统中（不是本地文件系统）的word.txt的第一行内容了。
+
+需要注意的是，sc.textFile(“hdfs://localhost:9000/user/hadoop/word.txt”)中，“hdfs://localhost:9000/”是前面介绍Hadoop安装内容时确定下来的端口地址9000。实际上，也可以省略不写，如下三条语句都是等价的：
+
+>>> textFile = sc.textFile("hdfs://localhost:9000/user/hadoop/word.txt")
+>>> textFile = sc.textFile("/user/hadoop/word.txt")
+>>> textFile = sc.textFile("word.txt")
+Python
+下面，我们再把textFile的内容写回到HDFS文件系统中（写到hadoop用户目录下）：
+
+>>> textFile = sc.textFile("word.txt")
+>>> textFile.saveAsTextFile("writeback")
+Shell 命令
+执行上面命令后，文本内容会被写入到HDFS文件系统的“/user/hadoop/writeback”目录下，我们可以切换到Linux Shell命令提示符窗口查看一下：
+
+./bin/hdfs dfs -ls .
+Shell 命令
+执行上述命令后，在执行结果中，可以看到有个writeback目录，下面我们查看该目录下有什么文件：
+
+./bin/hdfs dfs -ls ./writeback
+Shell 命令
+执行结果中，可以看到存在两个文件：part-00000和_SUCCESS。我们使用下面命令输出part-00000文件的内容（注意：part-00000里面有五个零）：
+
+./bin/hdfs dfs -cat ./writeback/part-00000
+Shell 命令
+执行结果中，就可以看到和word.txt文件中一样的文本内容。
+
+词频统计
+有了前面的铺垫性介绍，下面我们就可以开始第一个Spark应用程序：WordCount。
+请切换到pyspark窗口：
+
+>>> textFile = sc.textFile("file:///usr/local/spark/mycode/wordcount/word.txt")
+>>> wordCount = textFile.flatMap(lambda line: line.split(" ")).map(lambda word: (word,1)).reduceByKey(lambda a, b : a + b)
+>>> wordCount.collect()
+Python
+上面只给出了代码，省略了执行过程中返回的结果信息，因为返回信息很多。
+下面简单解释一下上面的语句。
+textFile包含了多行文本内容，textFile.flatMap(labmda line : line.split(” “))会遍历textFile中的每行文本内容，当遍历到其中一行文本内容时，会把文本内容赋值给变量line，并执行Lamda表达式line : line.split(” “)。line : line.split(” “)是一个Lamda表达式，左边表示输入参数，右边表示函数里面执行的处理逻辑，这里执行line.split(” “)，也就是针对line中的一行文本内容，采用空格作为分隔符进行单词切分，从一行文本切分得到很多个单词构成的单词集合。这样，对于textFile中的每行文本，都会使用Lamda表达式得到一个单词集合，最终，多行文本，就得到多个单词集合。textFile.flatMap()操作就把这多个单词集合“拍扁”得到一个大的单词集合。
+然后，针对这个大的单词集合，执行map()操作，也就是map(lambda word : (word, 1))，这个map操作会遍历这个集合中的每个单词，当遍历到其中一个单词时，就把当前这个单词赋值给变量word，并执行Lamda表达式word : (word, 1)，这个Lamda表达式的含义是，word作为函数的输入参数，然后，执行函数处理逻辑，这里会执行(word, 1)，也就是针对输入的word，构建得到一个tuple，形式为(word,1)，key是word，value是1（表示该单词出现1次）。
+程序执行到这里，已经得到一个RDD，这个RDD的每个元素是(key,value)形式的tuple。最后，针对这个RDD，执行reduceByKey(labmda a, b : a + b)操作，这个操作会把所有RDD元素按照key进行分组，然后使用给定的函数（这里就是Lamda表达式：a, b : a + b），对具有相同的key的多个value进行reduce操作，返回reduce后的(key,value)，比如(“hadoop”,1)和(“hadoop”,1)，具有相同的key，进行reduce以后就得到(“hadoop”,2)，这样就计算得到了这个单词的词频。
+
+编写独立应用程序执行词频统计
+下面我们编写一个Scala应用程序来实现词频统计。
+请登录Linux系统（本教程统一采用用户名hadoop进行登录），进入Shell命令提示符状态，然后，执行下面命令：
+
+cd /usr/local/spark/mycode/wordcount/
+Shell 命令
+请在“/usr/local/spark/mycode/wordcount/”目录下新建一个test.py文件，里面包含如下代码：
+
+from pyspark import SparkContext
+sc = SparkContext( 'local', 'test')
+textFile = sc.textFile("file:///usr/local/spark/mycode/wordcount/word.txt")
+wordCount = textFile.flatMap(lambda line: line.split(" ")).map(lambda word: (word,1)).reduceByKey(lambda a, b : a + b)
+wordCount.foreach(print)
+然后执行如下命令：
+
+python3 ./test.py
+Shell 命令
+即可得出结果
+下面是笔者的word.txt进行词频统计后的结果（你的结果应该和这个类似）：
+
+(Spark,1)
+(is,1)
+(than,1)
+(fast,1)
+(love,2)
+(i,1)
+(I,1)
+(hadoop,2)
+(Spark,1)
+本文作者Ruan Rongcheng
+Ruan Rongcheng
+
+磨人的小妖精！
+
+www.nekomiao.memoc.qq@crnaur
+
+ http://dblab.xmu.edu.cn/blog/1692-2/
+ 大数据
+© 2014 厦大数据库实验室

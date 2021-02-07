@@ -18,13 +18,13 @@ channel.queue_declare(queue_name)
 channel.exchange_declare(exchange=exchange_name, durable=True, exchange_type='fanout')
 # 绑定exchange和队列  exchange 使我们能够确切地指定消息应该到哪个队列去
 channel.queue_bind(exchange=exchange_name, queue=queue_name)
-
+channel.basic_qos(prefetch_count=1)
 
 def callback(ch, method, properties, body):
     ch.basic_ack(delivery_tag=method.delivery_tag)
     print(body.decode())
     import time
-    time.sleep(5)
+    # time.sleep(5)
 
 
 # 设置成 False，在调用callback函数时，未收到确认标识，消息会重回队列。True，无论调用callback成功与否，消息都被消费掉

@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="PYTHON_MODULE" version="4">
   <component name="NewModuleRootManager">
+    <content url="file://D:/bd/spark-3.0.0-preview2-bin-hadoop2.7" />
     <content url="file://$MODULE_DIR$" />
+    <content url="jar://D:/bd/spark-3.0.0-preview2-bin-hadoop2.7/python/lib/py4j-0.10.8.1-src.zip!/">
+      <excludeFolder url="jar://D:/bd/spark-3.0.0-preview2-bin-hadoop2.7/python/lib/py4j-0.10.8.1-src.zip!/" />
+    </content>
+    <content url="jar://D:/bd/spark-3.0.0-preview2-bin-hadoop2.7/python/lib/pyspark.zip!/">
+      <excludeFolder url="jar://D:/bd/spark-3.0.0-preview2-bin-hadoop2.7/python/lib/pyspark.zip!/" />
+    </content>
     <orderEntry type="jdk" jdkName="Python 3.7" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
