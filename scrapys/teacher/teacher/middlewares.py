@@ -87,6 +87,11 @@ class TeacherDownloaderMiddleware:
         # - return a Response object
         # - return a Request object
         # - or raise IgnoreRequest
+        if spider.name == 'baidu':
+            now_count = spider.crawler.stats.get_value('crawl_count') or 0
+            if now_count < spider.max_crawl_count:
+                spider.crawler.stats.inc_value('crawl_count')
+                return request
         return response
 
     def process_exception(self, request, exception, spider):

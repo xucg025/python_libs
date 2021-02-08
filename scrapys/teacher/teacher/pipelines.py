@@ -11,3 +11,13 @@ from itemadapter import ItemAdapter
 class TeacherPipeline:
     def process_item(self, item, spider):
         return item
+
+    # @classmethod
+    # def from_crawler(cls, crawler):
+    #     pass
+
+    def open_spider(self, spider):
+        pass
+
+    def close_spider(self, spider):
+        pass
