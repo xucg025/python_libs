@@ -6,13 +6,12 @@
 
 import pika, json
 
-config = pika.ConnectionParameters(host='192.168.174.33', port=5672, virtual_host='vhost_test',
+config = pika.ConnectionParameters(host='192.168.174.31', port=5672, virtual_host='vhost_test',
                                    credentials=pika.PlainCredentials('xucg', 'ajmd123'))
 connection = pika.BlockingConnection(config)
 channel = connection.channel()
 exchange_name = 'exchange-fanout-test'
 queue_name = 'queue-fanout-test-0'
-# 创建临时队列,队列名传空字符，consumer关闭后，队列自动删除
 
 arguments = {'x-dead-letter-exchange': 'retry_exchange'}
 channel.queue_declare(queue_name, durable=True, arguments=arguments)

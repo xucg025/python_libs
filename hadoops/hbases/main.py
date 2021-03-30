@@ -5,10 +5,11 @@
 # @time: 2020-11-25 17:35:58
 
 import happybase
+import hbase
 
 
 class HBaseUtils(object):
-    def __init__(self, host='192.168.174.30', port=9090):
+    def __init__(self, host='192.168.174.31', port=9090):
         self.conn = happybase.Connection(host, port)
 
     def get_all_tables(self):
@@ -104,7 +105,7 @@ class HBaseUtils(object):
             print('scan_result failed, table:{} not exists'.format(table_name))
             return
         table = self.conn.table(table_name)
-        for key, value in table.scan():
+        for key, value in table.scan(batch_size=2):
             print(key, value)
         # # 指定row_start和row_stop参数来设置开始和结束扫描的row key
         # for key, value in table.scan(row_start='www.test2.com', row_stop='www.test3.com'):
@@ -161,21 +162,34 @@ class HBaseUtils(object):
         table = self.conn.table(table_name)
         return table.cells(row, column)
 
+    def test_filter(self, table_name):
+        query_str = "PrefixFilter('student_')"
+        # query_str = "ColumnPrefixFilter('ag')"
+        # query_str = "RowFilter(<=, 'binary:student_6')"  # row_key <= student_6
+        # query_str = "FamilyFilter(=, 'binary:info')"  # family == info
+        # query_str = "QualifierFilter(=, 'binary:name')"  # family:qualifier == name
+        # query_str = "ValueFilter(=, 'binary:18')"
+        # query_str = "SingleColumnValueFilter ('info', 'age', >=, 'binary:20')"  # info:age >= 20
+        # query_str = "SingleColumnValueExcludeFilter('info', 'age', =, 'binary:20')"
+        table = self.conn.table(table_name)
+        for k, v in table.scan(filter=query_str):
+            print(k, v)
+
 
 if __name__ == '__main__':
     import random
     hb_utils = HBaseUtils()
     t_name = 'student'
-    f = {'info': {}}
+    # f = {'info': {}}
     # for i in range(10):
     #     row_name = 'student_{}'.format(i)
     #     age = str(random.randrange(18, 23))
     #     name = 'zhangsan{}'.format(i)
-    #     hb_utils.put(table_name=t_name, families=f, row_name=row_name, data={"info:age": age})
-    #     hb_utils.put(table_name=t_name, families=f, row_name=row_name, data={"info:name": name})
-
-    hb_utils.delete(t_name, 'student_4')
-
+    #     hb_utils.put(table_name=t_name, families=f, row_name=row_name, data={"info:age": age, 'info:name': name})
+    #     # hb_utils.put(table_name=t_name, families=f, row_name=row_name, data={"info:name": name})
+    #
+    # hb_utils.delete(t_name, 'student_4')
+    #
     # hb_utils.scan_result(table_name=t_name)
     # data = hb_utils.row_data(t_name, 'student_2', columns=['info:name'])
     # print(data)
@@ -183,3 +197,5 @@ if __name__ == '__main__':
     # print(data)
     # data = hb_utils.cell_data(t_name, 'student_4', 'info:age')
     # print(data)
+    #
+    hb_utils.test_filter(t_name)

@@ -15,6 +15,5 @@ client = redis.StrictRedis()
 # pipe.incr('books')
 # values = pipe.execute()
 # print(values)
-
 print(client.incrby('test_count', 100))
 print(client.incrby('test_count', 1000))

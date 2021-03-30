@@ -24,7 +24,8 @@ if __name__ == '__main__':
 
     # sys.path.append(os.path.abspath(os.getcwd()))
     # print(os.path.dirname(os.path.abspath(__file__)))
-    crawl_str = 'scrapy crawl shmtu'
+    crawl_str = 'scrapy crawl baidu'
+    # crawl_str = 'scrapy crawlall'
     execute(crawl_str.split(' '))
 
     # #第二种方法

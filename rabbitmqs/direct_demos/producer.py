@@ -18,7 +18,7 @@ import pika
 import json
 
 exchange_name = 'exchange-direct-test'
-config = pika.ConnectionParameters(host='192.168.174.30', port=5672, virtual_host='vhost_test',
+config = pika.ConnectionParameters(host='192.168.174.31', port=5672, virtual_host='vhost_test',
                                    credentials=pika.PlainCredentials('xucg', 'ajmd123'))
 connection = pika.BlockingConnection(config)
 channel = connection.channel()
@@ -26,7 +26,7 @@ channel = connection.channel()
 channel.exchange_declare(exchange=exchange_name, durable=True, exchange_type='direct')
 
 # = 2 声明消息在队列中持久化，delivery_mod = 1 消息非持久化
-for i in range(1000000):
+for i in range(10):
     message = json.dumps({'OrderId': "%s" % i})
     routing_key = 'direct_key_{}'.format(i % 2)
     # routing_key = 'direct_key_1'

@@ -13,7 +13,7 @@ count = 0
 
 exchange_name = 'exchange-direct-test'
 
-config = pika.ConnectionParameters(host='192.168.174.30', port=5672, virtual_host='vhost_test',
+config = pika.ConnectionParameters(host='192.168.174.31', port=5672, virtual_host='vhost_test',
                                    credentials=pika.PlainCredentials('xucg', 'ajmd123'))
 connection = pika.BlockingConnection(config)
 channel = connection.channel()
